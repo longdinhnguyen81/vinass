@@ -156,17 +156,17 @@
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle {{ request()->is('thiet-ke-web') ? 'active' : '' }}" href="/thiet-ke-web">
+														<a class="dropdown-item dropdown-toggle {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/thiet-ke-web">
 															Thiết kế web
 														</a>
 														<ul class="dropdown-menu">
 															<li>
-																<a class="dropdown-item" href="">
-																	Bảng giá & Dịch vụ
+																<a class="dropdown-item {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/thiet-ke-web">
+																	Dịch vụ
 																</a>
 															</li>
 															<li>
-																<a class="dropdown-item" href="thiet-ke-web.html#kho-giao-dien">
+																<a class="dropdown-item {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/giao-dien">
 																	Kho giao diện
 																</a>
 															</li>
@@ -183,9 +183,34 @@
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item" href="blog.html">
+														<a class="dropdown-item {{ request()->is('blog*') ? 'active' : '' }}" href="/blog">
 															Blog
 														</a>
+														<ul class="dropdown-menu">
+											@foreach($categorys as $category)
+												@php
+													$id = $category->id;
+													$name = $category->name;
+													$url = route('vinass.news.parent', str_slug($name));
+												@endphp
+															<li class="dropdown-submenu">
+																<a class="dropdown-item {{ request()->is('blog*') ? 'active' : '' }}" href="{{$url}}">
+																	{{$name}}
+																</a>				
+																	<ul class="dropdown-menu">
+												@foreach($parent_cats as $parent_cat)
+													@php
+														$pname = $parent_cat->name;
+														$purl = route('vinass.news.cat',['slug' => str_slug($pname), 'id' => $parent_cat->id]);
+													@endphp
+																@if($parent_cat->parent_id == $id)
+																		<li><a class="dropdown-item" href="{{$purl}}">{{$pname}}</a></li>
+																@endif
+												@endforeach
+																	</ul>
+															</li>
+											@endforeach
+														</ul>
 													</li>
 												</ul>
 											</nav>

@@ -32,6 +32,10 @@ Route::namespace('Vinass')->group(function(){
 		'uses' => 'IndexController@application',
 		'as' => 'vinass.index.application'
 	]);
+	Route::get('/giao-dien', [
+		'uses' => 'IndexController@templates',
+		'as' => 'vinass.index.templates'
+	]);
 	Route::get('/lien-he', [
 		'uses' => 'IndexController@getContact',
 		'as' => 'vinass.index.contact'
@@ -40,7 +44,22 @@ Route::namespace('Vinass')->group(function(){
 		'uses' => 'IndexController@postContact',
 		'as' => 'vinass.index.contact'
 	]);
-
+	Route::get('/blog/', [
+		'uses' => 'NewsController@news',
+		'as' => 'vinass.news.news'
+	]);
+	Route::get('/tim-kiem/{slug}', [
+		'uses' => 'NewsController@getSearch',
+		'as' => 'vinass.news.search'
+	]);
+	Route::post('/tim-kiem/', [
+		'uses' => 'NewsController@postSearch',
+		'as' => 'vinass.news.search'
+	]);
+	Route::get('/blogs/{slug}', [
+		'uses' => 'NewsController@parent',
+		'as' => 'vinass.news.parent'
+	]);
 	Route::get('/blog/{slug}-{cid}', [
 		'uses' => 'NewsController@cat',
 		'as' => 'vinass.news.cat'

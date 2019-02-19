@@ -1,5 +1,8 @@
 @extends('templates.vinass.master')
 @section('content')
+@php
+	$i = 0;
+@endphp
 <div role="main" class="main">
 
 				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-md" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(67,67,115,0.8) 100%, rgba(0,212,255,0.8) 100%), url(/templates/vinass/img/bg-1.jpg); background-size: cover; background-position: center;">
@@ -15,10 +18,9 @@
 							<div class="col-md-12 align-self-center order-1">
 
 								<ul class="breadcrumb d-block text-center">
-									<li><a href="">Home</a></li>
-									<li><a href="/blog">Blog</a></li>
-									<li><a href="{{ route('vinass.news.parent', str_slug($pcat->name)) }}">{{ $pcat->name }}</a></li>
-									<li class="active">{{ $cat->name }}</li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="index.html">Blog</a></li>
+									<li class="active">{{ $kname }}</li>
 								</ul>
 							</div>
 						</div>
@@ -26,21 +28,26 @@
 				</section>
 
 				<div class="container py-4">
-
 					<div class="row">
 @include('templates.vinass.leftbar')
 						<div class="col-lg-9 order-1">
 							<div class="blog-posts">
-								@foreach($news as $new)
+				@foreach($pnews as $pnew)
 					@php
+						$cat = $pnew->name;
+						$cid = $pnew->id;
+					@endphp
+				@if($pnew->news && $i < 9)
+				@foreach($pnew->news as $new)
+				@if($new->active == 1)
+					@php
+						$i++;
 						$id = $new->id;
 						$title = $new->title;
 						$description = $new->description;
 						$detail = $new->detail;
 						$picture = '/upload/'.$new->picture;
 						$detail = $new->detail;
-						$cat = $new->cats->name;
-						$cid = $new->cats->id;
 						$date = $new->updated_at;
 						$urlcat = route('vinass.news.cat', ['slug' => str_slug($cat), 'cid' => $cid]);
 						$urldetail = route('vinass.news.detail', ['slug' => str_slug($title), 'id' => $id]);
@@ -49,7 +56,7 @@
 									<div class="row mb-3">
 										<div class="col-lg-5">
 											<div class="post-image">
-												<a href="{{$urldetail}}">
+												<a href="">
 													<img src="{{$picture}}" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="{{$title}}" />
 												</a>
 											</div>
@@ -64,7 +71,7 @@
 									<div class="row">
 										<div class="col">
 											<div class="post-meta">
-												<span><i class="far fa-calendar-alt"></i> {{date_format($date,'MMM Do YY')}} </span>
+												<span><i class="far fa-calendar-alt"></i> {{date_format($date,'M Y')}} </span>
 												<span><i class="far fa-user"></i> By <a href="">admin</a> </span>
 												<span><i class="far fa-folder"></i><a href="{{$urlcat}}">{{$cat}}</a> </span>
 												<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="{{$urldetail}}" class="btn btn-xs btn-light text-1 text-uppercase">Chi tiết</a></span>
@@ -72,12 +79,10 @@
 										</div>
 									</div>
 								</article>
+				@endif
 				@endforeach
-
-								<ul class="pagination float-right">
-									{{ $news->links() }}
-								</ul>
-
+				@endif
+				@endforeach
 							</div>
 						</div>
 					</div>

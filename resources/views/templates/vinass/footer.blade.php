@@ -47,7 +47,7 @@
 		<script src="/templates/vinass/vendor/jquery.easing/jquery.easing.min.js"></script>
 		<script src="/templates/vinass/vendor/jquery.cookie/jquery.cookie.min.js"></script>
 		<script src="/templates/vinass/vendor/popper/umd/popper.min.js"></script>
-		<script src="/templates/vinass/vendor/bootstrap//templates/vinass/js/bootstrap.min.js"></script>
+		<script src="/templates/vinass/vendor/bootstrap/js/bootstrap.min.js"></script>
 		<script src="/templates/vinass/vendor/common/common.min.js"></script>
 		<script src="/templates/vinass/vendor/jquery.validation/jquery.validate.min.js"></script>
 		<script src="/templates/vinass/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>

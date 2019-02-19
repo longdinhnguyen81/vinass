@@ -273,217 +273,28 @@
 							</div>
 						</div>
 						<div class="row mt-4">
+							@foreach($feedbacks as $feedback)
+							@php
+								$name = $feedback->name;
+								$description = $feedback->description;
+								$avatar = $feedback->avatar;
+								$job = $feedback->job;
+							@endphp
 							<div class="col-lg-6">
 								<div class="testimonial testimonial-style-4 pb-4 appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
 									<blockquote>
-										<p>Tôi đã nhờ VINASS tạo dùng 1 trang web để phát triển thương hiệu thuê xe ô tô Đà Nẵng, trang web giao diện đẹp, chuẩn SEO, tìm kiếm được lên top google. Từ đó khách hàng biết đến chúng tôi nhiều hơn. Cảm ơn VINASS.</p>
+										<p>{{$description}}</p>
 									</blockquote>
 									<div class="testimonial-arrow-down"></div>
 									<div class="testimonial-author">
 										<div class="testimonial-author-thumbnail">
-											<img src="/templates/vinass/img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+											<img src="/upload/{{$avatar}}" class="img-fluid rounded-circle" alt="">
 										</div>
-										<p><strong>Nguyễn Thanh Duy</strong><span>CEO & Founder - HoangPhuc.Car</span></p>
+										<p><strong>{{$name}}</strong><span>{{$job}}</span></p>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="testimonial testimonial-style-4 pb-4 appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="0">
-									<blockquote>
-										<p>Tôi đã nhờ VINASS giúp tôi SEO 1 trang web của công ty tôi, tỏi đen sunkun. Hiện tại chúng tôi có nhiều từ khóa lên top tìm kiếm google, và đơn hàng của chúng tôi ngày càng nhiều hơn. Cảm ơn VINASS.</p>
-									</blockquote>
-									<div class="testimonial-arrow-down"></div>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="/templates/vinass/img/clients/client-2.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>Nguyễn Văn Luân</strong><span>CEO - Tỏi đen SunKun</span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row mt-lg-3 mb-5">
-							<div class="col-lg-6">
-								<div class="testimonial testimonial-style-4 pb-4 appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
-									<blockquote>
-										<p>Tôi là giám đốc công ty buôn bán vật liệu xây dựng Sông Trà, Quảng Ngãi. Doanh nghiệp lớn, và các sản phẩm của chúng tôi ngày càng nhiều. Vì thế tôi gặp khó khăn trong việc quản lý doanh thu. VINASS đã giúp tôi thiết kế ứng dụng đa nền tảng để quản lý doanh nghiệp.</p>
-									</blockquote>
-									<div class="testimonial-arrow-down"></div>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="/templates/vinass/img/clients/client-3.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>Trần Văn Thanh</strong><span>CEO & Founder - Vật liệu xây dựng Sông Trà</span></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="testimonial testimonial-style-4 pb-4 appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="0">
-									<blockquote>
-										<p>Chúng tôi đã cùng hợp tác với VINASS để phát triển platform quản trị đặt phòng cho khách sạn chúng tôi. Sản phẩm chất lượng, hỗ trợ nhiệt tình. Cảm ơn VINASS</p>
-									</blockquote>
-									<div class="testimonial-arrow-down"></div>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="/templates/vinass/img/clients/client-4.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>Nguyễn Thị Thu Phương</strong><span>CEO - Silverland Hotel</span></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row text-center mt-5">
-							<div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-1.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-3.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-5.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-6.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="" id="kho-giao-dien" style="background-color:#777;">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 text-center">
-								<h2 class="heading-dark mt-4 mb-0">Hosting <strong>Plans</strong></h2>
-								<p class="mb-5">Start here and choose the one that is the best for you.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-1.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-2.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-3.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-4.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-6.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-7.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic">
-								<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-									<div class="portfolio-item hover-effect-1">
-										<a href="index-classic.html">
-											<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-												<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-													<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="">
-												</span>
-											</span>
-										</a>
-										<h2 class="font-weight-semibold text-3 text-center"><a href="index-classic.html" class="text-color-light text-decoration-none text-1 text-uppercase">Classic</a></h2>
-									</div>
-								</div>
-							</div>
-						</div>
+							@endforeach
 					</div>
 				</section>
 				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">

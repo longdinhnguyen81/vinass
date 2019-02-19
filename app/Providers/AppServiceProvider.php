@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Cat;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $categorys = Cat::where('parent_id',0)->get();
+        $parent_cats = Cat::where('parent_id', '!=', 0)->get();
+        view()->share('categorys', $categorys);
+        view()->share('parent_cats', $parent_cats);
     }
 
     /**

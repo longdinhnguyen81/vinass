@@ -15,10 +15,8 @@
 							<div class="col-md-12 align-self-center order-1">
 
 								<ul class="breadcrumb d-block text-center">
-									<li><a href="">Home</a></li>
-									<li><a href="/blog">Blog</a></li>
-									<li><a href="{{ route('vinass.news.parent', str_slug($pcat->name)) }}">{{ $pcat->name }}</a></li>
-									<li class="active">{{ $cat->name }}</li>
+									<li><a href="index.html">Home</a></li>
+									<li class="active">Blog</li>
 								</ul>
 							</div>
 						</div>
@@ -31,7 +29,7 @@
 @include('templates.vinass.leftbar')
 						<div class="col-lg-9 order-1">
 							<div class="blog-posts">
-								@foreach($news as $new)
+				@foreach($news as $new)
 					@php
 						$id = $new->id;
 						$title = $new->title;
@@ -73,7 +71,6 @@
 									</div>
 								</article>
 				@endforeach
-
 								<ul class="pagination float-right">
 									{{ $news->links() }}
 								</ul>
