@@ -30,16 +30,9 @@ class NewsController extends Controller
     	$pcat = Cat::find($news->cats->parent_id);
     	return view('vinass.news.detail', compact('news', 'pcat'));
     }
-    public function getSearch($slug){
-    	$news = News::where('title', 'like', '%$slug%')->where('active', 1)->with('cats')->with('users')->paginate(9);
-    	return view('vinass.news.search', compact('news'));
-    }
-    public function postSearch(Request $request){
-    	$slug = $request->name;;
-    	if(!$slug){
-    		return redirect(route('vinass.index.index'));
-    	}
-    	$news = News::where('title', 'like', '%$slug%')->where('active', 1)->with('cats')->with('users')->paginate(9);
+    public function getSearch(Request $request){
+    	$slug = $request->name;
+    	$news = News::where('title', 'like', "%$slug%")->where('active', 1)->with('cats')->with('users')->paginate(9);
     	return view('vinass.news.search', compact('news'));
     }
 }

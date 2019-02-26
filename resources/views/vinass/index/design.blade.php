@@ -66,7 +66,7 @@
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#dich-vu">Tiện ích</a></li>
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#bang-gia">Gói dịch vụ</a></li>
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#khach-hang">Khách Hàng</a></li>
-									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#kho-giao-dien">Kho giao diện</a></li>
+									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="/giao-dien">Kho giao diện</a></li>
 								</ul>
 							</div>
 						</div>

@@ -48,12 +48,8 @@ Route::namespace('Vinass')->group(function(){
 		'uses' => 'NewsController@news',
 		'as' => 'vinass.news.news'
 	]);
-	Route::get('/tim-kiem/{slug}', [
+	Route::get('/search', [
 		'uses' => 'NewsController@getSearch',
-		'as' => 'vinass.news.search'
-	]);
-	Route::post('/tim-kiem/', [
-		'uses' => 'NewsController@postSearch',
 		'as' => 'vinass.news.search'
 	]);
 	Route::get('/blogs/{slug}', [
@@ -67,6 +63,122 @@ Route::namespace('Vinass')->group(function(){
 	Route::get('/{slug}-{id}.html', [
 		'uses' => 'NewsController@detail',
 		'as' => 'vinass.news.detail'
+	]);
+});
+
+Route::namespace('Templates')->group(function(){
+	Route::get('/templates/index-one-page', [
+		'uses' => 'IndexController@indexonepage',
+		'as' => 'vinass.templates.indexonepage'
+	]);
+	Route::get('/templates/index-classic', [
+		'uses' => 'IndexController@indexclassic',
+		'as' => 'vinass.templates.indexclassic'
+	]);
+	Route::get('/templates/index-classic-color', [
+		'uses' => 'IndexController@indexclassiccolor',
+		'as' => 'vinass.templates.indexclassiccolor'
+	]);
+	Route::get('/templates/index-classic-light', [
+		'uses' => 'IndexController@indexclassiclight',
+		'as' => 'vinass.templates.indexclassiclight'
+	]);
+	Route::get('/templates/index-corporate', [
+		'uses' => 'IndexController@indexcorporate',
+		'as' => 'vinass.templates.indexcorporate'
+	]);
+	Route::get('/templates/index-corporate-2', [
+		'uses' => 'IndexController@indexcorporate2',
+		'as' => 'vinass.templates.indexcorporate2'
+	]);
+	Route::get('/templates/index-corporate-3', [
+		'uses' => 'IndexController@indexcorporate3',
+		'as' => 'vinass.templates.indexcorporate3'
+	]);
+	Route::get('/templates/index-corporate-4', [
+		'uses' => 'IndexController@indexcorporate4',
+		'as' => 'vinass.templates.indexcorporate4'
+	]);
+	Route::get('/templates/index-corporate-5', [
+		'uses' => 'IndexController@indexcorporate5',
+		'as' => 'vinass.templates.indexcorporate5'
+	]);
+	Route::get('/templates/index-corporate-6', [
+		'uses' => 'IndexController@indexcorporate6',
+		'as' => 'vinass.templates.indexcorporate6'
+	]);
+	Route::get('/templates/index-corporate-7', [
+		'uses' => 'IndexController@indexcorporate7',
+		'as' => 'vinass.templates.indexcorporate7'
+	]);
+	Route::get('/templates/index-corporate-8', [
+		'uses' => 'IndexController@indexcorporate8',
+		'as' => 'vinass.templates.indexcorporate8'
+	]);
+	Route::get('/templates/index-corporate-9', [
+		'uses' => 'IndexController@indexcorporate9',
+		'as' => 'vinass.templates.indexcorporate9'
+	]);
+	Route::get('/templates/index-corporate-10', [
+		'uses' => 'IndexController@indexcorporate10',
+		'as' => 'vinass.templates.indexcorporate10'
+	]);
+	Route::get('/templates/index-corporate-11', [
+		'uses' => 'IndexController@indexcorporate11',
+		'as' => 'vinass.templates.indexcorporate11'
+	]);
+	Route::get('/templates/index-corporate-12', [
+		'uses' => 'IndexController@indexcorporate12',
+		'as' => 'vinass.templates.indexcorporate12'
+	]);
+	Route::get('/templates/index-corporate-13', [
+		'uses' => 'IndexController@indexcorporate13',
+		'as' => 'vinass.templates.indexcorporate13'
+	]);
+	Route::get('/templates/index-corporate-14', [
+		'uses' => 'IndexController@indexcorporate14',
+		'as' => 'vinass.templates.indexcorporate14'
+	]);
+	Route::get('/templates/index-corporate-15', [
+		'uses' => 'IndexController@indexcorporate15',
+		'as' => 'vinass.templates.indexcorporate15'
+	]);
+	Route::get('/templates/index-corporate-16', [
+		'uses' => 'IndexController@indexcorporate16',
+		'as' => 'vinass.templates.indexcorporate16'
+	]);
+	Route::get('/templates/index-corporate-17', [
+		'uses' => 'IndexController@indexcorporate17',
+		'as' => 'vinass.templates.indexcorporate17'
+	]);
+	Route::get('/templates/index-corporate-18', [
+		'uses' => 'IndexController@indexcorporate18',
+		'as' => 'vinass.templates.indexcorporate18'
+	]);
+	Route::get('/templates/index-corporate-19', [
+		'uses' => 'IndexController@indexcorporate19',
+		'as' => 'vinass.templates.indexcorporate19'
+	]);
+	Route::get('/templates/index-corporate-20', [
+		'uses' => 'IndexController@indexcorporate20',
+		'as' => 'vinass.templates.indexcorporate20'
+	]);
+	//portfolio
+	Route::get('/templates/portfolio1', [
+		'uses' => 'IndexController@portfolio1',
+		'as' => 'vinass.templates.portfolio1'
+	]);
+	Route::get('/templates/portfolio2', [
+		'uses' => 'IndexController@portfolio2',
+		'as' => 'vinass.templates.portfolio2'
+	]);
+	Route::get('/templates/portfolio3', [
+		'uses' => 'IndexController@portfolio3',
+		'as' => 'vinass.templates.portfolio3'
+	]);
+	Route::get('/templates/portfolio4', [
+		'uses' => 'IndexController@portfolio4',
+		'as' => 'vinass.templates.portfolio4'
 	]);
 });
 

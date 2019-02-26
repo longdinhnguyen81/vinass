@@ -14,9 +14,9 @@
 								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/" class="link-hover-style-1 ml-1 {{ request()->is('/') ? 'active-footer' : '' }}">Trang chủ</a></li>
 								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/gioi-thieu" class="link-hover-style-1 ml-1 {{ request()->is('gioi-thieu') ? 'active-footer' : '' }}">Giới thiệu</a></li>
 								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/thiet-ke-web" class="link-hover-style-1 ml-1 {{ request()->is('thiet-ke-web') ? 'active-footer' : '' }}">Thiết kế web</a></li>
-								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="ung-dung" class="link-hover-style-1 ml-1 {{ request()->is('/ung-dung') ? 'active-footer' : '' }}">Ứng dụng</a></li>
-								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="lien-he" class="link-hover-style-1 ml-1 {{ request()->is('/lien-he') ? 'active-footer' : '' }}">Liên hệ</a></li>
-								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="contact-us.html" class="link-hover-style-1 ml-1">Blog</a></li>
+								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/ung-dung" class="link-hover-style-1 ml-1 {{ request()->is('ung-dung') ? 'active-footer' : '' }}">Ứng dụng</a></li>
+								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/lien-he" class="link-hover-style-1 ml-1 {{ request()->is('lien-he') ? 'active-footer' : '' }}">Liên hệ</a></li>
+								<li class="text-4 mb-2"><i class="fas fa-angle-right"></i><a href="/blog" class="link-hover-style-1 ml-1 {{ request()->is('blog*') ? 'active-footer' : '' }}">Blog</a></li>
 							</ul>
 						</div>
 						<div class="col-lg-5 mb-4 mb-lg-0 text-center text-lg-left pt-3">
