@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use App\Feedback;
 use App\Slide;
 use App\News;
+use App\Count;
+use Carbon\Carbon;
 
 class AdminController extends Controller
 {
@@ -48,5 +50,20 @@ class AdminController extends Controller
     	}
     	$news->save();
     	return $return;
+    }
+    public function call(){
+        $now = Carbon::now();
+        $day = $now->day;
+        $month = $now->month;
+        $count = Count::where('day', $day)->where('month', $month)->first();
+        if(!$count){
+            $counter = new Count();
+            $counter->day = $day;
+            $counter->month = $month;
+            $counter->call = 1;
+            $counter->save();
+        }else{
+            $count->increment('call');
+        }
     }
 }

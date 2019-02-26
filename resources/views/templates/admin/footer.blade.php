@@ -6,7 +6,7 @@
 </div>
 
 <!--end-Footer-part-->
-
+@yield('js')
 <script src="/templates/admin/js/excanvas.min.js"></script> 
 <script src="/templates/admin/js/jquery.min.js"></script> 
 <script src="/templates/admin/js/jquery.ui.custom.js"></script> 

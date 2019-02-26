@@ -110,19 +110,19 @@
 
 						<div class="owl-carousel owl-theme dots-inside mt-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 2000}">
 							<div>
-								<img src="/templates/vinass/img/preview-1.jpg" alt="" class="img-fluid box-shadow-custom" /> 
+								<img src="/templates/vinass/templates/43.jpg" alt="Index classic templates" class="img-fluid box-shadow-custom" /> 
 							</div>
 							<div>
-								<img src="/templates/vinass/img/preview-3.jpg" alt="" class="img-fluid box-shadow-custom" /> 
+								<img src="/templates/vinass/img/preview-8.jpg" alt="" class="img-fluid box-shadow-custom" /> 
 							</div>
 							<div>
-								<img src="/templates/vinass/img/preview-4.jpg" alt="" class="img-fluid box-shadow-custom" /> 
+								<img src="/templates/vinass/templates/8.jpg" alt="" class="img-fluid box-shadow-custom" /> 
 							</div>
 							<div>
 								<img src="/templates/vinass/img/preview-5.jpg" alt="" class="img-fluid box-shadow-custom" /> 
 							</div>
 							<div>
-								<img src="/templates/vinass/img/preview-6.jpg" alt="" class="img-fluid box-shadow-custom" /> 
+								<img src="/templates/vinass/img/shop/10.jpg" alt="" class="img-fluid box-shadow-custom" /> 
 							</div>
 						</div>
 
