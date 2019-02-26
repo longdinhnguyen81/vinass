@@ -20,13 +20,13 @@
 													<li>
 														<div class="post-image">
 															<div class="img-thumbnail img-thumbnail-no-borders d-block">
-																<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">
+																<a href="{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}">
 																	<img src="/upload/{{ $random->image }}" width="50" height="50" alt="{{ $random->title }}">
 																</a>
 															</div>
 														</div>
 														<div class="post-info">
-															<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">{{ $random->title }}</a>
+															<a href="{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}">{{ $random->title }}</a>
 															<div class="post-meta">
 																 {{ date_format($random->updated_at, 'd m Y') }}
 															</div>
@@ -47,7 +47,7 @@
 															</div>
 														</div>
 														<div class="post-info">
-															<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">{{ $fiveNew->title }}</a>
+															<a href="{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}">{{ $fiveNew->title }}</a>
 															<div class="post-meta">
 																 {{ date_format($fiveNew->updated_at, 'd m Y') }}
 															</div>

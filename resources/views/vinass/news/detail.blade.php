@@ -37,7 +37,7 @@
 											<img src="/upload/{{ $news->picture }}" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="{{ $news->title }}" />
 									</div>
 										<div class="ml-0">
-										<div class="fb-like" data-href="https://vinasoft.vn" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+										<div class="fb-like" data-href="https://vinasofts.vn/{{ str_slug($news->title).'-'.$news->id }}.html" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 									</div>
 									<div class="post-date ml-0">
 										<span class="day">{{ date_format($news->updated_at,'d') }}</span>
@@ -46,7 +46,7 @@
 							
 									<div class="post-content ml-0">
 							
-										<h2 class="font-weight-bold"><a href="blog-post.html">{{ $news->title }}</a></h2>
+										<h2 class="font-weight-bold">{{ $news->title }}</a></h2>
 							
 										<div class="post-meta">
 											<span><i class="far fa-user"></i> By <a href="#">{{ $news->users->fullname }}</a> </span>
@@ -61,7 +61,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="fb-comments" data-href="https://vinasofts.vn" data-numposts="5"></div>
+					<div class="fb-comments" data-href="https://vinasofts.vn{{ str_slug($news->title).'-'.$news->id }}" data-numposts="5"></div>
 						<h2 class="mt-2">Tin liên quan</h2>
 					<div class="row recent-posts pb-5 mb-4">
 						@foreach($newss as $new)
@@ -96,7 +96,7 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="{{ $news->name }}" />    
+		<meta property="og:title" itemprop="name" content="{{ $news->title }}" />    
 		<meta property="og:url" itemprop="url" content="{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}" />
 		<meta property="og:description" content="{{ $news->description }}" />
 		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang , {{ $news->name }}" />
