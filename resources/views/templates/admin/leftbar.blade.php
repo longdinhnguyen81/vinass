@@ -9,7 +9,6 @@
     <li class="{{ request()->is('admin/contact*') ? 'active' : '' }}"> <a href="/admin/contact"><i class="icon icon-inbox"></i> <span>Quản lý liên hệ</span></a> </li>
     <li class="{{ request()->is('admin/cat*') ? 'active' : '' }}"> <a href="/admin/cat"><i class="icon icon-inbox"></i> <span>Quản lý danh mục</span></a> </li>
     <li class="{{ request()->is('admin/news*') ? 'active' : '' }}"> <a href="/admin/news"><i class="icon icon-inbox"></i> <span>Quản lý tin tức</span></a> </li>
-    <li class="{{ request()->is('admin/email*') ? 'active' : '' }}"> <a href="/admin/email"><i class="icon icon-inbox"></i> <span>Quản lý email</span></a> </li>
     <li class="{{ request()->is('admin/user*') ? 'active' : '' }}"> <a href="/admin/user"><i class="icon icon-inbox"></i> <span>Quản lý admin</span></a> </li>
   </ul>
 </div>

@@ -90,7 +90,7 @@
 													</span>
 												</span>
 											</span>									
-											<p class="text-color-dark font-weight-bold mb-0 pt-2 text-2 pb-0">Mobile Application</p>
+											<p class="text-color-dark font-weight-bold mb-0 pt-2 text-2 pb-0">Thiết kế UI/UX</p>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -102,7 +102,7 @@
 													</span>
 												</span>
 											</span>									
-											<p class="text-color-dark font-weight-bold mb-0 pt-2 text-2 pb-0">Thiết kế UI/UX</p>
+											<p class="text-color-dark font-weight-bold mb-0 pt-2 text-2 pb-0">Thiết kế Website</p>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -121,17 +121,18 @@
 								<div class="tab-content">
 									<div class="tab-pane active" id="tabsNavigationSimpleIcons1">
 										<div class="text-center">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+											<p>Vinasoft Solution là công ty giải pháp công nghệ chuyên cung cấp những thiết kế website đẹp mắt, hiện đại hướng theo nhu cầu của
+												khách hàng. Chúng tôi có kho <a href="/giao-dien">giao diện</a> đa dạng với hơn 30 mẫu cho khách hàng lựa chọn. Ngoài ra chúng tôi còn có thể thiết kế UI/UX theo yêu cầu.</p>
 										</div>
 									</div>
 									<div class="tab-pane" id="tabsNavigationSimpleIcons2">
 										<div class="text-center">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+											<p>>Vinasoft Solution là công ty giải pháp công nghệ chuyên lập trình những trang web có chức năng theo yêu cầu của khách hàng, hướng đến những đối tượng mà khách hàng cần, những ứng dụng web mà khách hàng đề ra... Ngoài ra, website mà chúng tôi thiết kế theo chuẩn responsive tương thích với tất cả màn hình điện thoại máy tính, dễ sử dụng và chuẩn seo. </p>
 										</div>
 									</div>
 									<div class="tab-pane" id="tabsNavigationSimpleIcons3">
 										<div class="text-center">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus.Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+											<p>>Vinasoft Solution là công ty giải pháp công nghệ chuyên lập trình những ứng dụng di động theo yêu cầu của khách hàng đảm bảo về hiệu năng và tốc độ sử dụng. Ngoài ra chúng tôi còn có thể seo ứng dụng trên CH Play, IOS Store tùy vào mong muốn của khách.</p>
 										</div>
 									</div>
 								</div>
@@ -140,7 +141,7 @@
 					</div>
 					<div class="row">
 						<div class="col text-center">
-							<a class="btn btn-outline btn-primary text-1 font-weight-semibold text-uppercase px-5 btn-py-2 mb-3" href="demo-digital-agency-services.html">Learn More</a>
+							<a class="btn btn-outline btn-primary text-1 font-weight-semibold text-uppercase px-5 btn-py-2 mb-3" href="/lien-he">Liên hệ</a>
 						</div>
 					</div>
 				</div>
@@ -260,6 +261,34 @@
 							</div>
 							@endforeach
 						</div>
+						<div class="row text-center mt-5">
+							<div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-1.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-3.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-5.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-6.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
@@ -267,17 +296,25 @@
 						<div class="row">
 							<div class="col-md-9 col-lg-9">
 								<div class="call-to-action-content">
-									<h2 class="font-weight-normal text-6 mb-0">Cải thiện <strong class="font-weight-extra-bold">Website</strong> là cách tiếp cận nhanh nhất với <strong class="font-weight-extra-bold">khách hàng</strong></h2>
-									<p class="mb-0">Liên hệ ngay với chúng tôi để có ngay những <strong class="font-weight-extra-bold">Website</strong> đẹp nhất</p>
+									<h2 class="font-weight-normal text-6 mb-0">Porto is <strong class="font-weight-extra-bold">everything</strong> you need to create an <strong class="font-weight-extra-bold">awesome</strong> website!</h2>
+									<p class="mb-0">The <strong class="font-weight-extra-bold">Best</strong> HTML Site Template on ThemeForest</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="lien-he.html" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+									<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
+@stop
+
+@section('meta')
+		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/ung-dung" />
+		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
+		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop

@@ -27,23 +27,23 @@
 	              <div class="control-group">
 	                <label class="control-label">Tiêu đề:</label>
 	                <div class="controls">
-	                  <input type="text" name="title" id="required" value="{{ old('name') }}" />
+	                  <input type="text" name="title" id="required" value="{{ old('name') }}" style="width: 50%" />
 	                </div>
 	              </div>
 	              <div class="control-group">
 	                <label class="control-label">Mô tả:</label>
 	                <div class="controls">
-	                  <input type="text" name="description" id="required" value="{{ old('description') }}" />
+	                  <textarea name="description" style="width: 50%; height: 120px">{{ old('description') }} </textarea>
 	                </div>
 	              </div>
 	              <div class="control-group">
 	                <label class="control-label">Nội dung:</label>
 	                <div class="controls">
-	                  <input type="text" name="detail" id="required" value="{{ old('job') }}" />
+	                  <textarea name="detail" id="editor1" value="{{ old('job') }}"></textarea> 
 	                </div>
 	              </div>
 	              <div class="control-group">
-		              <label class="control-label">Danh mục cha</label>
+		              <label class="control-label">Danh mục</label>
 		              <div class="controls">
 		                <select name="cat_id">
 		                  <option value="0">Không</option>
@@ -54,7 +54,13 @@
 		              </div>
 		           </div>
 	              <div class="control-group">
-	                <label class="control-label">Hình ảnh:</label>
+	                <label class="control-label">Hình ảnh vuông:</label>
+	                <div class="controls">
+	                  <input type="file" name="image" id="required" />
+	                </div>
+	              </div>
+	              <div class="control-group">
+	                <label class="control-label">Hình ảnh(1200px:500px):</label>
 	                <div class="controls">
 	                  <input type="file" name="picture" id="required" />
 	                </div>

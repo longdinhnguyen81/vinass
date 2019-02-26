@@ -12,13 +12,12 @@
 	  <div class="container-fluid">
 	    <div class="quick-actions_homepage">
 	        <ul class="quick-actions">
-		        <li class="bg_lr"> <a href=""> <i class="icon-dashboard"></i> Danh mục</a> </li>
-		        <li class="bg_ly"> <a href="widgets.html"> <i class="icon-inbox"></i>Câu chuyện</a> </li>
-		        <li class="bg_ls"> <a href="grid.html"> <i class="icon-fullscreen"></i>Admin</a> </li>
-		        <li class="bg_lb"> <a href="form-common.html"> <i class="icon-th-list"></i>Liên hệ</a> </li>
-		        <li class="bg_dg"> <a href="buttons.html"> <i class="icon-tint"></i>Phản hồi</a> </li>
-		        <li class="bg_lh span5"> <a href="charts.html"> <i class="icon-signal"></i>Tin tức</a> </li>
-		        <li class="bg_lv span5"> <a href="tables.html"> <i class="icon-th"></i><span class="label label-important">10</span>Đặt lịch hẹn</a> </li>
+		        <li class="bg_lr"> <a href="{{ route('admin.feedback.index') }}"> <i class="icon-dashboard"></i>Phản hồi</a> </li>
+		        <li class="bg_ly"> <a href="{{ route('admin.slide.index') }}"> <i class="icon-inbox"></i>Slide</a> </li>
+		        <li class="bg_ls"> <a href="{{ route('admin.contact.index') }}"> <i class="icon-fullscreen"></i><span class="label label-important">10</span>Liên hệ</a> </li>
+		        <li class="bg_lb"> <a href="{{ route('admin.cat.index') }}"> <i class="icon-th-list"></i>Danh mục</a> </li>
+		        <li class="bg_lh"> <a href="{{ route('admin.news.index') }}"> <i class="icon-signal"></i>Tin tức</a> </li>
+		        <li class="bg_lv span5"> <a href="{{ route('admin.user.index') }}"> <i class="icon-th"></i>Admin</a> </li>
 	        </ul>
 	    </div>
 	<!--End-Action boxes-->    

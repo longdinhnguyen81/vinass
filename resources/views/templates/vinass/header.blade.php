@@ -8,10 +8,9 @@
 
 		<title>Vinass - Giải pháp công nghệ hàng đầu Việt Nam</title>	
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
-
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		@yield('meta')
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
@@ -88,6 +87,30 @@
 			}
 		</style>
 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="292741454733749"
+  theme_color="#0084ff">
+</div>
 	</head>
 	<body data-spy="scroll" data-target="#navSecondary" data-offset="170">
 
@@ -102,10 +125,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills text-uppercase text-2">
 												<li class="nav-item nav-item-anim-icon d-none d-md-block">
-													<a class="nav-link pl-0" href="about-us.html"><i class="fas fa-angle-right"></i>Giới thiệu</a>
+													<a class="nav-link pl-0" href="/gioi-thieu"><i class="fas fa-angle-right"></i>Giới thiệu</a>
 												</li>
 												<li class="nav-item nav-item-anim-icon d-none d-md-block">
-													<a class="nav-link" href="contact-us.html"><i class="fas fa-angle-right"></i>Liên hệ</a>
+													<a class="nav-link" href="/lien-he"><i class="fas fa-angle-right"></i>Liên hệ</a>
 												</li>
 											</ul>
 										</nav>
@@ -116,10 +139,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item">
-													<a href="mailto:mail@domain.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>taiembkdn@gmail.com</a>
+													<a href="mailto:taiembkdn@gmail.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>taiembkdn@gmail.com</a>
 												</li>
 												<li class="nav-item">
-													<a href="tel:123-456-7890"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i>0978.175506</a>
+													<a href="tel:0978175506"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i>0978.175506</a>
 												</li>
 											</ul>
 										</nav>
@@ -133,7 +156,7 @@
 							<div class="header-column flex-grow-0">
 								<div class="header-row pr-4">
 									<div class="header-logo">
-										<a href="index.html">
+										<a href="/">
 											<img alt="Porto" width="150" height="50" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
@@ -156,21 +179,14 @@
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/thiet-ke-web">
+														<a class="dropdown-item {{ request()->is('thiet-ke-web') ? 'active' : '' }}" href="/thiet-ke-web">
 															Thiết kế web
 														</a>
-														<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/thiet-ke-web">
-																	Dịch vụ
-																</a>
-															</li>
-															<li>
-																<a class="dropdown-item {{ request()->is('thiet-ke-web') || request()->is('giao-dien') ? 'active' : '' }}" href="/giao-dien">
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item {{request()->is('giao-dien') ? 'active' : '' }}" href="/giao-dien">
 																	Kho giao diện
 																</a>
-															</li>
-														</ul>
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-item {{ request()->is('ung-dung') ? 'active' : '' }}" href="/ung-dung">
@@ -218,6 +234,15 @@
 										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 											<i class="fas fa-bars"></i>
 										</button>
+									</div>
+									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
+										<div class="header-nav-feature header-nav-features-search d-inline-flex">
+											<ul class="header-social-icons social-icons d-none d-sm-block">
+												<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+												<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+												<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>

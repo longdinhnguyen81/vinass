@@ -16,7 +16,7 @@ class NewsController extends Controller
     }
 
     public function getAdd(){
-        $cats = Cat::all();
+        $cats = Cat::where('parent_id','!=', 0)->get();
         $users = Users::all();
     	return view('admin.news.add', compact('cats', 'users'));
     }
@@ -28,17 +28,25 @@ class NewsController extends Controller
     		'detail' => 'required',
             'picture' => 'required',
     		'cat_id' => 'required',
-    	]);    	
+    	]);
+        $username = $request->session()->get('username');
+        $users = Users::where('username', $username)->first();
     	$news = new News([
     		'title' => $request->title,
     		'description' => $request->description,
             'detail' => $request->detail,
-    		'cat_id' => $request->cat_id
+            'cat_id' => $request->cat_id,
+            'user_id' => $users,
     	]);
-    	if($request->file('picture') != null){
-    		$path = $request->file('picture');
-			$images =  $path->store('/', ['disk' => 'upload']);
-            $news->picture = $images;
+        if($request->file('picture') != null){
+            $path = $request->file('picture');
+            $picture =  $path->store('/', ['disk' => 'upload']);
+            $news->picture = $picture;
+        }
+    	if($request->file('image') != null){
+    		$path = $request->file('image');
+			$image =  $path->store('/', ['disk' => 'upload']);
+            $news->image = $image;
         }
     	$news->save();
 
@@ -47,25 +55,26 @@ class NewsController extends Controller
 
     public function getEdit($id){
     	$news = News::find($id);
-    	return view('admin.news.edit', compact('news'));
+        $cats = Cat::where('parent_id','!=', 0)->get();
+    	return view('admin.news.edit', compact('news','cats'));
     }
     
     public function postEdit(Request $request, $id){
     	$news = News::find($id);
-    	$old_picture = $news->avatar;
-    	$request->validate([
-    		'name' => 'required',
-    		'description' => 'required',
-    		'job' => 'required',
-    	]);
-
-    		$news->name = $request->name;
-    		$news->description = $request->description;
-    		$news->job = $request->job;
-    	if($request->file('avatar') != null){
-            $path = $request->file('avatar');
-			$images =  $path->store('/', ['disk' => 'upload']);
-            $news->avatar = $images;
+    	$old_picture = $news->picture;
+		$request->name?$news->name = $request->name:'';
+        $request->description?$news->description = $request->description:'';
+		$request->detail?$news->detail = $request->detail:'';
+		$request->job?$news->job = $request->job:'';
+        if($request->file('picture') != null){
+            $path = $request->file('picture');
+            $picture =  $path->store('/', ['disk' => 'upload']);
+            $news->picture = $picture;
+        }
+    	if($request->file('image') != null){
+            $path = $request->file('image');
+			$image =  $path->store('/', ['disk' => 'upload']);
+            $news->picture = $image;
 		}
     	$news->update();
 

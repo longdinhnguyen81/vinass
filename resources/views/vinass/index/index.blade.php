@@ -214,16 +214,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-1.jpg" class="img-fluid border-radius-0" alt="" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="Education templates" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Presentation</span>
-													<span class="thumb-info-type">Brand</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Education</span>
+													<span class="thumb-info-type">Learn</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/education">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/img/preview-5.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -234,16 +234,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-2.jpg" class="img-fluid border-radius-0" alt="" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="Homestay templates" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Watch</span>
-													<span class="thumb-info-type">Media</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Homestay</span>
+													<span class="thumb-info-type">Hotel</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/homestay">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-1.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/img/preview-8.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -254,16 +254,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-3.jpg" class="img-fluid border-radius-0" alt="" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/shop/2.jpg" class="img-fluid border-radius-0" alt="Shop clothes templates" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Identity</span>
-													<span class="thumb-info-type">Logo</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clothes</span>
+													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/shop-1">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-2.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/shop/2.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -274,16 +274,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-4.jpg" class="img-fluid border-radius-0" alt="" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/shop/4.jpg" class="img-fluid border-radius-0" alt="Shop clock templates" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Screens</span>
-													<span class="thumb-info-type">Website</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clock</span>
+													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/shop-2">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-27.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/shop/4.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -294,16 +294,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/shop/5.jpg" class="img-fluid border-radius-0" alt="Shop clothes man templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Three Bottles</span>
-													<span class="thumb-info-type">Logo</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clothes man</span>
+													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/shop-4">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-4.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/shop/5.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -314,16 +314,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-6.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/shop/11.jpg" class="img-fluid border-radius-0" alt="Shop econommerce templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Company T-Shirt</span>
-													<span class="thumb-info-type">Brand</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop econommerce</span>
+													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-5.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/shop/11.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -334,16 +334,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-7.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/5.jpg" class="img-fluid border-radius-0" alt="Comporate 3 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Mobile Mockup</span>
-													<span class="thumb-info-type">Website</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Corporate 3</span>
+													<span class="thumb-info-type">Business</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-coporate-3">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-6.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/5.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -354,16 +354,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/9.jpg" class="img-fluid border-radius-0" alt="Comporate 7 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Label</span>
-													<span class="thumb-info-type">Media</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Corporate 7</span>
+													<span class="thumb-info-type">Business</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-coporate-7">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-7.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/9.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -374,16 +374,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/b1.jpg" class="img-fluid border-radius-0" alt="Blog 1 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Three Bottles</span>
-													<span class="thumb-info-type">Logo</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 1</span>
+													<span class="thumb-info-type">Blog</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-blog-1">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-4.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/b1.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -394,16 +394,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-6.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/b2.jpg" class="img-fluid border-radius-0" alt="Blog 2 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Company T-Shirt</span>
-													<span class="thumb-info-type">Brand</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 2</span>
+													<span class="thumb-info-type">Blog</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-blog-2">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-5.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/b2.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -414,16 +414,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-7.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/b4.jpg" class="img-fluid border-radius-0" alt="Blog 4 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Mobile Mockup</span>
-													<span class="thumb-info-type">Website</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 4</span>
+													<span class="thumb-info-type">Blog</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-blog-4">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-6.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/b4.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -434,16 +434,16 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="">
+												<img src="/templates/vinass/templates/b5.jpg" class="img-fluid border-radius-0" alt="Blog 5 templates">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Porto Label</span>
-													<span class="thumb-info-type">Media</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 5</span>
+													<span class="thumb-info-type">Blog</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="portfolio-single-wide-slider.html">
+													<a href="/giao-dien/index-blog-5">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/projects/project-7.jpg" class="lightbox-portfolio">
+													<a href="/templates/vinass/templates/b5.jpg" class="lightbox-portfolio">
 														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
@@ -453,7 +453,7 @@
 					
 								</div>
 								<center class="plan-footer">
-									<a href="thiet-ke-web.html" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Xem tat ca</a>
+									<a href="giao-dien" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Xem tất cả</a>
 								</center>
 							</div>			
 							<hr class="solid my-5">
@@ -574,7 +574,7 @@
 										<div class="flip-content my-4">
 											<h4 class="font-weight-bold text-color-light">THIẾT KẾ WEB & Marketing Online</h4>
 											<p class="font-weight-light text-color-light opacity-10">Chúng tôi thiết kế các trang web responsive, chuẩn SEO, hỗ trợ SEO lên top tìm kiếm. Bạn muốn phát triển thương hiệu, hay một kênh thương mại điện tử. Chúng tôi sẽ giúp các bạn</p>
-											<a href="thiet-ke-web.html" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem Chi tiết</a>
+											<a href="/giao-dien" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem Chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -596,7 +596,7 @@
 										<div class="flip-content my-4">
 											<h4 class="font-weight-bold text-color-light">THIẾT KẾ ỨNG DỤNG</h4>
 											<p class="font-weight-light text-color-light opacity-10">Chúng tôi thiết kế các ứng dụng Android/IOS và ứng dụng hybrid chạy được trên các nền tảng, máy tính, Android và IOS. Các ứng dụng được thiết kế với giao diện đẹp, và tốc độ nhanh.</p>
-											<a href="ung-dung.html" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
+											<a href="/ung-dung" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -618,7 +618,7 @@
 										<div class="flip-content my-4">
 											<h4 class="font-weight-bold text-color-light">HỢP TÁC LẬP TRÌNH</h4>
 											<p class="font-weight-light text-color-light opacity-10">Chúng tôi có nhiều kinh nghiệm trong các lĩnh vực lập trình website, ứng dụng điện thoại, ứng dụng đa nền tảng. Và các lập trình nhúng, bigdata, machine learning, thiết bị điện tử. </p>
-											<a href="gioi-thieu.html" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
+											<a href="/gioi-thieu" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -632,7 +632,7 @@
 							<h2 class="font-weight-normal text-6 mb-2 pb-1">Welcome to <strong class="font-weight-extra-bold">VINASS</strong></h2>
 							<p class="lead">VietNam Software Solutions (VINASS) là công ty dịch vụ chuyên cung cấp các sản phẩm, dịch vụ công nghệ, đặc biệt đưa ra những định hướng và giải pháp tối ưu công nghệ, đưa công nghệ mới cho các đối tác.</p>
 							<p class="lead">Chúng đặt phương châm sáng tạo, trách nhiệm, uy tín và chất lượng làm hàng đầu, các đối tác đến với chúng tôi, sẽ được hỗ trợ tận tình và sẽ hài lòng về chất lượng các sản phẩm dịch vụ của chúng tôi.</p>
-							<a href="lien-he.html" class="font-weight-semibold text-decoration-none learn-more text-2">Xem thêm <i class="fas fa-chevron-right ml-2"></i></a>
+							<a href="/lien-he" class="font-weight-semibold text-decoration-none learn-more text-2">Xem thêm <i class="fas fa-chevron-right ml-2"></i></a>
 						</div>
 						<div class="col-lg-6">
 							<div class="progress-bars mt-5">
@@ -718,102 +718,31 @@
 						</div>
 					</div>
 					<div class="row recent-posts pb-5 mb-4">
+						@foreach($news as $new)
 						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
 							<article>
 								<div class="row">
 									<div class="col">
-										<a href="blog-post.html" class="text-decoration-none">
-											<img src="/templates/vinass/img/tri-mun.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
+										<a href="{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}" class="text-decoration-none">
+											<img src="/upload/{{ $new->picture }}" class="img-fluid hover-effect-2 mb-3" alt="{{ $new->title }}" />
 										</a>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-auto pr-0">
 										<div class="date">
-											<span class="day text-color-dark font-weight-extra-bold">15</span>
-											<span class="month text-1">JAN</span>
+											<span class="day text-color-dark font-weight-extra-bold">{{ date_format($new->updated_at, 'd') }}</span>
+											<span class="month text-1">{{ date_format($new->updated_at, 'M') }}</span>
 										</div>
 									</div>
 									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
-										<p class="line-height-5 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+										<h4 class="line-height-3 text-4"><a href="{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}" class="text-dark">{{ $new->title }}</p>
+										<a href="{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}" class="read-more text-color-dark font-weight-bold text-2">Xem chi tiết <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 									</div>
 								</div>
 							</article>
 						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-							<article>
-								<div class="row">
-									<div class="col">
-										<a href="blog-post.html" class="text-decoration-none">
-											<img src="/templates/vinass/img/blog/blog-corporate-3-3.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-auto pr-0">
-										<div class="date">
-											<span class="day text-color-dark font-weight-extra-bold">14</span>
-											<span class="month text-1">JAN</span>
-										</div>
-									</div>
-									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
-										<p class="line-height-5 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-							<article>
-								<div class="row">
-									<div class="col">
-										<a href="blog-post.html" class="text-decoration-none">
-											<img src="/templates/vinass/img/blog/blog-corporate-3-3.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-auto pr-0">
-										<div class="date">
-											<span class="day text-color-dark font-weight-extra-bold">13</span>
-											<span class="month text-1">JAN</span>
-										</div>
-									</div>
-									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
-										<p class="line-height-5 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-									</div>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<article>
-								<div class="row">
-									<div class="col">
-										<a href="blog-post.html" class="text-decoration-none">
-											<img src="/templates/vinass/img/blog/blog-corporate-3-3.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
-										</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-auto pr-0">
-										<div class="date">
-											<span class="day text-color-dark font-weight-extra-bold">12</span>
-											<span class="month text-1">JAN</span>
-										</div>
-									</div>
-									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
-										<p class="line-height-5 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
-									</div>
-								</div>
-							</article>
-						</div>
+						@endforeach
 					</div>
 				</div>
 				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
@@ -834,4 +763,12 @@
 					</div>
 				</section>
 			</div>
+@stop
+
+@section('meta')
+		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/" />
+		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
+		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop

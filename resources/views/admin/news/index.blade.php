@@ -37,7 +37,7 @@
                       $title = $new->title;
                       $description = $new->description;
                       $cat = $new->cats->name;
-                      $picture = '/upload/' . $new->picture;
+                      $picture = '/upload/' . $new->image;
                       $active = $new->active;
                       $urlEdit = route('admin.news.edit',$id);
                       $urlDel = route('admin.news.delete',$id);

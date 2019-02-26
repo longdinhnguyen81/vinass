@@ -6,10 +6,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Responsive HTML5 Template 7.2.0</title>	
+		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
@@ -63,12 +63,13 @@
 
 			<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body border-top-0 bg-dark box-shadow-none">
+					@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="index.html">
+										<a href="/">
 											<img alt="Porto" width="82" height="40" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
@@ -85,8 +86,8 @@
 															Home
 														</a>
 														<ul class="dropdown-menu">
-															<li><a class="dropdown-item" href="index-classic.html">Default Home</a></li>
-															<li><a class="dropdown-item" href="index-one-page.html">One Page Website</a></li>
+															<li><a class="dropdown-item" href="#">Default Home</a></li>
+															<li><a class="dropdown-item" href="#">One Page Website</a></li>
 														</ul>
 													</li>
 													<li>
@@ -179,7 +180,7 @@
 									data-start="700"
 									data-fontsize="['16','16','16','40']"
 									data-lineheight="['25','25','25','45']"
-									data-transform_in="y:[-50%];opacity:0;s:500;">WE WORK HARD AND PORTO HAS</div>
+									data-transform_in="y:[-50%];opacity:0;s:500;">WE WORK HARD AND VINASOFT HAS</div>
 				
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['170','170','170','365']"
@@ -207,7 +208,7 @@
 									data-width="['530','530','530','1100']"
 									data-fontsize="['18','18','18','40']"
 									data-lineheight="['26','26','26','45']"
-									style="color: #b5b5b5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, Porto is a huge success in the one of largest world's MarketPlace.</div>
+									style="color: #b5b5b5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, VINASOFT is a huge success in the one of largest world's MarketPlace.</div>
 				
 								<a class="tp-caption btn btn-primary btn-rounded font-weight-semibold"
 									data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -245,7 +246,7 @@
 									data-start="700"
 									data-fontsize="['16','16','16','40']"
 									data-lineheight="['25','25','25','45']"
-									data-transform_in="y:[-50%];opacity:0;s:500;">WE WORK HARD AND PORTO HAS</div>
+									data-transform_in="y:[-50%];opacity:0;s:500;">WE WORK HARD AND VINASOFT HAS</div>
 				
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['170','170','170','350']"
@@ -268,7 +269,7 @@
 									data-width="['530','530','530','1100']"
 									data-fontsize="['18','18','18','40']"
 									data-lineheight="['26','26','26','45']"
-									style="color: #b5b5b5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, Porto is a huge success in the one of largest world's MarketPlace.</div>
+									style="color: #b5b5b5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, VINASOFT is a huge success in the one of largest world's MarketPlace.</div>
 								
 							</li>
 							<li class="slide-overlay slide-overlay-dark" data-transition="fade">
@@ -380,7 +381,7 @@
 									data-start="700"
 									data-fontsize="['16','16','16','40']"
 									data-lineheight="['25','25','25','45']"
-									data-transform_in="y:[-50%];opacity:0;s:500;" style="z-index: 5;">WE WORK HARD AND PORTO HAS</div>
+									data-transform_in="y:[-50%];opacity:0;s:500;" style="z-index: 5;">WE WORK HARD AND VINASOFT HAS</div>
 				
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['170','170','170','350']"
@@ -403,7 +404,7 @@
 									data-width="['530','530','530','1100']"
 									data-fontsize="['18','18','18','40']"
 									data-lineheight="['26','26','26','45']"
-									style="color: #b5b5b5; z-index: 5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, Porto is a huge success in the one of largest world's MarketPlace.</div>
+									style="color: #b5b5b5; z-index: 5;">Trusted by over <strong class="text-color-light">30,000</strong> satisfied users, VINASOFT is a huge success in the one of largest world's MarketPlace.</div>
 				
 								<div class="tp-dottedoverlay tp-opacity-overlay"></div>
 							</li>
@@ -531,7 +532,7 @@
 												<span class="thumb-info-wrapper">
 													<span class="owl-carousel owl-theme dots-inside m-0" data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"><span><img src="/templates/vinass/img/projects/project-1.jpg" class="img-fluid border-radius-0" alt=""></span><span><img src="/templates/vinass/img/projects/project-1-2.jpg" class="img-fluid border-radius-0" alt=""></span></span>
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Porto Watch</span>
+														<span class="thumb-info-inner">VINASOFT Watch</span>
 														<span class="thumb-info-type">Media</span>
 													</span>
 													<span class="thumb-info-action">
@@ -565,7 +566,7 @@
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-27.jpg" class="img-fluid border-radius-0" alt="">
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Porto Screens</span>
+														<span class="thumb-info-inner">VINASOFT Screens</span>
 														<span class="thumb-info-type">Website</span>
 													</span>
 													<span class="thumb-info-action">
@@ -633,7 +634,7 @@
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-7.jpg" class="img-fluid border-radius-0" alt="">
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Porto Label</span>
+														<span class="thumb-info-inner">VINASOFT Label</span>
 														<span class="thumb-info-type">Media</span>
 													</span>
 													<span class="thumb-info-action">
@@ -723,8 +724,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col text-center">
-								<h2 class="font-weight-bold text-color-light mb-2">We’re excited about Porto Template</h2>
-								<p class="text-color-light opacity-7">30,000 CUSTOMERS IN 100 COUNTRIES USE PORTO TEMPLATE. MEET OUR CUSTOMERS.</p>
+								<h2 class="font-weight-bold text-color-light mb-2">We’re excited about VINASOFT Template</h2>
+								<p class="text-color-light opacity-7">30,000 CUSTOMERS IN 100 COUNTRIES USE VINASOFT TEMPLATE. MEET OUR CUSTOMERS.</p>
 							</div>
 						</div>
 						<div class="row text-center py-3 my-4">
@@ -978,7 +979,7 @@
 					<div class="container py-2">
 						<div class="row py-4">
 							<div class="col d-flex align-items-center justify-content-center">
-								<p><strong>PORTO TEMPLATE</strong> - © Copyright 2019. All Rights Reserved.</p>
+								<p><strong>VINASOFT TEMPLATE</strong> - © Copyright 2019. All Rights Reserved.</p>
 							</div>
 						</div>
 					</div>

@@ -21,14 +21,14 @@
 														<div class="post-image">
 															<div class="img-thumbnail img-thumbnail-no-borders d-block">
 																<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">
-																	<img src="/upload/{{ $random->picture }}" width="50" height="50" alt="{{ $random->title }}">
+																	<img src="/upload/{{ $random->image }}" width="50" height="50" alt="{{ $random->title }}">
 																</a>
 															</div>
 														</div>
 														<div class="post-info">
-															<a href="blog-post.html">{{ $random->title }}</a>
+															<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">{{ $random->title }}</a>
 															<div class="post-meta">
-																 {{ date_format($random->updated_at, 'D m, Y') }}
+																 {{ date_format($random->updated_at, 'd m Y') }}
 															</div>
 														</div>
 													</li>
@@ -42,14 +42,14 @@
 														<div class="post-image">
 															<div class="img-thumbnail img-thumbnail-no-borders d-block">
 																<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($fiveNew->title), 'id' => $fiveNew->id]) }}}">
-																	<img src="/upload/{{ $fiveNew->picture }}" width="50" height="50" alt="{{ $fiveNew->title }}">
+																	<img src="/upload/{{ $fiveNew->image }}" width="50" height="50" alt="{{ $fiveNew->title }}">
 																</a>
 															</div>
 														</div>
 														<div class="post-info">
-															<a href="blog-post.html">{{ $fiveNew->title }}</a>
+															<a href="{{{ route('vinass.news.detail', ['slug' => str_slug($random->title), 'id' => $random->id]) }}}">{{ $fiveNew->title }}</a>
 															<div class="post-meta">
-																 {{ date_format($fiveNew->updated_at, 'D m, Y') }}
+																 {{ date_format($fiveNew->updated_at, 'd m Y') }}
 															</div>
 														</div>
 													</li>
@@ -61,4 +61,5 @@
 								<h5 class="font-weight-bold pt-4">Về chúng tôi</h5>
 								<p>VietNam Software Solutions (VINASS) là công ty dịch vụ chuyên cung cấp các sản phẩm, dịch vụ công nghệ, đặc biệt đưa ra những định hướng và giải pháp tối ưu công nghệ, đưa công nghệ mới cho các đối tác.</p>
 							</aside>
+							<div class="fb-page" data-href="https://www.facebook.com/VinaSofts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/VinaSofts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VinaSofts">Vina Software Solution</a></blockquote></div>
 						</div>

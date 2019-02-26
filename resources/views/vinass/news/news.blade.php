@@ -35,11 +35,12 @@
 						$title = $new->title;
 						$description = $new->description;
 						$detail = $new->detail;
-						$picture = '/upload/'.$new->picture;
+						$picture = '/upload/'.$new->image;
 						$detail = $new->detail;
 						$cat = $new->cats->name;
 						$cid = $new->cats->id;
 						$date = $new->updated_at;
+						$fullname = $new->users->fullname;
 						$urlcat = route('vinass.news.cat', ['slug' => str_slug($cat), 'cid' => $cid]);
 						$urldetail = route('vinass.news.detail', ['slug' => str_slug($title), 'id' => $id]);
 					@endphp
@@ -62,8 +63,8 @@
 									<div class="row">
 										<div class="col">
 											<div class="post-meta">
-												<span><i class="far fa-calendar-alt"></i> {{date_format($date,'MMM Do YY')}} </span>
-												<span><i class="far fa-user"></i> By <a href="">admin</a> </span>
+												<span><i class="far fa-calendar-alt"></i> {{date_format($date,'d m Y')}} </span>
+												<span><i class="far fa-user"></i> By <a href="">{{ $fullname }}</a> </span>
 												<span><i class="far fa-folder"></i><a href="{{$urlcat}}">{{$cat}}</a> </span>
 												<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="{{$urldetail}}" class="btn btn-xs btn-light text-1 text-uppercase">Chi tiết</a></span>
 											</div>
@@ -82,4 +83,12 @@
 				</div>
 
 			</div>
+@stop
+
+@section('meta')
+		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/blog/" />
+		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
+		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop

@@ -6,10 +6,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Responsive HTML5 Template 7.2.0</title>	
+		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
@@ -69,12 +69,13 @@
 		<div class="body bg-dark">
 			<header id="header" class="header-transparent" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 0}">
 				<div class="header-body border-top-0 box-shadow-none">
+					@include('templates.vinass.superheader')
 					<div class="header-container container-fluid">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="index.html">
+										<a href="/">
 											<img alt="Porto" width="82" height="40" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
@@ -138,7 +139,7 @@
 											<div class="col-half-section col-half-section-left">
 												<div class="row">
 													<div class="col">
-														<p class="text-color-light text-4 my-4 pt-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1600">Porto is a huge success, learn more about us.</p>
+														<p class="text-color-light text-4 my-4 pt-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1600">VINASOFT is a huge success, learn more about us.</p>
 														<div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1800">
 															<a href="#" class="btn btn-dark font-weight-bold text-3 rounded-0 px-5 btn-py-3 align-items-center d-inline-flex">GET STARTED NOW <i class="fas fa-arrow-right text-5 ml-3"></i></a>
 														</div>
@@ -455,7 +456,7 @@
 											<h2 class="font-weight-bold line-height-4 text-10 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">Amazing Features</h2>
 										</div>
 										<p class="line-height-9 text-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim ullam id.</p>
-										<p class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">There are so many styles you can combine that is possible to create almost any kind of layout based on Porto Template, navigate in our preview and see the header variations, the colors, and the page content types that you will be able to use.</p>
+										<p class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">There are so many styles you can combine that is possible to create almost any kind of layout based on VINASOFT Template, navigate in our preview and see the header variations, the colors, and the page content types that you will be able to use.</p>
 									</div>
 									<div class="col-lg-5">
 										<img src="/templates/vinass/img/style-switcher.png" class="img-fluid mt-4 appear-animation" data-appear-animation="fadeIn" alt="" />
@@ -515,8 +516,8 @@
 										<span class="text-color-light line-height-3 opacity-7">HEADQUARTERS</span>
 										<h2 class="text-color-primary font-weight-bold text-10 pb-1 mb-4">New York</h2>
 										<ul class="list list-unstyled text-color-light text-5 opacity-9 pb-1 mb-4">
-											<li>Porto Template 123</li>
-											<li>Porto Blvd, Suite</li>
+											<li>VINASOFT Template 123</li>
+											<li>VINASOFT Blvd, Suite</li>
 											<li>Call: <a href="tel:+0123456789" class="text-color-light text-decoration-none">123-456-7890</a></li>
 											<li>Email: <a href="mailto:you@domain.com" class="text-color-light text-decoration-none">info@porto.com</a></li>
 										</ul>
@@ -529,8 +530,8 @@
 										<span class="text-color-light line-height-3 opacity-7">LOCATION</span>
 										<h2 class="text-color-primary font-weight-bold text-10 pb-1 mb-4">Miami</h2>
 										<ul class="list list-unstyled text-color-light text-5 opacity-9 pb-1 mb-4">
-											<li>Porto Template 123</li>
-											<li>Porto Blvd, Suite</li>
+											<li>VINASOFT Template 123</li>
+											<li>VINASOFT Blvd, Suite</li>
 											<li>Call: <a href="tel:+0123456789" class="text-color-light text-decoration-none">123-456-7890</a></li>
 											<li>Email: <a href="mailto:you@domain.com" class="text-color-light text-decoration-none">info@porto.com</a></li>
 										</ul>
@@ -543,8 +544,8 @@
 										<span class="text-color-light line-height-3 opacity-7">LOCATION</span>
 										<h2 class="text-color-primary font-weight-bold text-10 pb-1 mb-4">Detroit</h2>
 										<ul class="list list-unstyled text-color-light text-5 opacity-9 pb-1 mb-4">
-											<li>Porto Template 123</li>
-											<li>Porto Blvd, Suite</li>
+											<li>VINASOFT Template 123</li>
+											<li>VINASOFT Blvd, Suite</li>
 											<li>Call: <a href="tel:+0123456789" class="text-color-light text-decoration-none">123-456-7890</a></li>
 											<li>Email: <a href="mailto:you@domain.com" class="text-color-light text-decoration-none">info@porto.com</a></li>
 										</ul>

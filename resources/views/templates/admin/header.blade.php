@@ -24,8 +24,10 @@
 
 
 <!--top-Header-menu-->
-<div id="user-nav" class="navbar navbar-inverse">
-  
+<div id="user-nav" class="navbar navbar-inverse text-right">
+  <ul class="nav ">
+    <li class=""><a title="" href="{{ route('auth.auth.logout') }}"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+</ul>
 </div>
 <!--close-top-Header-menu-->
 <!--start-top-serch-->

@@ -26,7 +26,7 @@ class UserController extends Controller
     	]);
     	$user = new Users([
     		'username' => $request->username,
-    		'password' => $request->password,
+    		'password' => trim(bcrypt($request->password)),
     		'fullname' => $request->fullname,
     		'detail' => $request->detail,
     	]);
@@ -55,7 +55,7 @@ class UserController extends Controller
     	]);
 
     	$user->username = $request->username;
-    	$request->password ? $user->password = $request->password : '';
+    	$request->password ? $user->password = trim(bcrypt($request->password)) : '';
     	$user->fullname = $request->fullname;
     	$user->detail = $request->detail;
 

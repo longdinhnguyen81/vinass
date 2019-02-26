@@ -1,3 +1,5 @@
+		<div id="fb-root"></div>
+		<script async defer src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=292741454733749&autoLogAppEvents=1"></script>
 			<footer id="footer" class="mt-0">
 				<div class="container">
 					<div class="footer-ribbon">

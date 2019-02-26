@@ -4,10 +4,30 @@ namespace App\Http\Controllers\Templates;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Count;
+use Cache;
+use Carbon\Carbon;
 
 class IndexController extends Controller
 {
     public function indexonepage(){
+        $now = Carbon::now();
+        $day = $now->day;
+        $month = $now->month;
+        $count = Count::where('day', $day)->where('month', $month)->first();
+        if(!$count){
+            $counter = new Count();
+            $counter->day = $day;
+            $counter->month = $month;
+            $counter->all = 1;
+            $counter->save();
+        }else{
+            $key = 'index-1'.$count->id;
+            if(!Cache::get($key)){
+                $count->increment('all');
+                Cache::put($key, 1, 30);
+            }
+        }
         return view('vinass.templates.indexonepage');
     }
 
@@ -117,5 +137,56 @@ class IndexController extends Controller
 
     public function portfolio4(){
         return view('vinass.templates.portfolio4');
+    }
+
+    public function indexblog1(){
+        return view('vinass.templates.indexblog1');
+    }
+    public function indexblog2(){
+        return view('vinass.templates.indexblog2');
+    }
+    public function indexblog4(){
+        return view('vinass.templates.indexblog4');
+    }
+    public function indexblog5(){
+        return view('vinass.templates.indexblog5');
+    }
+
+    public function shop1(){
+        return view('vinass.templates.shop1');
+    }
+    public function shop2(){
+        return view('vinass.templates.shop2');
+    }
+    public function shop3(){
+        return view('vinass.templates.shop3');
+    }
+    public function shop4(){
+        return view('vinass.templates.shop4');
+    }
+    public function shop5(){
+        return view('vinass.templates.shop5');
+    }
+    public function shop6(){
+        return view('vinass.templates.shop6');
+    }
+    public function shop7(){
+        return view('vinass.templates.shop7');
+    }
+    public function shop8(){
+        return view('vinass.templates.shop8');
+    }
+    public function shop9(){
+        return view('vinass.templates.shop9');
+    }
+    public function shop10(){
+        return view('vinass.templates.shop10');
+    }
+
+    public function homestay(){
+        return view('vinass.templates.homestay');
+    }
+    public function education(){
+        return view('vinass.templates.education');
     }
 }

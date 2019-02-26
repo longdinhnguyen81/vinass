@@ -64,122 +64,177 @@ Route::namespace('Vinass')->group(function(){
 		'uses' => 'NewsController@detail',
 		'as' => 'vinass.news.detail'
 	]);
+
+	Route::get('/sitemap', [
+		'uses' => 'IndexController@sitemap',
+		'as' => 'vinass.index.sitemap'
+	]);
 });
 
+Route::namespace('Auth')->group(function(){
+	Route::get('/login',[
+		'uses' => 'AuthController@getLogin',	
+		'as' => 'auth.auth.login'
+	]);
+	Route::post('/login',[
+		'uses' => 'AuthController@postLogin',	
+		'as' => 'auth.auth.login'
+	]);
+	Route::get('/logout',[
+		'uses' => 'AuthController@logout',	
+		'as' => 'auth.auth.logout'
+	]);
+});
+
+
 Route::namespace('Templates')->group(function(){
-	Route::get('/templates/index-one-page', [
+	Route::get('/giao-dien/index-one-page', [
 		'uses' => 'IndexController@indexonepage',
 		'as' => 'vinass.templates.indexonepage'
 	]);
-	Route::get('/templates/index-classic', [
+	Route::get('/giao-dien/index-classic', [
 		'uses' => 'IndexController@indexclassic',
 		'as' => 'vinass.templates.indexclassic'
 	]);
-	Route::get('/templates/index-classic-color', [
+	Route::get('/giao-dien/index-classic-color', [
 		'uses' => 'IndexController@indexclassiccolor',
 		'as' => 'vinass.templates.indexclassiccolor'
 	]);
-	Route::get('/templates/index-classic-light', [
+	Route::get('/giao-dien/index-classic-light', [
 		'uses' => 'IndexController@indexclassiclight',
 		'as' => 'vinass.templates.indexclassiclight'
 	]);
-	Route::get('/templates/index-corporate', [
+	Route::get('/giao-dien/index-corporate', [
 		'uses' => 'IndexController@indexcorporate',
 		'as' => 'vinass.templates.indexcorporate'
 	]);
-	Route::get('/templates/index-corporate-2', [
+	Route::get('/giao-dien/index-corporate-2', [
 		'uses' => 'IndexController@indexcorporate2',
 		'as' => 'vinass.templates.indexcorporate2'
 	]);
-	Route::get('/templates/index-corporate-3', [
+	Route::get('/giao-dien/index-corporate-3', [
 		'uses' => 'IndexController@indexcorporate3',
 		'as' => 'vinass.templates.indexcorporate3'
 	]);
-	Route::get('/templates/index-corporate-4', [
+	Route::get('/giao-dien/index-corporate-4', [
 		'uses' => 'IndexController@indexcorporate4',
 		'as' => 'vinass.templates.indexcorporate4'
 	]);
-	Route::get('/templates/index-corporate-5', [
+	Route::get('/giao-dien/index-corporate-5', [
 		'uses' => 'IndexController@indexcorporate5',
 		'as' => 'vinass.templates.indexcorporate5'
 	]);
-	Route::get('/templates/index-corporate-6', [
+	Route::get('/giao-dien/index-corporate-6', [
 		'uses' => 'IndexController@indexcorporate6',
 		'as' => 'vinass.templates.indexcorporate6'
 	]);
-	Route::get('/templates/index-corporate-7', [
+	Route::get('/giao-dien/index-corporate-7', [
 		'uses' => 'IndexController@indexcorporate7',
 		'as' => 'vinass.templates.indexcorporate7'
 	]);
-	Route::get('/templates/index-corporate-8', [
+	Route::get('/giao-dien/index-corporate-8', [
 		'uses' => 'IndexController@indexcorporate8',
 		'as' => 'vinass.templates.indexcorporate8'
 	]);
-	Route::get('/templates/index-corporate-9', [
+	Route::get('/giao-dien/index-corporate-9', [
 		'uses' => 'IndexController@indexcorporate9',
 		'as' => 'vinass.templates.indexcorporate9'
 	]);
-	Route::get('/templates/index-corporate-10', [
+	Route::get('/giao-dien/index-corporate-10', [
 		'uses' => 'IndexController@indexcorporate10',
 		'as' => 'vinass.templates.indexcorporate10'
 	]);
-	Route::get('/templates/index-corporate-11', [
-		'uses' => 'IndexController@indexcorporate11',
-		'as' => 'vinass.templates.indexcorporate11'
-	]);
-	Route::get('/templates/index-corporate-12', [
-		'uses' => 'IndexController@indexcorporate12',
-		'as' => 'vinass.templates.indexcorporate12'
-	]);
-	Route::get('/templates/index-corporate-13', [
-		'uses' => 'IndexController@indexcorporate13',
-		'as' => 'vinass.templates.indexcorporate13'
-	]);
-	Route::get('/templates/index-corporate-14', [
+	Route::get('/giao-dien/index-corporate-14', [
 		'uses' => 'IndexController@indexcorporate14',
 		'as' => 'vinass.templates.indexcorporate14'
 	]);
-	Route::get('/templates/index-corporate-15', [
-		'uses' => 'IndexController@indexcorporate15',
-		'as' => 'vinass.templates.indexcorporate15'
-	]);
-	Route::get('/templates/index-corporate-16', [
+	Route::get('/giao-dien/index-corporate-16', [
 		'uses' => 'IndexController@indexcorporate16',
 		'as' => 'vinass.templates.indexcorporate16'
 	]);
-	Route::get('/templates/index-corporate-17', [
+	Route::get('/giao-dien/index-corporate-17', [
 		'uses' => 'IndexController@indexcorporate17',
 		'as' => 'vinass.templates.indexcorporate17'
 	]);
-	Route::get('/templates/index-corporate-18', [
-		'uses' => 'IndexController@indexcorporate18',
-		'as' => 'vinass.templates.indexcorporate18'
-	]);
-	Route::get('/templates/index-corporate-19', [
+	Route::get('/giao-dien/index-corporate-19', [
 		'uses' => 'IndexController@indexcorporate19',
 		'as' => 'vinass.templates.indexcorporate19'
 	]);
-	Route::get('/templates/index-corporate-20', [
+	Route::get('/giao-dien/index-corporate-20', [
 		'uses' => 'IndexController@indexcorporate20',
 		'as' => 'vinass.templates.indexcorporate20'
 	]);
-	//portfolio
-	Route::get('/templates/portfolio1', [
-		'uses' => 'IndexController@portfolio1',
-		'as' => 'vinass.templates.portfolio1'
+
+
+	//blog
+	Route::get('/giao-dien/index-blog-1', [
+		'uses' => 'IndexController@indexblog1',
+		'as' => 'vinass.templates.indexblog1'
 	]);
-	Route::get('/templates/portfolio2', [
-		'uses' => 'IndexController@portfolio2',
-		'as' => 'vinass.templates.portfolio2'
+	Route::get('/giao-dien/index-blog-2', [
+		'uses' => 'IndexController@indexblog2',
+		'as' => 'vinass.templates.indexblog2'
 	]);
-	Route::get('/templates/portfolio3', [
-		'uses' => 'IndexController@portfolio3',
-		'as' => 'vinass.templates.portfolio3'
+	Route::get('/giao-dien/index-blog-4', [
+		'uses' => 'IndexController@indexblog4',
+		'as' => 'vinass.templates.indexblog4'
 	]);
-	Route::get('/templates/portfolio4', [
-		'uses' => 'IndexController@portfolio4',
-		'as' => 'vinass.templates.portfolio4'
+	Route::get('/giao-dien/index-blog-5', [
+		'uses' => 'IndexController@indexblog5',
+		'as' => 'vinass.templates.indexblog5'
 	]);
+
+	//Shop
+	Route::get('/giao-dien/shop-1', [
+		'uses' => 'IndexController@shop1',
+		'as' => 'vinass.templates.shop1'
+	]);
+	Route::get('/giao-dien/shop-2', [
+		'uses' => 'IndexController@shop2',
+		'as' => 'vinass.templates.shop2'
+	]);
+	Route::get('/giao-dien/shop-3', [
+		'uses' => 'IndexController@shop3',
+		'as' => 'vinass.templates.shop3'
+	]);
+	Route::get('/giao-dien/shop-4', [
+		'uses' => 'IndexController@shop4',
+		'as' => 'vinass.templates.shop4'
+	]);
+	Route::get('/giao-dien/shop-5', [
+		'uses' => 'IndexController@shop5',
+		'as' => 'vinass.templates.shop5'
+	]);
+	Route::get('/giao-dien/shop-6', [
+		'uses' => 'IndexController@shop6',
+		'as' => 'vinass.templates.shop6'
+	]);
+	Route::get('/giao-dien/shop-7', [
+		'uses' => 'IndexController@shop7',
+		'as' => 'vinass.templates.shop7'
+	]);
+	Route::get('/giao-dien/shop-8', [
+		'uses' => 'IndexController@shop8',
+		'as' => 'vinass.templates.shop8'
+	]);
+	Route::get('/giao-dien/shop-9', [
+		'uses' => 'IndexController@shop9',
+		'as' => 'vinass.templates.shop9'
+	]);
+	Route::get('/giao-dien/shop-10', [
+		'uses' => 'IndexController@shop10',
+		'as' => 'vinass.templates.shop10'
+	]);
+
+	Route::get('/giao-dien/homestay', [
+		'uses' => 'IndexController@homestay',
+		'as' => 'vinass.templates.homestay'
+	]);
+	Route::get('/giao-dien/education', [
+		'uses' => 'IndexController@education',
+		'as' => 'vinass.templates.education'
+	]);
+
 });
 
 Route::namespace('Ajax')->group(function(){
@@ -197,7 +252,7 @@ Route::namespace('Ajax')->group(function(){
 	]);
 });
 
-Route::namespace('Admin')->group(function(){
+Route::namespace('Admin')->middleware('auth')->group(function(){
 // Index ADMIN	
 	Route::prefix('admin')->group(function(){
 		Route::get('', [
@@ -348,17 +403,6 @@ Route::namespace('Admin')->group(function(){
 			Route::get('delete/{id}', [
 				'uses' => 'ContactController@delete',
 				'as' => 'admin.contact.delete'
-			]);
-		});
-	//contact
-		Route::prefix('email')->group(function(){
-			Route::get('', [
-				'uses' => 'EmailController@index',
-				'as' => 'admin.email.index'
-			]);
-			Route::get('email/{id}', [
-				'uses' => 'EmailController@delete',
-				'as' => 'admin.email.delete'
 			]);
 		});
 	});

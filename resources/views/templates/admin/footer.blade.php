@@ -28,6 +28,17 @@
 <script src="/templates/admin/js/jquery.dataTables.min.js"></script> 
 <script src="/templates/admin/js/matrix.tables.js"></script> 
 
+<script src="/templates/admin/ckeditor/ckeditor.js"></script>
+<script> CKEDITOR.replace( 'editor1', {
+        filebrowserBrowseUrl: '/templates/admin/ckfinder/ckfinder.html',
+        filebrowserImageBrowseUrl: '/templates/admin/ckfinder/ckfinder.html?type=Images',
+        filebrowserFlashBrowseUrl: '/templates/admin/ckfinder/ckfinder.html?type=Flash',
+        filebrowserUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+        filebrowserImageUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+        filebrowserFlashUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+    } );
+     </script>
+
 <script type="text/javascript">
   // This function is called from the pop-up menus to transfer to
   // a different page. Ignore if the value returned is a null string:
