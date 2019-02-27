@@ -64,7 +64,7 @@
 
 						<div class="row text-center">
 							<div class="col">
-								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;">
+								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;line-height: 1.5;">
 									Vinasofts thiết kế web chuyên nghiệp tại Đà Nẵng, web bán hàng, bất động sản chuyên nghiệp.
 									<span style="display: block;font-size: 0.8em;font-weight: 300;opacity: 0.7">Thiết kế các trang web tốc độ nhanh, responsive và hỗ trợ SEO lên top Google</span>
 								</h1>

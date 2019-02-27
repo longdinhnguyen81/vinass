@@ -5,7 +5,7 @@
 					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 550, 'responsiveLevels': [4096,1200,992,500]}">
 						<ul>
 							<li class="slide-overlay slide-overlay-dark slide-overlay-level-6" data-transition="fade">
-								<img src="img/bg-3.jpg"  
+								<img src="/templates/vinass/img/bg-3.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -17,7 +17,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -30,14 +30,14 @@
 								<div class="tp-caption d-none d-md-block"
 									data-frames='[{"delay":2200,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['80','80','80','135']"
-									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="img/slides/slide-white-line.png" alt=""></div>
+									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/templates/vinass/img/slides/slide-white-line.png" alt=""></div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['150','150','150','240']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
 
 								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -63,7 +63,7 @@
 
 						<div class="row text-center">
 							<div class="col">
-								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;">
+								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;line-height: 1.5;">
 									Vinasofts thiết kế phần mềm quản lý, ứng dụng điện thoại android và IOS
 									<span style="display: block;font-size: 0.8em;font-weight: 300;opacity: 0.7">Thiết kế các trang web, phầm mềm quản lý tốc độ nhanh, đẹp và ưu tiên trải nghiệm người dùng</span>
 								</h1>
@@ -86,7 +86,7 @@
 												<span class="featured-boxes featured-boxes-style-6 p-0 m-0">
 													<span class="featured-box featured-box-primary featured-box-effect-6 p-0 m-0">
 														<span class="box-content p-0 m-0">
-															<i class="icon-featured icon-bulb icons"></i>
+															<i class="icon-featured far fa-clone icons"></i>
 														</span>
 													</span>
 												</span>									
@@ -98,7 +98,7 @@
 												<span class="featured-boxes featured-boxes-style-6 p-0 m-0">
 													<span class="featured-box featured-box-primary featured-box-effect-6 p-0 m-0">
 														<span class="box-content p-0 m-0">
-															<i class="icon-featured icon-mustache icons"></i>
+															<i class="icon-featured fas fa-code icons"></i>
 														</span>
 													</span>
 												</span>									
@@ -110,7 +110,7 @@
 												<span class="featured-boxes featured-boxes-style-6 p-0 m-0">
 													<span class="featured-box featured-box-primary featured-box-effect-6 p-0 m-0">
 														<span class="box-content p-0 m-0">
-															<i class="icon-featured icon-puzzle icons"></i>
+															<i class="icon-featured fas fa-mobile-alt icons"></i>
 														</span>
 													</span>
 												</span>									
@@ -164,12 +164,12 @@
 								<p class="lead">Phần mềm quản lý doanh nghiệp vừa và nhỏ, quản lý trường học, quản lý bệnh viện, quản lý công ty taxi, quản lý chuỗi cửa hàng bán lẻ, cà phê.</p>
 							</div>
 							<div class="col-lg-6 appear-animation" data-appear-animation="fadeInRight">
-								<img alt="" class="img-fluid" src="img/admin_demo.png">
+								<img alt="" class="img-fluid" src="/templates/vinass/img/admin_demo.png">
 							</div>
 						</div>
 					</div>
 					<center><div class="call-to-action-btn">
-						<a href="lien-he" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ ngay</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft"></span>
+						<a href="lien-he" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ ngay</a>
 					</div></center>
 				<section>
 
