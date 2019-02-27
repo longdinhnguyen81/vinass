@@ -65,7 +65,7 @@
 	              </div>
 	              <div class="control-group">
 	                <label class="control-label"></label>
-        				<img id="images" src="/upload/{{$news->picture}}" alt="your image" />
+        				<img id="images" src="/upload/{{$news->image}}" alt="your image" />
         			</div>
 		              <script type="text/javascript">
 				        function readURLvuong(input) {
