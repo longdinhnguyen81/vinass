@@ -156,19 +156,26 @@
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item {{ request()->is('thiet-ke-web') ? 'active' : '' }}" href="/thiet-ke-web">
-															Thiết kế web
+														<a class="dropdown-item dropdown-toggle" href="#">
+															Dịch vụ
 														</a>
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item {{request()->is('giao-dien') ? 'active' : '' }}" href="/giao-dien">
-																	Kho giao diện
+														<ul class="dropdown-menu">
+															<li>
+																<a class="dropdown-item" href="/thiet-ke-web">
+																	Thiết kế Web
 																</a>
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item {{ request()->is('ung-dung') ? 'active' : '' }}" href="/ung-dung">
-															Ứng dụng
-														</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="/giao-dien">
+																	Kho giao diện Web
+																</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="/ung-dung">
+																	Ứng dụng
+																</a>
+															</li>
+														</ul>
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-item {{ request()->is('lien-he') ? 'active' : '' }}" href="/lien-he">

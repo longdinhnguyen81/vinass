@@ -78,6 +78,7 @@ class NewsController extends Controller
             $news->image = $image;
 		}
     	$news->update();
+        dd($news);
 
     	return redirect(route('admin.news.index'))->with('msg', 'Sửa thành công');
     }
