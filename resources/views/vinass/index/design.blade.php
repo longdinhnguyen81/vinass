@@ -39,12 +39,12 @@
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGNER?</h1>
+									data-lineheight="['55','55','55','95']">WEB DESIGNER?</p>
 
 								<div class="tp-caption text-light font-weight-light"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -58,6 +58,23 @@
 					</div>
 				</div>
 
+				<!-- Start Intro-->
+				<div class="home-intro home-intro-quaternary" id="home-intro" style="margin-bottom:0px; background-color:#0088cc;">
+					<div class="container">
+
+						<div class="row text-center">
+							<div class="col">
+								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;">
+									Vinasofts thiết kế web chuyên nghiệp tại Đà Nẵng, web bán hàng, bất động sản chuyên nghiệp.
+									<span style="display: block;font-size: 0.8em;font-weight: 300;opacity: 0.7">Thiết kế các trang web tốc độ nhanh, responsive và hỗ trợ SEO lên top Google</span>
+								</h1>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Intro-->
+
 				<aside class="nav-secondary" id="navSecondary" data-plugin-sticky data-plugin-options="{'minWidth': 991, 'padding': {'top': 72}}">
 					<div class="container">
 						<div class="row">
@@ -66,13 +83,13 @@
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#dich-vu">Tiện ích</a></li>
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#bang-gia">Gói dịch vụ</a></li>
 									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="#khach-hang">Khách Hàng</a></li>
-									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="/giao-dien">Kho giao diện</a></li>
+									<li class="nav-item"><a class="nav-link" data-hash data-hash-offset="165" href="giao-dien">Kho giao diện</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</aside>
-
+				<!-- Tiện ích -->
 				<section class="section section-no-background section-no-border m-0" id="dich-vu">
 					<div class="container">
 						<div class="row">
@@ -81,11 +98,12 @@
 								<p class="mb-5">Chúng tôi luôn đảm bảo các trang web được thực hiện ở VINASS luôn đẹp, sử dụng trên mọi thiết bị, giúp tăng doanh thu cho khách hàng, và luôn luôn ở trên top tìm kiếm</p>
 							</div>
 						</div>
+
 						<div class="row mt-4">
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5">
 									<div class="feature-box-icon">
-										<i class="icon-trophy icons"></i>
+										<i class="far fa-clone icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">Thiết kế Web responsive</h4>
@@ -96,7 +114,7 @@
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5">
 									<div class="feature-box-icon">
-										<i class="icon-speedometer icons"></i>
+										<i class="fas fa-cube icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">Giao diện đẹp, thông minh</h4>
@@ -107,7 +125,7 @@
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5">
 									<div class="feature-box-icon">
-										<i class="icon-cloud-upload icons"></i>
+										<i class="fas fa-search-dollar icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">Web bán hàng online</h4>
@@ -121,7 +139,7 @@
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 									<div class="feature-box-icon">
-										<i class="icon-envelope icons"></i>
+										<i class="far fa-envelope icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">Miễn phí gửi email marketing</h4>
@@ -132,7 +150,7 @@
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<i class="icon-lock icons"></i>
+										<i class="fab fa-google icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">Quảng cáo Ads/Youtube/Facebook</h4>
@@ -143,7 +161,7 @@
 							<div class="col-lg-4">
 								<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
 									<div class="feature-box-icon">
-										<i class="icon-layers icons"></i>
+										<i class="fas fa-search icons"></i>
 									</div>
 									<div class="feature-box-info">
 										<h4 class="mb-2">SEO lên top google</h4>
@@ -152,9 +170,9 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</section>
+				<!-- Dịch vụ -->
 				<section class="section section-no-border mt-0" id="bang-gia">
 					<div class="container">
 						<div class="row">
@@ -264,6 +282,7 @@
 						</div>
 					</div>
 				</section>
+				<!-- Khách hàng -->
 				<section class="section section-no-background section-no-border mt-0 mb-0" id="khach-hang">
 					<div class="container">
 						<div class="row">
@@ -295,8 +314,38 @@
 								</div>
 							</div>
 							@endforeach
+						</div>
+						<div class="row text-center mt-5">
+							<div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-1.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-3.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-5.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-6.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-4.png" alt="">
+								</div>
+								<div>
+									<img class="img-fluid" src="/templates/vinass/img/logos/logo-2.png" alt="">
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
+				<!-- Last intro -->
 				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
 					<div class="container">
 						<div class="row">
@@ -308,7 +357,7 @@
 							</div>
 							<div class="col-md-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="lien-he.html" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+									<a href="lien-he" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
 								</div>
 							</div>
 						</div>
@@ -318,9 +367,12 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
-		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/thiet-ke-web" />
-		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
-		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Web bán hàng, bất động sản chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/thiet-ke-web">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop

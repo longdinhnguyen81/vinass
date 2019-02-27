@@ -6,12 +6,12 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-								<h1>Chúng tôi đi đầu <span>trong việc thiết kế Web</span></h1>
+								<h1>VINASS thiết kế web, phần mềm số 1 tại Đà Nẵng</h1>
 							</div>
 							<div class="col-md-4 order-1 order-md-2 align-self-center">
 								<ul class="breadcrumb d-block text-md-right breadcrumb-light">
-									<li><a href="demo-medical.html">Trang chủ</a></li>
-									<li class="active">Giới Thiệu</li>
+									<li><a href="/">Trang chủ</a></li>
+									<li class="active">Liên hệ</li>
 								</ul>
 							</div>
 						</div>
@@ -38,7 +38,7 @@
 							<div class="col-md-6 col-lg-3">
 								<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
 									<div class="box-content px-4">
-										<i class="icon-featured icon-screen-tablet icons text-12"></i>
+										<i class="icon-featured fas fa-mobile-alt icons text-12"></i>
 										<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Mobile Apps</h4>
 										<p class="mb-0">Thiết kế các mobile apps đẹp, và tốc độ, bảo hành trọn đời</p>
 									</div>
@@ -47,7 +47,7 @@
 							<div class="col-md-6 col-lg-3">
 								<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeIn">
 									<div class="box-content px-4">
-										<i class="icon-featured icon-layers icons text-12"></i>
+										<i class="icon-featured fab fa-edge icons text-12"></i>
 										<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Creative Websites</h4>
 										<p class="mb-0">Thiết kế WebSite đẹp, chuẩn SEO và responsive cho các thiết bị</p>
 									</div>
@@ -56,7 +56,7 @@
 							<div class="col-md-6 col-lg-3">
 								<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeIn">
 									<div class="box-content px-4">
-										<i class="icon-featured icon-magnifier icons text-12"></i>
+										<i class="icon-featured fas fa-search-dollar icons text-12"></i>
 										<h4 class="font-weight-bold text-color-dark pb-1 mb-2">SEO Optimization</h4>
 										<p class="mb-0">Cải thiện thứ hạng của Website của các bạn trên top Google</p>
 									</div>
@@ -65,7 +65,7 @@
 							<div class="col-md-6 col-lg-3">
 								<div class="featured-box featured-box-primary featured-box-effect-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
 									<div class="box-content px-4">
-										<i class="icon-featured icon-screen-desktop icons text-12"></i>
+										<i class="icon-featured fas fa-desktop icons text-12"></i>
 										<h4 class="font-weight-bold text-color-dark pb-1 mb-2">Brand Solutions</h4>
 										<p class="mb-0">Phát triển thương hiệu các bạn online, tăng khách hàng, thu nhập</p>
 									</div>
@@ -200,9 +200,12 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
-		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/gioi-thieu" />
-		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
-		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/gioi-thieu">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop
