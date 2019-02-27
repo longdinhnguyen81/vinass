@@ -39,12 +39,12 @@
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGNER?</h1>
+									data-lineheight="['55','55','55','95']">WEB DESIGNER?</p>
 
 								<div class="tp-caption text-light font-weight-light"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -168,12 +168,12 @@
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGN?</h1>
+									data-lineheight="['55','55','55','95']">WEB DESIGN?</p>
 
 								<div class="tp-caption text-light font-weight-light"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -193,7 +193,7 @@
 						<div class="row text-center">
 							<div class="col">
 								<p class="mb-0">
-									Thiết kế trang ứng dụng và trang web chuyên nghiệp, chuẩn SEO và hỗ trợ <strong>trọn đời và miễn phí</strong>
+									Thiết kế trang web chuyên nghiệp tại đà nẵng, chuẩn SEO và hỗ trợ <strong>trọn đời và miễn phí</strong>
 									<span>Xem tất cả các sản phẩm và trang web của chúng tôi</span>
 								</p>
 							</div>
@@ -766,9 +766,14 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
-		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/" />
-		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
-		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop
