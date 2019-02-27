@@ -30,12 +30,12 @@
 
 <script src="/templates/admin/ckeditor/ckeditor.js"></script>
 <script> CKEDITOR.replace( 'editor1', {
-        filebrowserBrowseUrl: '/templates/admin/ckfinder/ckfinder.html',
-        filebrowserImageBrowseUrl: '/templates/admin/ckfinder/ckfinder.html?type=Images',
-        filebrowserFlashBrowseUrl: '/templates/admin/ckfinder/ckfinder.html?type=Flash',
-        filebrowserUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
-        filebrowserImageUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
-        filebrowserFlashUploadUrl: '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+        filebrowserBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html') }}',
+        filebrowserImageBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html?type=Images') }}',
+        filebrowserFlashBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html?type=Flash') }}',
+        filebrowserUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files') }}',
+        filebrowserImageUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images') }}',
+        filebrowserFlashUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash') }}'
     } );
      </script>
 
