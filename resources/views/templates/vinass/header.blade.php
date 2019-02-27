@@ -13,7 +13,7 @@
         <meta name="geo.position" content="16.0650635;108.185337" />
         <meta name="ICBM" content="16.0650635;108.185337" />
         <meta http-equiv="content-language" content="vi" />
-        <link rel="alternate" href="http://seo.edu.vn" hreflang="vi-vn" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
 		@yield('meta')
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
