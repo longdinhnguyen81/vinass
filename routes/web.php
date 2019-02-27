@@ -250,14 +250,6 @@ Route::namespace('Ajax')->group(function(){
 		'uses' => 'AdminController@activeNews',
 		'as' => 'ajax.admin.activeNews'
 	]);
-	Route::get('/call', [
-		'uses' => 'AdminController@call',
-		'as' => 'ajax.admin.call'
-	]);
-	Route::get('/facebook', [
-		'uses' => 'AdminController@facebook',
-		'as' => 'ajax.admin.facebook'
-	]);
 });
 
 Route::namespace('Admin')->middleware('auth')->group(function(){

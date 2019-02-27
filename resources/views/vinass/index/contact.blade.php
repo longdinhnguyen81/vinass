@@ -50,23 +50,29 @@
 							<div class="form-row">
 								<div class="form-group col-lg-6">
 									<label class="required font-weight-bold text-dark">Họ và tên:</label>
-									<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="fullname" id="name">
+									<input type="text" value="{{ old('fullname') }}" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="fullname" id="name">
 								</div>
 								<div class="form-group col-lg-6">
 									<label class="required font-weight-bold text-dark">Địa chỉ email:</label>
-									<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
+									<input type="email" value="{{ old('email') }}" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col">
+									<label class="required font-weight-bold text-dark">Số điện thoại:</label>
+									<input type="number" value="{{ old('phone') }}" data-msg-required="Please enter the subject." class="form-control" name="phone" id="subject">
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col">
 									<label class="required font-weight-bold text-dark">Tiêu đề:</label>
-									<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject">
+									<input type="text" value="{{ old('subject') }}" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject">
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col">
 									<label class="required font-weight-bold text-dark">Nội dung:</label>
-									<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control" name="message" id="message"></textarea>
+									<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control" name="message" id="message">{{ old('message') }}</textarea>
 								</div>
 							</div>
 							<div class="form-row">

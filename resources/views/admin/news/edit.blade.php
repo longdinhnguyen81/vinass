@@ -65,7 +65,7 @@
 	              </div>
 	              <div class="control-group">
 	                <label class="control-label"></label>
-        				<img id="image" src="/upload/{{$news->picture}}" alt="your image" />
+        				<img id="images" src="/upload/{{$news->picture}}" alt="your image" />
         			</div>
 		              <script type="text/javascript">
 				        function readURLvuong(input) {
@@ -73,7 +73,7 @@
 				                var reader = new FileReader();
 
 				                reader.onload = function (e) {
-				                    $('#image').attr('src', e.target.result);
+				                    $('#images').attr('src', e.target.result);
 				                }
 
 				                reader.readAsDataURL(input.files[0]);

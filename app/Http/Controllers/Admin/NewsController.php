@@ -27,6 +27,7 @@ class NewsController extends Controller
     		'description' => 'required',
     		'detail' => 'required',
             'picture' => 'required',
+            'image' => 'required',
     		'cat_id' => 'required',
     	]);
         $username = $request->session()->get('username');
@@ -39,13 +40,13 @@ class NewsController extends Controller
             'user_id' => $users,
     	]);
         if($request->file('picture') != null){
-            $path = $request->file('picture');
-            $picture =  $path->store('/', ['disk' => 'upload']);
+            $path1 = $request->file('picture');
+            $picture =  $path1->store('/', ['disk' => 'upload']);
             $news->picture = $picture;
         }
     	if($request->file('image') != null){
-    		$path = $request->file('image');
-			$image =  $path->store('/', ['disk' => 'upload']);
+    		$path2 = $request->file('image');
+			$image =  $path2->store('/', ['disk' => 'upload']);
             $news->image = $image;
         }
     	$news->save();
@@ -67,14 +68,14 @@ class NewsController extends Controller
 		$request->detail?$news->detail = $request->detail:'';
 		$request->job?$news->job = $request->job:'';
         if($request->file('picture') != null){
-            $path = $request->file('picture');
-            $picture =  $path->store('/', ['disk' => 'upload']);
+            $path1 = $request->file('picture');
+            $picture =  $path1->store('/', ['disk' => 'upload']);
             $news->picture = $picture;
         }
     	if($request->file('image') != null){
-            $path = $request->file('image');
-			$image =  $path->store('/', ['disk' => 'upload']);
-            $news->picture = $image;
+            $path2 = $request->file('image');
+			$image =  $path2->store('/', ['disk' => 'upload']);
+            $news->image = $image;
 		}
     	$news->update();
 

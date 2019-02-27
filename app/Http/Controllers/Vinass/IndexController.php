@@ -123,12 +123,14 @@ class IndexController extends Controller
         $request->validate([
             'fullname' => 'required',
             'email' => 'required|email',
+            'phone' => 'required',
             'subject' => 'required',
             'message' => 'required',
         ]);
         $contact = new Contact([
             'fullname' => $request->fullname,
             'email' => $request->email,
+            'phone' => $request->phone,
             'subject' => $request->subject,
             'message' => $request->message,
         ]);
