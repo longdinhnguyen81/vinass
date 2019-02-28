@@ -4,12 +4,16 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-
-		<title>Vinass - Giải pháp công nghệ hàng đầu Việt Nam</title>	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">		
 
 		<meta property="og:type" content="Website" />
 		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
 		@yield('meta')
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
@@ -19,16 +23,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 		<!-- Web Fonts  -->
+		<!--
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+		-->
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="/templates/vinass/vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/templates/vinass/vendor/fontawesome-free/css/all.min.css">
-		<link rel="stylesheet" href="/templates/vinass/vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="/templates/vinass/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" media='screen and (min-width: 701px)' href="/templates/vinass/vendor/animate/animate.min.css">
 		<link rel="stylesheet" href="/templates/vinass/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<!--
 		<link rel="stylesheet" href="/templates/vinass/vendor/owl.carousel/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="/templates/vinass/vendor/magnific-popup/magnific-popup.min.css">
+		-->
 
 
 
@@ -36,12 +43,13 @@
 		<link rel="stylesheet" href="/templates/vinass/css/theme.css">
 		<link rel="stylesheet" href="/templates/vinass/css/theme-elements.css">
 		<link rel="stylesheet" href="/templates/vinass/css/theme-blog.css">
-		<link rel="stylesheet" href="/templates/vinass/css/theme-shop.css">
 
 		<!-- Current Page CSS -->
 		<link rel="stylesheet" href="/templates/vinass/vendor/rs-plugin/css/settings.css">
+		<!--
 		<link rel="stylesheet" href="/templates/vinass/vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="/templates/vinass/vendor/rs-plugin/css/navigation.css">
+		-->
 		
 		<!-- Demo CSS -->
 
@@ -50,14 +58,16 @@
 		<link rel="stylesheet" href="/templates/vinass/css/skins/default.css">
 
 		<!-- Theme Custom CSS -->
+		<!--
 		<link rel="stylesheet" href="/templates/vinass/css/custom.css">
+		-->
 
 		<!-- Head Libs -->
 		<script src="/templates/vinass/vendor/modernizr/modernizr.min.js"></script>
 		<style>
 			#header .header-nav-main nav > ul > li > a {
-				font-size:14px;
-				font-weight: 600;
+				font-size:15px;
+				font-weight: 500;
 			}
 			.thumb-info.thumb-info-bottom-info .thumb-info-title {
 				background-color: #0088cc;
@@ -86,6 +96,40 @@
 				color: #FFF !important;
 			}
 		</style>
+		<meta name="google-site-verification" content="kVdtAKcb4VgfKpjJfTItXj-K3knEfuz3bGfOCOpBddw" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126454952-3"></script>
+		<script>
+		  	window.dataLayer = window.dataLayer || [];
+		  	function gtag(){dataLayer.push(arguments);}
+		  	gtag('js', new Date());
+
+		  	gtag('config', 'UA-126454952-3');
+		</script>
+		<script type="application/ld+json">
+        {
+         	"@context": "http://schema.org",
+         	"@type": "Organization",
+         	"address": {
+           		"@type": "PostalAddress",
+           		"addressRegion": "Việt Nam",
+           		"streetAddress": "Tầng 2, 121 Cù Chính Lan, phường Thanh Khê, TP Đà Nẵng"
+         	},
+         	"description": "thiết kế web, làm web tại đà nẵng, thiết kế ứng dụng, làm ứng dụng, seo trang web",
+         	"name": "Vinasofts, thiết kế web đà nẵng",
+         	"telephone": "+84978175506"
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Vinasofts - Thiết kế web Đà Nẵng",
+            "url": "https://vinasofts.vn",
+            "sameAs": ["https://www.facebook.com/VinaSofts/"]
+        }
+    	</script>
+
 
 
 	</head>

@@ -6,11 +6,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-							<h1>Chúng tôi đi đầu <span>trong việc thiết kế Web</span></h1>
+							<h1>VINASS thiết kế web, phần mềm số 1 tại Đà Nẵng</h1>
 						</div>
 						<div class="col-md-4 order-1 order-md-2 align-self-center">
 							<ul class="breadcrumb d-block text-md-right breadcrumb-light">
-								<li><a href="demo-medical.html">Trang chủ</a></li>
+								<li><a href="/">Trang chủ</a></li>
 								<li class="active">Liên hệ</li>
 							</ul>
 						</div>
@@ -112,15 +112,10 @@
 			<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
 					<div class="container">\
 						<div class="row">
-							<div class="col-md-9 col-lg-9">
+							<div class="col-md-12 col-lg-12">
 								<div class="call-to-action-content">
 									<h2 class="font-weight-normal text-6 mb-0">Cải thiện <strong class="font-weight-extra-bold">Website</strong> là cách tiếp cận nhanh nhất với <strong class="font-weight-extra-bold">khách hàng</strong></h2>
 									<p class="mb-0">Liên hệ ngay với chúng tôi để có ngay những <strong class="font-weight-extra-bold">Website</strong> đẹp nhất</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-lg-3">
-								<div class="call-to-action-btn">
-									<a href="lien-he.html" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Liên hệ</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
 								</div>
 							</div>
 						</div>
@@ -131,9 +126,12 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="Vinasoft Solution - Công ty giải pháp công nghệ hàng đầu Việt Nam" />    
-		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/lien-he" />
-		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
-		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/lien-he">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop

@@ -6,7 +6,7 @@
 						<ul>
 							<li class="slide-overlay slide-overlay-dark slide-overlay-level-6" data-transition="fade">
 								<img src="/templates/vinass/img/bg-1.jpg"  
-									alt=""
+									alt="thiết kế web đà nẵng"
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
@@ -17,7 +17,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="vinasofts thiết kế web"></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -30,21 +30,21 @@
 								<div class="tp-caption d-none d-md-block"
 									data-frames='[{"delay":2200,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['80','80','80','135']"
-									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/templates/vinass/img/slides/slide-white-line.png" alt=""></div>
+									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/templates/vinass/img/slides/slide-white-line.png" alt="vinasofts thiết kế web"></div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['150','150','150','240']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="vinasofts thiết kế web"></div>
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGNER?</h1>
+									data-lineheight="['55','55','55','95']">WEB DESIGNER?</p>
 
 								<div class="tp-caption text-light font-weight-light"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -56,7 +56,7 @@
 							</li>
 							<li class="slide-overlay slide-overlay-dark slide-overlay-level-6" data-transition="fade">
 								<img src="/templates/vinass/img/bg-2.jpg"  
-									alt=""
+									alt="vinasofts thiết kế web"
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
@@ -67,7 +67,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-130']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="thiết kế phần mềm"></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -82,7 +82,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-130']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="icon"></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light"
 									data-frames='[{"delay":1300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -114,14 +114,14 @@
 
 								<div class="tp-caption font-weight-extra-bold text-color-light"
 									data-frames='[{"delay":2100,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center" data-hoffset="['120','120','120','190']"
+									data-x="center" data-hoffset="['130','130','130','200']"
 									data-y="center"
 									data-fontsize="['145','145','145','250']"
 									data-lineheight="['150','150','150','260']">S</div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light"
 									data-frames='[{"delay":2300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center" data-hoffset="['180','190','190','290']"
+									data-x="center" data-hoffset="['200','200','200','300']"
 									data-y="center"
 									data-fontsize="['145','145','145','250']"
 									data-lineheight="['150','150','150','260']">S</div>
@@ -135,7 +135,7 @@
 							</li>
 							<li class="slide-overlay slide-overlay-dark slide-overlay-level-6" data-transition="fade">
 								<img src="/templates/vinass/img/bg-3.jpg"  
-									alt=""
+									alt="vinass làm phần mềm"
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
@@ -146,7 +146,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="icon"></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -159,21 +159,21 @@
 								<div class="tp-caption d-none d-md-block"
 									data-frames='[{"delay":2200,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['80','80','80','135']"
-									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/templates/vinass/img/slides/slide-white-line.png" alt=""></div>
+									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/templates/vinass/img/slides/slide-white-line.png" alt="icon"></div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['150','150','150','240']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="/templates/vinass/img/slides/slide-title-border.png" alt="icon"></div>
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<p class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGN?</h1>
+									data-lineheight="['55','55','55','95']">WEB DESIGN?</p>
 
 								<div class="tp-caption text-light font-weight-light"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -192,10 +192,10 @@
 
 						<div class="row text-center">
 							<div class="col">
-								<p class="mb-0">
-									Thiết kế trang ứng dụng và trang web chuyên nghiệp, chuẩn SEO và hỗ trợ <strong>trọn đời và miễn phí</strong>
-									<span>Xem tất cả các sản phẩm và trang web của chúng tôi</span>
-								</p>
+								<h1 class="mb-0" style="color:#fff;display: inline-block;font-size: 1.8em; font-weight: 500;line-height: 1.5;">
+									Vinasofts thiết kế web chuyên nghiệp tại Đà Nẵng, thiết kế web bán hàng, web quản lý và các ứng dụng
+									<span style="display: block;font-size: 0.8em;font-weight: 300;opacity: 0.7">Thiết kế các trang web tốc độ nhanh, responsive và hỗ trợ SEO lên top Google</span>
+								</h1>
 							</div>
 						</div>
 
@@ -459,6 +459,7 @@
 							<hr class="solid my-5">
 						</div>
 					</div>
+					<!-- Tiện ích -->
 					<div class="row">
 						<div class="col-lg-12 text-center">
 							<h2 class="heading-dark mt-4 mb-0">Các tiện ích đi kèm khi <strong>thiết kế Web</strong></h2>
@@ -470,7 +471,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5">
 								<div class="feature-box-icon">
-									<i class="icon-trophy icons"></i>
+									<i class="far fa-clone icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">Thiết kế Web responsive</h4>
@@ -481,7 +482,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5">
 								<div class="feature-box-icon">
-									<i class="icon-speedometer icons"></i>
+									<i class="fas fa-cube icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">Giao diện đẹp, thông minh</h4>
@@ -492,7 +493,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5">
 								<div class="feature-box-icon">
-									<i class="icon-cloud-upload icons"></i>
+									<i class="fas fa-search-dollar icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">Web bán hàng online</h4>
@@ -506,7 +507,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 								<div class="feature-box-icon">
-									<i class="icon-envelope icons"></i>
+									<i class="far fa-envelope icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">Miễn phí gửi email marketing</h4>
@@ -517,7 +518,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<i class="icon-lock icons"></i>
+									<i class="fab fa-google icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">Quảng cáo Ads/Youtube/Facebook</h4>
@@ -528,7 +529,7 @@
 						<div class="col-lg-4">
 							<div class="feature-box feature-box-tertiary feature-box-style-5 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
 								<div class="feature-box-icon">
-									<i class="icon-layers icons"></i>
+									<i class="fas fa-search icons"></i>
 								</div>
 								<div class="feature-box-info">
 									<h4 class="mb-2">SEO lên top google</h4>
@@ -552,29 +553,28 @@
 									</span>
 									<span></span>
 								</h2>
-								<h4 class="text-primary lead tall text-4">Chúng tôi luôn luôn là đối tác đáng tin cậy của các bạn trong tất cả các dự án.</h4>
+								<h4 class="lead tall text-4">Chúng tôi luôn luôn là đối tác đáng tin cậy của các bạn trong tất cả các dự án. 100% khách hàng và đối tác điều hài lòng khi sử dụng dịch vụ của chúng tôi</h4>
 							</div>
 						</div>
-
 						<div class="row mb-5 pb-3">		
 							<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500">
 								<div class="card flip-card text-center rounded-0">
 									<div class="flip-front" style="padding:0px;">
 										<div class="flip-content">
 											<span class="thumb-info-side-image-wrapper">
-												<img alt="" class="img-fluid" src="/templates/vinass/img/bg-web-f.jpg">
+												<img alt="vinasoft làm web" class="img-fluid" src="/templates/vinass/img/bg-web-f.jpg">
 											</span>
 											<div class="p-5">
-												<h4 class="font-weight-bold text-color-primary text-4">Thiết kế Website & Marketing online</h4>
+												<h3 class="font-weight-bold text-color-primary text-4">Thiết kế Website & Marketing online</h3>
 												<p>Mọi trang web được thực hiện ở VINASS điều được bảo hành trọn đời, và hỗ trợ nâng cấp, SEO, Marketing online, Email marketing.</p>
 											</div>
 										</div>
 									</div>
 									<div class="flip-back d-flex align-items-center p-5" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(67,67,115,0.8) 100%, rgba(0,212,255,0.8) 100%), url(/templates/vinass/img/bg-web-b.jpg); background-size: cover; background-position: center;">
 										<div class="flip-content my-4">
-											<h4 class="font-weight-bold text-color-light">THIẾT KẾ WEB & Marketing Online</h4>
-											<p class="font-weight-light text-color-light opacity-10">Chúng tôi thiết kế các trang web responsive, chuẩn SEO, hỗ trợ SEO lên top tìm kiếm. Bạn muốn phát triển thương hiệu, hay một kênh thương mại điện tử. Chúng tôi sẽ giúp các bạn</p>
-											<a href="/giao-dien" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem Chi tiết</a>
+											<h3 class="font-weight-bold text-color-light">THIẾT KẾ WEB & Marketing Online</h3>
+											<p class="font-weight-light text-color-light opacity-10" style="font-size: 1.2em;">Chúng tôi thiết kế các trang web responsive, chuẩn SEO, hỗ trợ SEO lên top tìm kiếm. Bạn muốn phát triển thương hiệu, hay một kênh thương mại điện tử. Chúng tôi sẽ giúp các bạn</p>
+											<a href="thiet-ke-web" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem Chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -584,19 +584,19 @@
 									<div class="flip-front" style="padding:0px;">
 										<div class="flip-content">
 											<span class="thumb-info-side-image-wrapper">
-												<img alt="" class="img-fluid" src="/templates/vinass/img/bg-application-f.jpg">
+												<img alt="làm web tại đà nẵng" class="img-fluid" src="/templates/vinass/img/bg-application-f.jpg">
 											</span>
 											<div class="p-5">
-												<h4 class="font-weight-bold text-color-primary text-4">Thiết kế ứng dụng và các platform</h4>
+												<h3 class="font-weight-bold text-color-primary text-4">Thiết kế ứng dụng và phần mềm</h3>
 												<p>Chúng tôi thiết kế các ứng dụng Android/IOS và ứng dụng hybrid chạy được trên các nền tảng, máy tính, Android và IOS.</p>
 											</div>
 										</div>
 									</div>
 									<div class="flip-back d-flex align-items-center p-5" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(67,67,115,0.8) 100%, rgba(0,212,255,0.8) 100%), url(/templates/vinass/img/bg-application-b.jpg); background-size: cover; background-position: center;">
 										<div class="flip-content my-4">
-											<h4 class="font-weight-bold text-color-light">THIẾT KẾ ỨNG DỤNG</h4>
-											<p class="font-weight-light text-color-light opacity-10">Chúng tôi thiết kế các ứng dụng Android/IOS và ứng dụng hybrid chạy được trên các nền tảng, máy tính, Android và IOS. Các ứng dụng được thiết kế với giao diện đẹp, và tốc độ nhanh.</p>
-											<a href="/ung-dung" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
+											<h3 class="font-weight-bold text-color-light">THIẾT KẾ ỨNG DỤNG & PHẦN MỀM QUẢN LÝ</h3>
+											<p class="font-weight-light text-color-light opacity-10" style="font-size: 1.2em;">Chúng tôi thiết kế các ứng dụng Android/IOS và ứng dụng hybrid chạy được trên các nền tảng, máy tính, Android và IOS. Các ứng dụng được thiết kế với giao diện đẹp, và tốc độ nhanh.</p>
+											<a href="ung-dung" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -606,19 +606,19 @@
 									<div class="flip-front" style="padding:0px;">
 										<div class="flip-content">
 											<span class="thumb-info-side-image-wrapper">
-												<img alt="" class="img-fluid" src="/templates/vinass/img/bg-code-f.jpg">
+												<img alt="vinasofts làm website" class="img-fluid" src="/templates/vinass/img/bg-code-f.jpg">
 											</span>
 											<div class="p-5">
-												<h4 class="font-weight-bold text-color-primary text-4">Hợp tác trong các dự án lập trình, công nghệ</h4>
+												<h3 class="font-weight-bold text-color-primary text-4">Hợp tác trong các dự án lập trình, công nghệ</h3>
 												<p>Chúng tôi luôn luôn sẵn sàng hợp tác cùng các bạn trong các lĩnh vực công nghệ, lập trình. Hãy liên hệ với chúng tôi ngay</p>
 											</div>
 										</div>
 									</div>
 									<div class="flip-back d-flex align-items-center p-5" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(67,67,115,0.8) 100%, rgba(0,212,255,0.8) 100%), url(/templates/vinass/img/bg-code-b.jpg); background-size: cover; background-position: center;">
 										<div class="flip-content my-4">
-											<h4 class="font-weight-bold text-color-light">HỢP TÁC LẬP TRÌNH</h4>
-											<p class="font-weight-light text-color-light opacity-10">Chúng tôi có nhiều kinh nghiệm trong các lĩnh vực lập trình website, ứng dụng điện thoại, ứng dụng đa nền tảng. Và các lập trình nhúng, bigdata, machine learning, thiết bị điện tử. </p>
-											<a href="/gioi-thieu" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
+											<h3 class="font-weight-bold text-color-light">HỢP TÁC LẬP TRÌNH</h3>
+											<p class="font-weight-light text-color-light opacity-10" style="font-size: 1.2em;">Chúng tôi có nhiều kinh nghiệm trong các lĩnh vực lập trình website, ứng dụng điện thoại, ứng dụng đa nền tảng. Và các lập trình nhúng, bigdata, machine learning, thiết bị điện tử. </p>
+											<a href="gioi-thieu" class="btn btn-light btn-modern text-color-dark font-weight-bold">Xem chi tiết</a>
 										</div>
 									</div>
 								</div>
@@ -632,7 +632,7 @@
 							<h2 class="font-weight-normal text-6 mb-2 pb-1">Welcome to <strong class="font-weight-extra-bold">VINASS</strong></h2>
 							<p class="lead">VietNam Software Solutions (VINASS) là công ty dịch vụ chuyên cung cấp các sản phẩm, dịch vụ công nghệ, đặc biệt đưa ra những định hướng và giải pháp tối ưu công nghệ, đưa công nghệ mới cho các đối tác.</p>
 							<p class="lead">Chúng đặt phương châm sáng tạo, trách nhiệm, uy tín và chất lượng làm hàng đầu, các đối tác đến với chúng tôi, sẽ được hỗ trợ tận tình và sẽ hài lòng về chất lượng các sản phẩm dịch vụ của chúng tôi.</p>
-							<a href="/lien-he" class="font-weight-semibold text-decoration-none learn-more text-2">Xem thêm <i class="fas fa-chevron-right ml-2"></i></a>
+							<a href="gioi-thieu" class="font-weight-semibold text-decoration-none learn-more text-2">Xem thêm <i class="fas fa-chevron-right ml-2"></i></a>
 						</div>
 						<div class="col-lg-6">
 							<div class="progress-bars mt-5">
@@ -750,7 +750,7 @@
 						<div class="row">
 							<div class="col-md-9 col-lg-9">
 								<div class="call-to-action-content">
-									<h2 class="font-weight-normal text-6 mb-0">VINASS chính là <strong class="font-weight-extra-bold">đối tác tin cậy</strong> giúp bạn thiết kế <strong class="font-weight-extra-bold">Website</strong> và <strong class="font-weight-extra-bold">Application</strong></h2>
+									<h2 class="font-weight-normal text-6 mb-0">VINASS chính là đối tác tin cậy giúp bạn thiết kế <strong class="font-weight-extra-bold">Website</strong> và <strong class="font-weight-extra-bold">Application</strong></h2>
 									<p class="mb-0">The <strong class="font-weight-extra-bold">Best</strong> HTML Site Template on VinaSS</p>
 								</div>
 							</div>
@@ -770,5 +770,12 @@
 		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/" />
 		<meta property="og:description" content="Thiết kế web chuẩn responsive. Seo top google. Xây dựng ứng dụng đa nền tảng." />
 		<meta name="keywords" itemprop="keywords" content="trung map" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop
