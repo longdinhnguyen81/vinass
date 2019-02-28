@@ -96,9 +96,12 @@
 @stop
 
 @section('meta')
-		<meta property="og:title" itemprop="name" content="{{ $news->title }}" />    
-		<meta property="og:url" itemprop="url" content="{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}" />
-		<meta property="og:description" content="{{ $news->description }}" />
-		<meta name="keywords" itemprop="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, lập trình web đà nẵng, lap trinh web da nang , {{ $news->name }}" />
-		<meta content="https://vinasofts.vn/upload/{{ $new->image }}" property="og:image" itemprop="thumbnailUrl" />
+		<title>{{ $news->title }}</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="{{ $news->title }}">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
 @stop
