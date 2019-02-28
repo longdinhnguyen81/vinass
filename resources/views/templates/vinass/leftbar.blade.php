@@ -61,5 +61,7 @@
 								<h5 class="font-weight-bold pt-4">Về chúng tôi</h5>
 								<p>VietNam Software Solutions (VINASS) là công ty dịch vụ chuyên cung cấp các sản phẩm, dịch vụ công nghệ, đặc biệt đưa ra những định hướng và giải pháp tối ưu công nghệ, đưa công nghệ mới cho các đối tác.</p>
 							</aside>
-							<div class="fb-page" data-href="https://www.facebook.com/VinaSofts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/VinaSofts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VinaSofts">Vina Software Solution</a></blockquote></div>
+							<div class="fb-page" data-href="https://www.facebook.com/VinaSofts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+								<blockquote cite="https://www.facebook.com/VinaSofts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VinaSofts">Vina Software Solution</a></blockquote>
+							</div>
 						</div>

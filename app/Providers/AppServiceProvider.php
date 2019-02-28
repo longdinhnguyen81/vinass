@@ -20,8 +20,8 @@ class AppServiceProvider extends ServiceProvider
         view()->share('categorys', $categorys);
         view()->share('parent_cats', $parent_cats);
 
-        $randoms = News::orderBy(\DB::raw('RAND()'))->limit(5)->get();
-        $fiveNews = News::orderBy('id', 'desc')->limit(5)->get();
+        $randoms = News::where('active', 1)->orderBy(\DB::raw('RAND()'))->limit(5)->get();
+        $fiveNews = News::where('active', 1)->orderBy('id', 'desc')->limit(5)->get();
         view()->share('randoms', $randoms);
         view()->share('fiveNews', $fiveNews);
         

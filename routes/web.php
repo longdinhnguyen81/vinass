@@ -65,7 +65,7 @@ Route::namespace('Vinass')->group(function(){
 		'as' => 'vinass.news.detail'
 	]);
 
-	Route::get('/sitemap', [
+	Route::get('/sitemap.xml', [
 		'uses' => 'IndexController@sitemap',
 		'as' => 'vinass.index.sitemap'
 	]);
