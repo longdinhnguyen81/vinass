@@ -8,7 +8,7 @@
 
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
 
-								<h1 class="text-light font-weight-bold text-8">Trang Blog, chia sẻ kiến thức về công nghệ</h1>
+								<h2 class="text-light font-weight-bold text-8">Vinasofts.vn, chia sẻ kiến thức về công nghệ</h2>
 								<span class="sub-title text-light">Cập nhật và update các tin tức mới nhất!</span>
 							</div>
 
@@ -46,7 +46,7 @@
 							
 									<div class="post-content ml-0">
 							
-										<h2 class="font-weight-bold">{{ $news->title }}</a></h2>
+										<h1 class="font-weight-bold" style="margin-bottom:10px;">{{ $news->title }}</a></h1>
 							
 										<div class="post-meta">
 											<span><i class="far fa-user"></i> By <a href="#">{{ $news->users->fullname }}</a> </span>
@@ -99,9 +99,9 @@
 		<title>{{ $news->title }}</title>
 		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
 		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
-		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta name="description" content="{{ $news->description }}">
 		<meta property="og:title" itemprop="name" content="{{ $news->title }}">    
 		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/{{ route('vinass.news.detail', ['slug' => str_slug($new->title), 'id' => $new->id]) }}">
-		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
-		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta property="og:description" content="{{ $news->description }}">
+		<meta content="https://vinasofts.vn/upload/{{ $news->image }}" property="og:image" itemprop="thumbnailUrl" />
 @stop

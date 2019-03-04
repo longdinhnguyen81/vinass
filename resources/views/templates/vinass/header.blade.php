@@ -69,6 +69,12 @@
 				font-size:15px;
 				font-weight: 500;
 			}
+			
+			@media (max-width: 991px){
+                #header .header-nav-main nav > ul li a {
+                    font-size: 15px;
+                }
+			}
 			.thumb-info.thumb-info-bottom-info .thumb-info-title {
 				background-color: #0088cc;
 			}

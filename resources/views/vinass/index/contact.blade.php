@@ -134,4 +134,5 @@
 		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/lien-he">
 		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 @stop

@@ -18,7 +18,3 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('data', 'API\\CountController@index');
-Route::post('data', 'API\\CountController@post');
-Route::put('data/{id}', 'API\\CountController@put');
-Route::patch('data/{id}', 'API\\CountController@patch');
-Route::delete('data/{id}', 'API\\CountController@delete');

@@ -25,19 +25,22 @@
 <script src="/templates/admin/js/jquery.uniform.js"></script> 
 <script src="/templates/admin/js/select2.min.js"></script> 
 <script src="/templates/admin/js/matrix.popover.js"></script> 
+<script src="/templates/admin/ckeditor/ckeditor.js"></script>
 <script src="/templates/admin/js/jquery.dataTables.min.js"></script> 
 <script src="/templates/admin/js/matrix.tables.js"></script> 
 
-<script src="/templates/admin/ckeditor/ckeditor.js"></script>
-<script> CKEDITOR.replace( 'editor1', {
-        filebrowserBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html') }}',
-        filebrowserImageBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html?type=Images') }}',
-        filebrowserFlashBrowseUrl: '{{ asset('templates/admin/ckfinder/ckfinder.html?type=Flash') }}',
-        filebrowserUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files') }}',
-        filebrowserImageUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images') }}',
-        filebrowserFlashUploadUrl: '{{ asset('templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash') }}'
-    } );
-     </script>
+<script>
+     CKEDITOR.replace( 'editor1',
+{
+    filebrowserBrowseUrl : '/templates/admin/ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : '/templates/admin/ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : '/templates/admin/ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+</script>
 
 <script type="text/javascript">
   // This function is called from the pop-up menus to transfer to

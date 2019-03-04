@@ -187,7 +187,7 @@ class IndexController extends Controller
             // add bài viết
             $posts = News::where('active', 1)->get();
             foreach ($posts as $post) {
-                $slug = str_slug($post->name);
+                $slug = str_slug($post->title);
                 //$sitemap->add(url, thời gian, độ ưu tiên, thời gian quay lại)
                 $sitemap->add(route( "vinass.news.detail",['slug' => $slug, 'id' => $post->id] ), $post->updated_at, 0.8, 'daily');
             }

@@ -33,15 +33,19 @@
 	              <div class="control-group">
 	                <label class="control-label">Mô tả:</label>
 	                <div class="controls">
-	                  <textarea name="description" style="width: 50%; height: 120px">{{ old('description') }} </textarea>
+	                  <textarea name="description">{{ old('description') }} </textarea>
 	                </div>
 	              </div>
 	              <div class="control-group">
 	                <label class="control-label">Nội dung:</label>
 	                <div class="controls">
-	                  <textarea name="detail" id="editor1" value="{{ old('job') }}"></textarea> 
+	                  <textarea name="detail" id="editor1" rows="3"></textarea>
 	                </div>
 	              </div>
+	              <script>
+	                  var editor = CKEDITOR.replace( 'editor1' );
+                        CKFinder.setupCKEditor( editor, '/templates/admin/js/ckfinder/' );
+	              </script>
 	              <div class="control-group">
 		              <label class="control-label">Danh mục</label>
 		              <div class="controls">

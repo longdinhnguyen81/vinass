@@ -37,7 +37,7 @@ class NewsController extends Controller
     		'description' => $request->description,
             'detail' => $request->detail,
             'cat_id' => $request->cat_id,
-            'user_id' => $users,
+            'user_id' => $users->id,
     	]);
         if($request->file('picture') != null){
             $path1 = $request->file('picture');

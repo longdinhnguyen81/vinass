@@ -350,4 +350,5 @@
 		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn/ung-dung">
 		<meta property="og:description" content="Vinasofts thiết kế phần mềm, chất lượng và hiệu năng tại đà nẵng. phần mềm quản lý công ty, quản lý đơn hàng">
 		<meta content="https://vinasofts.vn/templates/vinass/img/bg-3.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 @stop
