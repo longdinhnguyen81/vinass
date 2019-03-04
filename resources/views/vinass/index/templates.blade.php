@@ -63,64 +63,17 @@
 							<div class="col-auto col-sm-12 col-md-auto">
 								<ul class="nav nav-light nav-active-style-1 sort-source justify-content-center flex-column flex-sm-row" data-sort-id="portfolio-" data-option-key="filter">
 									<li class="nav-item" data-option-value="*"><a class="nav-link font-weight-semibold text-2 active" href="/giao-dien">XEM TẤT CẢ</a></li>
-									<li class="nav-item" data-option-value=".onepage"><a class="nav-link font-weight-semibold text-2" href="#">GIỚI THIỆU</a></li>
-									<li class="nav-item" data-option-value=".business"><a class="nav-link font-weight-semibold text-2" href="#">DOANH NGHIỆP</a></li>
-									<li class="nav-item" data-option-value=".blog"><a class="nav-link font-weight-semibold text-2" href="#">TIN TỨC</a></li>
-									<li class="nav-item" data-option-value=".classic"><a class="nav-link font-weight-semibold text-2" href="#">CỔ ĐIỂN</a></li>
+									<li class="nav-item" data-option-value=".gioi-thieu"><a class="nav-link font-weight-semibold text-2" href="#">GIỚI THIỆU</a></li>
+									<li class="nav-item" data-option-value=".ban-hang"><a class="nav-link font-weight-semibold text-2" href="#">SHOP BÁN HÀNG</a></li>
+									<li class="nav-item" data-option-value=".tuy-chon"><a class="nav-link font-weight-semibold text-2" href="#">TÙY CHỌN</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row min-height-screen">
 							<div class="col min-height-screen">
 								<div class="sort-destination-loader min-height-screen mt-5 pt-2 px-4">
-									<div class="row portfolio--list sort-destination overflow-visible" data-sort-id="portfolio-">
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item onepage px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-one-page">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/2.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-one-page" class="text-color-dark text-decoration-none text-1 text-uppercase">Index One Page</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-classic">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/43.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-classic" class="text-color-dark text-decoration-none text-1 text-uppercase">Cổ điển 1</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-classic-color">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/46.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-classic-color" class="text-color-dark text-decoration-none text-1 text-uppercase">Cổ điển 2</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item classic px-4">
+									<div class="row portfolio--list sort-destination overflow-visible" data-sort-id="portfolio-">										
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item gioi-thieu px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="400">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/index-classic-light">
@@ -130,27 +83,11 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-classic-light" class="text-color-dark text-decoration-none text-1 text-uppercase">Cổ điển 3</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-classic-light" class="text-color-dark text-decoration-none text-2 text-uppercase">Web Giới Thiệu Công ty 1</a></h2>
 												</div>
 											</div>
 										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/3.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 1</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item gioi-thieu px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/index-corporate-2">
@@ -160,12 +97,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-2" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 2</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-2" class="text-color-dark text-decoration-none text-2 text-uppercase">Web Giới Thiệu Công ty 2</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item gioi-thieu px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/index-corporate-3">
@@ -175,72 +112,11 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-3" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 3</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-3" class="text-color-dark text-decoration-none text-2 text-uppercase">Web Giới Thiệu Công ty 3</a></h2>
 												</div>
 											</div>
 										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="400">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-4">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/6.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-4" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 4</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-5">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/7.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-5" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 5</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-6">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/8.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-6" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 6</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-7">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/9.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-7" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 7</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item gioi-thieu px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/index-corporate-8">
@@ -250,177 +126,11 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-8" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 8</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-8" class="text-color-dark text-decoration-none text-2 text-uppercase">Web Giới Thiệu Công ty 4</a></h2>
 												</div>
 											</div>
 										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-9">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/11.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-9" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 9</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-10">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/12.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates reponsive">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-10" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 10</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-14">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/16.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-14" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 11</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-16">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/18.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-9" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 12</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-17">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/19.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-10" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 13</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-19">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/21.jpg" class="/templates/index-corporate-19" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-19" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 14</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-corporate-20">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/22.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-corporate-20" class="text-color-dark text-decoration-none text-1 text-uppercase">Doanh nghiệp 15</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item blog px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-blog-1">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/b1.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-blog-1" class="text-color-dark text-decoration-none text-1 text-uppercase">Tin tức 1</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item blog px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-blog-2">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/b2.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-blog-2" class="text-color-dark text-decoration-none text-1 text-uppercase">Tin tức 2</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item blog px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-blog-4">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/b4.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-blog-4" class="text-color-dark text-decoration-none text-1 text-uppercase">Tin tức 3</a></h2>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item blog px-4">
-											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
-												<div class="portfolio--item hover-effect-1">
-													<a href="/giao-dien/index-blog-5">
-														<span class="thumb-info thumb-info-no-zoom thumb-info-no-overlay thumb-info-no-bg border-0 border-radius-0">
-															<span class="thumb-info-wrapper thumb-info-wrapper-demos m-0 border-radius-0">
-																<img src="/templates/vinass/templates/b5.jpg" class="img-fluid border-radius-0" alt="Vinasoft Solution Templates">
-															</span>
-														</span>
-													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/index-blog-5" class="text-color-dark text-decoration-none text-1 text-uppercase">Tin tức 4</a></h2>
-												</div>
-											</div>
-										</div>
-										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-1">
@@ -430,12 +140,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-1" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 1</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-1" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop thời trang</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-2">
@@ -445,12 +155,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-2" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 2</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-2" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop phụ kiện</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-3">
@@ -460,12 +170,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-3" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 3</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-3" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop phụ kiện 2</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-4">
@@ -475,12 +185,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-4" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 4</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-4" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop đồ điện tử 1</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-5">
@@ -490,12 +200,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-5" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 5</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-5" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop đồ điện tử 2</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-6">
@@ -505,12 +215,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-6" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 6</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-6" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop thời trang</a></h2>
 												</div>
 											</div>
 										</div>
 										
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-7">
@@ -520,12 +230,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-7" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 7</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-7" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop nội thất</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-8">
@@ -535,12 +245,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-8" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 8</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-8" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop đồ nữ</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-9">
@@ -550,12 +260,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-9" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 9</a></h2>
+													<h2 class="font-weight-semibold text-3 ban-hang text-center"><a href="/giao-dien/shop-9" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop mỹ phẩm</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item creative px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item ban-hang creative px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/shop-10">
@@ -565,12 +275,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-10" class="text-color-dark text-decoration-none text-1 text-uppercase">Shop 10</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/shop-10" class="text-color-dark text-decoration-none text-2 text-uppercase">Shop đồ nữ</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item tuy-chon px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="200">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/homestay">
@@ -580,12 +290,12 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/homestay" class="text-color-dark text-decoration-none text-1 text-uppercase">Khách sạn</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/homestay" class="text-color-dark text-decoration-none text-2 text-uppercase">Website bất động sản</a></h2>
 												</div>
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item business px-4">
+										<div class="col-12 col-sm-6 col-lg-4 col-xl-3 isotope-item tuy-chon px-4">
 											<div class="appear-animation" data-appear-animation="fadeInUp" data-plugin-options="{'accY': -150}" data-appear-animation-delay="600">
 												<div class="portfolio--item hover-effect-1">
 													<a href="/giao-dien/education">
@@ -595,7 +305,7 @@
 															</span>
 														</span>
 													</a>
-													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/education" class="text-color-dark text-decoration-none text-1 text-uppercase">Giáo dục</a></h2>
+													<h2 class="font-weight-semibold text-3 text-center"><a href="/giao-dien/education" class="text-color-dark text-decoration-none text-2 text-uppercase">Website giáo dục</a></h2>
 												</div>
 											</div>
 										</div>

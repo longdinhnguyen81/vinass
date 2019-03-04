@@ -4,14 +4,23 @@
 	<head>
 
 		<!-- Basic -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-
-		<title>Porto - Responsive HTML5 Template 7.0.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
@@ -95,17 +104,17 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item nav-item-borders py-2 d-none d-lg-inline-flex">
-													<a href="#">Blog</a>
+													<a >Blog</a>
 												</li>
 												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
-													<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<a class="nav-link"  role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 														<img src="/templates/vinass/img/blank.gif" class="flag flag-us" alt="English" /> English
 														<i class="fas fa-angle-down"></i>
 													</a>
 													<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguage">
-														<a class="dropdown-item" href="#"><img src="/templates/vinass/img/blank.gif" class="flag flag-us" alt="English" /> English</a>
-														<a class="dropdown-item" href="#"><img src="/templates/vinass/img/blank.gif" class="flag flag-es" alt="English" /> Español</a>
-														<a class="dropdown-item" href="#"><img src="/templates/vinass/img/blank.gif" class="flag flag-fr" alt="English" /> Française</a>
+														<a class="dropdown-item" ><img src="/templates/vinass/img/blank.gif" class="flag flag-us" alt="English" /> English</a>
+														<a class="dropdown-item" ><img src="/templates/vinass/img/blank.gif" class="flag flag-es" alt="English" /> Español</a>
+														<a class="dropdown-item" ><img src="/templates/vinass/img/blank.gif" class="flag flag-fr" alt="English" /> Française</a>
 													</div>
 												</li>
 											</ul>
@@ -120,8 +129,8 @@
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="demo-real-estate.html">
-											<img alt="Porto" width="143" height="40" src="/templates/vinass/img/demos/real-estate/logo-real-estate.png">
+										<a href="/">
+											<img alt="Porto" width="150" height="50" src="/templates/vinass/img/demos/real-estate/logo-real-estate.png">
 										</a>
 									</div>
 								</div>
@@ -133,38 +142,38 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown-full-color dropdown-quaternary">
-														<a class="nav-link active" href="demo-real-estate.html">
+														<a class="nav-link active" >
 															Home
 														</a>
 													</li>
 													<li class="dropdown-full-color dropdown-quaternary">
-														<a class="nav-link" href="demo-real-estate-properties.html">
+														<a class="nav-link" >
 															Properties
 														</a>
 													</li>
 
 													<li class="dropdown dropdown-full-color dropdown-quaternary">
-														<a class="nav-link dropdown-toggle" href="demo-real-estate-who-we-are.html">
+														<a class="nav-link dropdown-toggle" >
 															About
 														</a>
 														<ul class="dropdown-menu">
-															<li><a class="dropdown-item" href="demo-real-estate-agents.html">Agents</a></li>
-															<li><a class="dropdown-item" href="demo-real-estate-who-we-are.html">Who We Are</a></li>
+															<li><a class="dropdown-item" >Agents</a></li>
+															<li><a class="dropdown-item" >Who We Are</a></li>
 														</ul>
 													</li>
 													<li class="dropdown-full-color dropdown-quaternary">
-														<a class="nav-link" href="demo-real-estate-contact.html">
+														<a class="nav-link" >
 															Contact
 														</a>
 													</li>
 													<li class="dropdown dropdown-full-color dropdown-quaternary dropdown-mega" id="headerSearchProperties">
-														<a class="nav-link dropdown-toggle" href="#">
+														<a class="nav-link dropdown-toggle" >
 															Search <i class="fas fa-search ml-2"></i>
 														</a>
 														<ul class="dropdown-menu custom-fullwidth-dropdown-menu ml-0">
 															<li>
 																<div class="dropdown-mega-content mt-3 mt-lg-0">
-																	<form id="propertiesFormHeader" action="demo-real-estate-properties.html" method="POST">
+																	<form >
 																		<div class="container p-0">
 																			<div class="form-row">
 																				<div class="form-group col-lg-2 mb-2 mb-lg-0">
@@ -375,7 +384,7 @@
 									data-mask_in="x:0px;y:0px;">$975,000</div>
 
 								<a class="tp-caption slide-button btn"
-									href="demo-real-estate-properties-detail.html" 
+									 
 									data-x="left" data-hoffset="108"
 									data-y="center" data-voffset="60"
 									data-start="1500"
@@ -437,7 +446,7 @@
 									data-mask_in="x:0px;y:0px;">$790,000</div>
 
 								<a class="tp-caption slide-button btn"
-									href="demo-real-estate-properties-detail.html" 
+									 
 									data-x="left" data-hoffset="108"
 									data-y="center" data-voffset="60"
 									data-start="1500"
@@ -499,7 +508,7 @@
 									data-mask_in="x:0px;y:0px;">$625,000</div>
 
 								<a class="tp-caption slide-button btn"
-									href="demo-real-estate-properties-detail.html" 
+									 
 									data-x="left" data-hoffset="108"
 									data-y="center" data-voffset="60"
 									data-start="1500"
@@ -525,7 +534,7 @@
 							<div id="listingLoadMoreWrapper" class="row properties-listing sort-destination p-0" data-total-pages="2">
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-1.jpg" class="img-fluid" alt="">
@@ -572,7 +581,7 @@
 								</div>
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-2.jpg" class="img-fluid" alt="">
@@ -619,7 +628,7 @@
 								</div>
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-3.jpg" class="img-fluid" alt="">
@@ -666,7 +675,7 @@
 								</div>
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-4.jpg" class="img-fluid" alt="">
@@ -713,7 +722,7 @@
 								</div>
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-5.jpg" class="img-fluid" alt="">
@@ -760,7 +769,7 @@
 								</div>
 								<div class="col-md-6 col-lg-4 p-3 isotope-item">
 									<div class="listing-item">
-										<a href="demo-real-estate-properties-detail.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<div class="thumb-info thumb-info-lighten border">
 												<div class="thumb-info-wrapper m-0">
 													<img src="/templates/vinass/img/demos/real-estate/listings/listing-6.jpg" class="img-fluid" alt="">
@@ -827,7 +836,7 @@
 							<div class="row pb-4 mb-4">
 								<div class="col-md-4 mt-3">
 									<div class="special-offer-item text-center text-color-light">
-										<a href="demo-real-estate-properties.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<span class="special-offer-wrapper">
 												<img src="/templates/vinass/img/demos/real-estate/listings/listing-exclusive-location-1.jpg" class="img-fluid" alt="">
 												<span class="special-offer-infos text-color-light">
@@ -842,7 +851,7 @@
 								</div>
 								<div class="col-md-4 mt-3">
 									<div class="special-offer-item text-center text-color-light">
-										<a href="demo-real-estate-properties.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<span class="special-offer-wrapper">
 												<img src="/templates/vinass/img/demos/real-estate/listings/listing-exclusive-location-2.jpg" class="img-fluid" alt="">
 												<span class="special-offer-infos text-color-light">
@@ -857,7 +866,7 @@
 								</div>
 								<div class="col-md-4 mt-3">
 									<div class="special-offer-item text-center text-color-light">
-										<a href="demo-real-estate-properties.html" class="text-decoration-none">
+										<a  class="text-decoration-none">
 											<span class="special-offer-wrapper">
 												<img src="/templates/vinass/img/demos/real-estate/listings/listing-exclusive-location-3.jpg" class="img-fluid" alt="">
 												<span class="special-offer-infos text-color-light">
@@ -884,7 +893,7 @@
 								<div class="row">
 									<div class="col-md-6 col-lg-12">	
 										<div class="special-offer-item text-center text-color-light">
-											<a href="demo-real-estate-properties.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<span class="special-offer-wrapper">
 													<img src="/templates/vinass/img/demos/real-estate/offers/special-offer-1.jpg" class="img-fluid" alt="">
 													<span class="special-offer-infos text-color-light">
@@ -902,7 +911,7 @@
 									</div>
 									<div class="col-md-6 col-lg-12">
 										<div class="special-offer-item text-center text-color-light">
-											<a href="demo-real-estate-properties.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<span class="special-offer-wrapper">
 													<img src="/templates/vinass/img/demos/real-estate/offers/special-offer-2.jpg" class="img-fluid" alt="">
 													<span class="special-offer-infos text-color-light pt-4">
@@ -925,7 +934,7 @@
 											<h4 class="text-light pt-4 m-0">Our Agents</h4>
 											<div class="owl-carousel owl-theme nav-bottom rounded-nav pl-1 pr-1 pt-3 m-0" data-plugin-options="{'items': 1, 'loop': false, 'dots': false, 'nav': true}">
 												<div class="pr-2 pl-2">
-													<a href="demo-real-estate-agents-detail.html" class="text-decoration-none">
+													<a  class="text-decoration-none">
 														<span class="agent-thumb">
 															<img class="img-fluid rounded-circle" src="/templates/vinass/img/team/team-11.jpg" alt />
 														</span>
@@ -937,7 +946,7 @@
 													</a>
 												</div>
 												<div class="pr-2 pl-2">
-													<a href="demo-real-estate-agents-detail.html" class="text-decoration-none">
+													<a  class="text-decoration-none">
 														<span class="agent-thumb">
 															<img class="img-fluid rounded-circle" src="/templates/vinass/img/team/team-12.jpg" alt />
 														</span>
@@ -949,7 +958,7 @@
 													</a>
 												</div>
 												<div class="pr-2 pl-2">
-													<a href="demo-real-estate-agents-detail.html" class="text-decoration-none">
+													<a  class="text-decoration-none">
 														<span class="agent-thumb">
 															<img class="img-fluid rounded-circle" src="/templates/vinass/img/team/team-13.jpg" alt />
 														</span>
@@ -1009,12 +1018,12 @@
 								<nav class="nav-footer">
 									<ul class="custom-list-style-1 mb-0">
 										<li>
-											<a href="demo-real-estate-properties.html" class="custom-color-2 text-decoration-none">
+											<a  class="custom-color-2 text-decoration-none">
 												For Sale
 											</a>
 										</li>
 										<li>
-											<a href="demo-real-estate-properties.html" class="custom-color-2 text-decoration-none">
+											<a  class="custom-color-2 text-decoration-none">
 												For Rent
 											</a>
 										</li>
@@ -1026,17 +1035,17 @@
 								<nav class="nav-footer">
 									<ul class="custom-list-style-1 mb-0">
 										<li>
-											<a href="demo-real-estate-agents.html" class="custom-color-2 text-decoration-none">
+											<a  class="custom-color-2 text-decoration-none">
 												Agents
 											</a>
 										</li>
 										<li>
-											<a href="demo-real-estate-who-we-are.html" class="custom-color-2 text-decoration-none">
+											<a  class="custom-color-2 text-decoration-none">
 												Who We Are
 											</a>
 										</li>
 										<li>
-											<a href="demo-real-estate-contact.html" class="custom-color-2 text-decoration-none">
+											<a  class="custom-color-2 text-decoration-none">
 												Contact
 											</a>
 										</li>

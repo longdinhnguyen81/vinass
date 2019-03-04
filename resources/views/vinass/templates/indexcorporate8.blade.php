@@ -6,15 +6,31 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
+		<!-- Basic -->
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+	    <meta property="og:type" content="Website" />
+	    <meta property="og:locale" content="vi_VN" />
+	    <meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+	    <meta name="geo.region" content="VN-DN" />
+	    <meta name="geo.position" content="16.0650635;108.185337" />
+	    <meta name="ICBM" content="16.0650635;108.185337" />
+	    <meta http-equiv="content-language" content="vi" />
+	    <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+	    <title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+	    <meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+	    <meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+	    <meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+	    <meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+	    <meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+	    <meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+	    <meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+	    <meta rel="canonical" href="https://www.vinasofts.vn" />
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+	    <!-- Favicon -->
+	    <link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+	    <link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -62,7 +78,6 @@
 		<div class="body">
 			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 164, 'stickySetTop': '-164px', 'stickyChangeLogo': false}">
 				<div class="header-body border-0">
-					@include('templates.vinass.superheader')
 					<div class="header-top header-top-default border-bottom-0 bg-color-primary">
 						<div class="container">
 							<div class="header-row py-2">
@@ -71,10 +86,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills text-uppercase text-2">
 												<li class="nav-item nav-item-anim-icon">
-													<a class="nav-link pl-0 text-light opacity-7" href="about-us.html"><i class="fas fa-angle-right"></i> About Us</a>
+													<a class="nav-link pl-0 text-light opacity-7" ><i class="fas fa-angle-right"></i> About Us</a>
 												</li>
 												<li class="nav-item nav-item-anim-icon">
-													<a class="nav-link text-light opacity-7 pr-0" href="contact-us.html"><i class="fas fa-angle-right"></i> Contact Us</a>
+													<a class="nav-link text-light opacity-7 pr-0" ><i class="fas fa-angle-right"></i> Contact Us</a>
 												</li>
 											</ul>
 										</nav>
@@ -114,7 +129,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Porto" width="100" height="48" src="/templates/vinass/img/logo.png">
+											<img alt="Vinass" width="150" height="48" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -148,12 +163,12 @@
 													<nav class="collapse">
 												<ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
 													<li class="dropdown ml-0">
-														<a class="dropdown-item dropdown-toggle active" href="/">
+														<a class="dropdown-item dropdown-toggle active" >
 															Home
 														</a>
 														<ul class="dropdown-menu">
 															<li>
-																<a class="dropdown-item" href="/">
+																<a class="dropdown-item" >
 																	Landing Page
 																</a>
 															</li>
@@ -575,7 +590,7 @@
 										</div>
 									</div>
 									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+										<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 										<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
 										<a class="btn btn-light text-uppercase text-primary text-1 py-2 px-3 mb-1 mt-2" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
 									</div>
@@ -592,7 +607,7 @@
 										</div>
 									</div>
 									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+										<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 										<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
 										<a class="btn btn-light text-uppercase text-primary text-1 py-2 px-3 mb-1 mt-2" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
 									</div>
@@ -609,7 +624,7 @@
 										</div>
 									</div>
 									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+										<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 										<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
 										<a class="btn btn-light text-uppercase text-primary text-1 py-2 px-3 mb-1 mt-2" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
 									</div>
@@ -626,7 +641,7 @@
 										</div>
 									</div>
 									<div class="col pl-1">
-										<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+										<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 										<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
 										<a class="btn btn-light text-uppercase text-primary text-1 py-2 px-3 mb-1 mt-2" href="#"><strong>VIEW MORE</strong><i class="fas fa-chevron-right text-2 pl-2"></i></a>
 									</div>
@@ -746,7 +761,7 @@
 					<div class="container py-2">
 						<div class="row py-4">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-								<a href="/" class="logo pr-0 pr-lg-3">
+								<a  class="logo pr-0 pr-lg-3">
 									<img alt="VINASOFT Website Template" src="/templates/vinass/img/logo.png" class="opacity-5" height="33">
 								</a>
 							</div>
@@ -756,9 +771,9 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>

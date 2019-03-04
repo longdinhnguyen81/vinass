@@ -6,15 +6,27 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -62,14 +74,13 @@
 		<div class="body">
 			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">                
 				<div class="header-body">
-				@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" src="/templates/vinass/img/logo.png">
+											<img alt="Porto" width="150" height="48" data-sticky-width="120" data-sticky-height="40" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -91,7 +102,7 @@
 																</a>
 															</li>
 															<li class="dropdown-submenu">
-																<a class="dropdown-item" href="#">Classic</a>
+																<a class="dropdown-item" >Classic</a>
 																<ul class="dropdown-menu">
 																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic.jpg">Classic - Original</a></li>
 																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-color.jpg">Classic - Color</a></li>
@@ -247,7 +258,7 @@
 									data-lineheight="['20','20','20','40']">VINASOFT is a huge success in the of one of the world’s largest MarketPlace.</div>
 
 								<a class="tp-caption btn btn-light font-weight-bold text-color-primary"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['-120','-120','-120','-195']"
 									data-y="center" data-voffset="['65','65','65','105']"
@@ -259,7 +270,7 @@
 									data-lineheight="['20','20','20','25']">LEARN MORE</a>
 
 								<a class="tp-caption btn btn-primary font-weight-bold"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['90','90','90','165']"
 									data-y="center" data-voffset="['65','65','65','105']"
@@ -287,7 +298,7 @@
 							</div>
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
-									<a href="#" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now!</a>
+									<a  class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now!</a>
 									<div class="learn-more">or <a href="/">learn more.</a></div>
 								</div>
 							</div>
@@ -467,7 +478,7 @@
 				<div class="image-gallery sort-destination full-width mb-0">
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-wide-slider.html">
+							<a >
 								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
 									<span class="thumb-info-wrapper">
 										<img src="/templates/vinass/img/projects/project.jpg" class="img-fluid" alt="">
@@ -485,7 +496,7 @@
 					</div>
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-wide-slider.html">
+							<a >
 								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
 									<span class="thumb-info-wrapper">
 										<img src="/templates/vinass/img/projects/project-2.jpg" class="img-fluid" alt="">
@@ -503,7 +514,7 @@
 					</div>
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-wide-slider.html">
+							<a >
 								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
 									<span class="thumb-info-wrapper">
 										<img src="/templates/vinass/img/projects/project-4.jpg" class="img-fluid" alt="">
@@ -521,7 +532,7 @@
 					</div>
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-wide-slider.html">
+							<a >
 								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
 									<span class="thumb-info-wrapper">
 										<img src="/templates/vinass/img/projects/project-5.jpg" class="img-fluid" alt="">
@@ -539,7 +550,7 @@
 					</div>
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-wide-slider.html">
+							<a >
 								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
 									<span class="thumb-info-wrapper">
 										<img src="/templates/vinass/img/projects/project-6.jpg" class="img-fluid" alt="">
@@ -654,7 +665,7 @@
 							</div>
 							<div class="col-md-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-modern btn-primary">Buy Now!</a>
+									View more
 								</div>
 							</div>
 						</div>
@@ -672,16 +683,16 @@
 						<div class="col-md-6 col-lg-2 text-center text-lg-left mb-5 mb-lg-0">
 							<h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">Pages</h5>
 							<ul class="list list-unstyled">
-								<li class="mb-1"><a href="page-services.html" class="link-hover-style-1"> Our Services</a></li>
-								<li class="mb-1"><a href="about-us.html" class="link-hover-style-1"> About Us</a></li>
-								<li class="mb-1"><a href="contact-us.html" class="link-hover-style-1"> Contact Us</a></li>
+								<li class="mb-1"><a  class="link-hover-style-1"> Our Services</a></li>
+								<li class="mb-1"><a  class="link-hover-style-1"> About Us</a></li>
+								<li class="mb-1"><a  class="link-hover-style-1"> Contact Us</a></li>
 							</ul>
 						</div>
 						<div class="col-md-6 col-lg-2 text-center text-lg-left mb-5 mb-lg-0">
 							<h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">Links</h5>
 							<ul class="list list-unstyled">
-								<li class="mb-1"><a href="page-faq.html" class="link-hover-style-1"> FAQ's</a></li>
-								<li class="mb-1"><a href="sitemap.html" class="link-hover-style-1"> Sitemap</a></li>
+								<li class="mb-1"><a  class="link-hover-style-1"> FAQ's</a></li>
+								<li class="mb-1"><a  class="link-hover-style-1"> Sitemap</a></li>
 							</ul>
 						</div>
 						<div class="col-md-6 col-lg-5 text-center text-lg-left">

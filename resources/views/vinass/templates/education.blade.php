@@ -7,11 +7,23 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Demo Education | Porto - Responsive HTML5 Template 7.0.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
@@ -88,10 +100,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item nav-item-borders py-2 d-none d-lg-inline-flex">
-													<a href="#" class="text-light"><i class="far fa-user p-relative" style="top: 0;"></i> Login</a>
+													<a  class="text-light"><i class="far fa-user p-relative" style="top: 0;"></i> Login</a>
 												</li>
 												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
-													<a href="#" class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Register</a>
+													<a  class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Register</a>
 												</li>
 											</ul>
 										</nav>
@@ -105,8 +117,8 @@
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="demo-education.html">
-											<img alt="Porto" width="100" height="48" src="/templates/vinass/img/demos/education/logo.png">
+										<a href="/">
+											<img alt="Porto" width="150" height="50" src="/templates/vinass/img/demos/education/logo.png">
 										</a>
 									</div>
 								</div>
@@ -118,32 +130,32 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li>
-														<a class="nav-link active" href="demo-education.html">
+														<a class="nav-link active" >
 															Home
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-about-us.html">
+														<a class="nav-link" >
 															About Us
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-courses.html">
+														<a class="nav-link" >
 															Courses
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-instructors.html">
+														<a class="nav-link" >
 															Instructors
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-blog.html">
+														<a class="nav-link" >
 															Blog
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-contact-us.html">
+														<a class="nav-link" >
 															Contact Us
 														</a>
 													</li>
@@ -154,7 +166,7 @@
 											<i class="fas fa-bars"></i>
 										</button>
 									</div>
-									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">										<div class="header-nav-feature header-nav-features-search d-inline-flex">											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>											<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">												<form role="search" action="page-search-results.html" method="get">													<div class="simple-search input-group">														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">														<span class="input-group-append">															<button class="btn" type="submit">																<i class="fa fa-search header-nav-top-icon"></i>															</button>														</span>													</div>												</form>											</div>										</div>									</div>
+									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">										<div class="header-nav-feature header-nav-features-search d-inline-flex">																						<div class="simple-search input-group">														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">														<span class="input-group-append">															<button class="btn" type="submit">																<i class="fa fa-search header-nav-top-icon"></i>															</button>														</span>													</div>												</form>											</div>										</div>									</div>
 								</div>
 							</div>
 						</div>
@@ -193,7 +205,7 @@
 									style="white-space: normal;">Complete Solution For Your Education Needs</h1>
 
 								<a class="tp-caption btn btn-primary text-1 font-weight-semibold custom-btn-style-1"
-									href="#"
+									
 									data-x="center"
 									data-y="center" data-voffset="['130','130','130','130']"
 									data-start="1300"
@@ -232,7 +244,7 @@
 									style="white-space: normal;">Your Future Is Coming For You, Get Ready!</h1>
 
 								<a class="tp-caption btn btn-primary text-1 font-weight-semibold custom-btn-style-1"
-									href="#"
+									
 									data-x="center"
 									data-y="center" data-voffset="['130','130','130','130']"
 									data-start="1300"
@@ -254,7 +266,7 @@
 							<div class="col-md-10 text-center">
 								<h2 class="font-weight-bold mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">About Us</h2>
 								<p class="text-color-dark pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in arcu facilisis quam aliquam ultrices quis in purus. Donec volutpat et justo et viverra. Suspendisse id justo a ipsum viverra ultrices quis et quam. Pellentesque id finibus elit, vitae finibus est. Sed mollis orci eget ex euismod vulputate. Praesent fermentum dignissim congue. Praesent sapien mi.</p>
-								<a href="#" class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1900" data-plugin-options="{'accY': 100}">READ MORE</a>
+								<a  class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1900" data-plugin-options="{'accY': 100}">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -270,18 +282,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-1.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-1.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>FREE</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Aeronautical and Manufacturing</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Aeronautical and Manufacturing</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 30 Minutes</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 30 Minutes</a></li>
 										</ul>
 									</div>
 								</div>
@@ -289,18 +301,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-2.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-2.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>$585</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Complementary Medicine</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Complementary Medicine</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 48 Hours</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 48 Hours</a></li>
 										</ul>
 									</div>
 								</div>
@@ -308,18 +320,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-3.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-3.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>FREE</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Creative Writing</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Creative Writing</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 2 Hours</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 2 Hours</a></li>
 										</ul>
 									</div>
 								</div>
@@ -327,18 +339,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-4.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-4.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>FREE</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Librarianship & Information</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Librarianship & Information</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 1 Hour</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 1 Hour</a></li>
 										</ul>
 									</div>
 								</div>
@@ -346,18 +358,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 mb-xl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-5.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-5.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>$222</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Drama, Dance & Cinematics</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Drama, Dance & Cinematics</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 15 Minutes</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 15 Minutes</a></li>
 										</ul>
 									</div>
 								</div>
@@ -365,18 +377,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 mb-xl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-6.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-6.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>$456</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Forensic Science</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Forensic Science</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 2 Hours</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 2 Hours</a></li>
 										</ul>
 									</div>
 								</div>
@@ -384,18 +396,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 mb-4 pb-3 mb-md-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-7.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-7.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>FREE</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">General Engineering</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">General Engineering</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i> John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far fa-clock text-color-primary"></i> 3 Hours</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i> John Doe</a></li>
+											<li class="ml-3"><a ><i class="far fa-clock text-color-primary"></i> 3 Hours</a></li>
 										</ul>
 									</div>
 								</div>
@@ -403,18 +415,18 @@
 							<div class="col-md-6 col-lg-4 col-xl-3 pb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
 								<div class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-courses-detail.html"><img src="/templates/vinass/img/demos/education/courses/course-8.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/courses/course-8.jpg" class="img-fluid" alt=""></a>
 										<div class="thumb-info-price bg-color-secondary font-weight-semibold">
 											<span>$500</span>
 										</div>
 									</div>
 									<div class="thumb-info-caption">
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-courses-detail.html" class="custom-link-color-dark">Mechanical Engineering</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Mechanical Engineering</a></h3>
 									</div>
 									<div class="thumb-info-footer">
 										<ul class="nav text-1">
-											<li><a href="demo-education-courses-detail.html"><i class="far fa-user text-color-primary"></i>by John Doe</a></li>
-											<li class="ml-3"><a href="demo-education-courses-detail.html"><i class="far faclock text-color-primary"></i> 4 Hours</a></li>
+											<li><a ><i class="far fa-user text-color-primary"></i>by John Doe</a></li>
+											<li class="ml-3"><a ><i class="far faclock text-color-primary"></i> 4 Hours</a></li>
 										</ul>
 									</div>
 								</div>
@@ -422,7 +434,7 @@
 						</div>
 						<div class="row">
 							<div class="col text-center">
-								<a href="#" class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold">VIEW ALL</a>
+								<a  class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold">VIEW ALL</a>
 							</div>
 						</div>
 					</div>
@@ -535,22 +547,22 @@
 							<div class="col-md-6 col-lg-4 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400">
 								<article class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1 h-100">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-blog-detail.html"><img src="/templates/vinass/img/demos/education/news/news-1.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/news/news-1.jpg" class="img-fluid" alt=""></a>
 									</div>
 									<div class="thumb-info-caption">
 										<span class="date d-block text-color-primary font-weight-semibold text-3 mb-3">22 FEB 2018</span>
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-blog-detail.html" class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
 									</div>
 								</article>
 							</div>
 							<div class="col-md-6 col-lg-4 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
 								<article class="thumb-info thumb-info-hide-wrapper-bg custom-thumb-info-style-1 h-100">
 									<div class="thumb-info-wrapper">
-										<a href="demo-education-blog-detail.html"><img src="/templates/vinass/img/demos/education/news/news-2.jpg" class="img-fluid" alt=""></a>
+										<a ><img src="/templates/vinass/img/demos/education/news/news-2.jpg" class="img-fluid" alt=""></a>
 									</div>
 									<div class="thumb-info-caption">
 										<span class="date d-block text-color-primary font-weight-semibold text-3 mb-3">22 FEB 2018</span>
-										<h3 class="font-weight-semibold text-transform-none"><a href="demo-education-blog-detail.html" class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
+										<h3 class="font-weight-semibold text-transform-none"><a  class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
 									</div>
 								</article>
 							</div>
@@ -558,7 +570,7 @@
 								<article class="thumb-info custom-thumb-info-style-1 h-100">
 									<div class="thumb-info-caption">
 										<span class="date d-block text-color-primary font-weight-semibold text-3 mb-3">22 FEB 2018</span>
-										<h3 class="font-weight-semibold text-transform-none mb-4"><a href="demo-education-blog-detail.html" class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
+										<h3 class="font-weight-semibold text-transform-none mb-4"><a  class="custom-link-color-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In.</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in arcu facilisis quam aliquam ultrices quis in purus. Donec volutpat et justo et vive...</p>
 									</div>
 								</article>
@@ -566,7 +578,7 @@
 						</div>
 						<div class="row">
 							<div class="col text-center">
-								<a href="#" class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold">VIEW ALL</a>
+								<a  class="btn btn-primary text-1 btn-outline custom-btn-style-1 font-weight-semibold">VIEW ALL</a>
 							</div>
 						</div>
 					</div>
@@ -647,22 +659,22 @@
 							<div class="row">
 								<div class="col-md-6">
 									<ul class="list list-unstyled mb-0">
-										<li><a href="demo-education-courses-detail.html">Archaeology</a></li>
-										<li><a href="demo-education-courses-detail.html">Architecture</a></li>
-										<li><a href="demo-education-courses-detail.html">Art & Design</a></li>
-										<li><a href="demo-education-courses-detail.html">Aural & Oral Sciences</a></li>
-										<li><a href="demo-education-courses-detail.html">Biological Sciences</a></li>
-										<li><a href="demo-education-courses-detail.html">Building</a></li>
+										<li><a >Archaeology</a></li>
+										<li><a >Architecture</a></li>
+										<li><a >Art & Design</a></li>
+										<li><a >Aural & Oral Sciences</a></li>
+										<li><a >Biological Sciences</a></li>
+										<li><a >Building</a></li>
 									</ul>
 								</div>
 								<div class="col-md-6">
 									<ul class="list list-unstyled mb-0">
-										<li><a href="demo-education-courses-detail.html">Management Studies</a></li>
-										<li><a href="demo-education-courses-detail.html">Celtic Studies</a></li>
-										<li><a href="demo-education-courses-detail.html">Chemical Engineering</a></li>
-										<li><a href="demo-education-courses-detail.html">Chemistry</a></li>
-										<li><a href="demo-education-courses-detail.html">Civil Engineering</a></li>
-										<li><a href="demo-education-courses-detail.html" class="text-color-primary">Much More</a></li>
+										<li><a >Management Studies</a></li>
+										<li><a >Celtic Studies</a></li>
+										<li><a >Chemical Engineering</a></li>
+										<li><a >Chemistry</a></li>
+										<li><a >Civil Engineering</a></li>
+										<li><a  class="text-color-primary">Much More</a></li>
 									</ul>
 								</div>
 							</div>

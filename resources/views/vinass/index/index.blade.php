@@ -214,17 +214,14 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="Education templates" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/img/preview-5.jpg" class="img-fluid border-radius-0" alt="vinass giao dien" style="border: 4px solid #b3642a">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Education</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Trường đại học</span>
 													<span class="thumb-info-type">Learn</span>
 												</span>
 												<span class="thumb-info-action">
 													<a href="/giao-dien/education">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/img/preview-5.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
 											</span>
@@ -234,7 +231,7 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="Homestay templates" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/img/preview-8.jpg" class="img-fluid border-radius-0" alt="vinass giao dien" style="border: 4px solid #212529">
 												<span class="thumb-info-title">
 													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Homestay</span>
 													<span class="thumb-info-type">Hotel</span>
@@ -243,68 +240,37 @@
 													<a href="/giao-dien/homestay">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/img/preview-8.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
 												</span>
 											</span>
 										</span>
 									</div>
-
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/shop/2.jpg" class="img-fluid border-radius-0" alt="Shop clothes templates" style="border: 4px solid #0088cc">
+												<img src="/templates/vinass/shop/4.jpg" class="img-fluid border-radius-0" alt="vinass giao dien" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clothes</span>
-													<span class="thumb-info-type">Shop</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/shop-1">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/shop/2.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/shop/4.jpg" class="img-fluid border-radius-0" alt="Shop clock templates" style="border: 4px solid #0088cc">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clock</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop linh kiện</span>
 													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
 													<a href="/giao-dien/shop-2">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
 													</a>
-													<a href="/templates/vinass/shop/4.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
 												</span>
 											</span>
 										</span>
 									</div>
-
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/shop/5.jpg" class="img-fluid border-radius-0" alt="Shop clothes man templates">
+												<img src="/templates/vinass/shop/5.jpg" class="img-fluid border-radius-0" alt="vinass giao dien" style="border: 4px solid #0088cc">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop clothes man</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop Quần Áo</span>
 													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="/giao-dien/shop-4">
+													<a href="/giao-dien/shop-3">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/shop/5.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
 											</span>
@@ -314,143 +280,19 @@
 									<div class="portfolio-item">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
 											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/shop/11.jpg" class="img-fluid border-radius-0" alt="Shop econommerce templates">
+												<img src="/templates/vinass/shop/11.jpg" class="img-fluid border-radius-0" alt="vinass giao dien" style="border: 4px solid #d92a2e">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop econommerce</span>
+													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Shop gia dụng</span>
 													<span class="thumb-info-type">Shop</span>
 												</span>
 												<span class="thumb-info-action">
-													<a href="">
+													<a href="/giao-dien/shop-7">
 														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/shop/11.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
 													</a>
 												</span>
 											</span>
 										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/5.jpg" class="img-fluid border-radius-0" alt="Comporate 3 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Corporate 3</span>
-													<span class="thumb-info-type">Business</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-coporate-3">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/5.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/9.jpg" class="img-fluid border-radius-0" alt="Comporate 7 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Corporate 7</span>
-													<span class="thumb-info-type">Business</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-coporate-7">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/9.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/b1.jpg" class="img-fluid border-radius-0" alt="Blog 1 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 1</span>
-													<span class="thumb-info-type">Blog</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-blog-1">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/b1.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/b2.jpg" class="img-fluid border-radius-0" alt="Blog 2 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 2</span>
-													<span class="thumb-info-type">Blog</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-blog-2">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/b2.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/b4.jpg" class="img-fluid border-radius-0" alt="Blog 4 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 4</span>
-													<span class="thumb-info-type">Blog</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-blog-4">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/b4.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-
-									<div class="portfolio-item">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
-											<span class="thumb-info-wrapper border-radius-0">
-												<img src="/templates/vinass/templates/b5.jpg" class="img-fluid border-radius-0" alt="Blog 5 templates">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner line-height-1 font-weight-bold text-dark position-relative top-3">Blog 5</span>
-													<span class="thumb-info-type">Blog</span>
-												</span>
-												<span class="thumb-info-action">
-													<a href="/giao-dien/index-blog-5">
-														<span class="thumb-info-action-icon thumb-info-action-icon-primary"><i class="fas fa-link"></i></span>
-													</a>
-													<a href="/templates/vinass/templates/b5.jpg" class="lightbox-portfolio">
-														<span class="thumb-info-action-icon thumb-info-action-icon-light"><i class="fas fa-search text-dark"></i></span>
-													</a>
-												</span>
-											</span>
-										</span>
-									</div>
-					
+									</div>	
 								</div>
 								<center class="plan-footer">
 									<a href="giao-dien" class="btn btn-dark btn-modern btn-outline rounded-0 py-2 px-4">Xem tất cả</a>

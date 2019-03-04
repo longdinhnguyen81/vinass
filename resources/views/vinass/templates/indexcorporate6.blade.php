@@ -2,15 +2,27 @@
 <html>
 	<head>
 
-		<!-- Basic -->
+				<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Vinasofts - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Vinasofts - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
@@ -62,14 +74,13 @@
 		<div class="body">
 			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body">
-					@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Vinasofts" width="100" height="48" data-sticky-width="82" data-sticky-height="40" src="/templates/vinass/img/logo.png">
+											<img alt="Vinasofts" width="150" height="48" data-sticky-width="120" data-sticky-height="40" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -81,26 +92,9 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
 													<li class="dropdown ml-0">
-														<a class="dropdown-item dropdown-toggle active" href="/">
+														<a class="dropdown-item active">
 															Home
 														</a>
-														<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item" href="/">
-																	Landing Page
-																</a>
-															</li>
-															<li class="dropdown-submenu">
-																<a class="dropdown-item" href="#">Classic</a>
-																<ul class="dropdown-menu">
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic.jpg">Classic - Original</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-color.jpg">Classic - Color</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-light.jpg">Classic - Light</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-video.jpg">Classic - Video</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-video-light.jpg">Classic - Video - Light</a></li>
-																</ul>
-															</li>
-														</ul>
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-item">
@@ -131,7 +125,7 @@
 									</div>
 									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
+											<a  class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
 											<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
 												<form role="search" action="page-search-results.html" method="get">
 													<div class="simple-search input-group">
@@ -146,7 +140,7 @@
 											</div>
 										</div>
 										<div class="header-nav-feature header-nav-features-cart d-inline-flex ml-2">
-											<a href="#" class="header-nav-features-toggle">
+											<a  class="header-nav-features-toggle">
 												<img src="/templates/vinass/img/icons/icon-cart.svg" width="14" alt="" class="header-nav-top-icon-img">
 												<span class="cart-info">
 													<span class="cart-qty">1</span>
@@ -155,15 +149,15 @@
 											<div class="header-nav-features-dropdown" id="headerTopCartDropdown">
 												<ol class="mini-products-list">
 													<li class="item">
-														<a href="#" title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
+														<a  title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
 														<div class="product-details">
 															<p class="product-name">
-																<a href="#">Camera X1000 </a>
+																<a >Camera X1000 </a>
 															</p>
 															<p class="qty-price">
 																 1X <span class="price">$890</span>
 															</p>
-															<a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
+															<a  title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
 														</div>
 													</li>
 												</ol>
@@ -172,8 +166,8 @@
 													<span class="price-total"><span class="price">$890</span></span>
 												</div>
 												<div class="actions">
-													<a class="btn btn-dark" href="#">View Cart</a>
-													<a class="btn btn-primary" href="#">Checkout</a>
+													<a class="btn btn-dark" >View Cart</a>
+													<a class="btn btn-primary" >Checkout</a>
 												</div>
 											</div>
 										</div>
@@ -299,7 +293,7 @@
 								<h2 class="font-weight-bold line-height-1 text-7 negative-ls-1 mb-3">The Best HTML Template Ever</h2>
 								<p class="text-color-light opacity-8 text-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipscing elit massa enim. ullam id varius nunc.</p>
 								<p class="text-color-light opacity-8 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum magna ex, et faucibus lacus venenatis eget</p>
-								<a href="#" class="btn btn-dark font-weight-semibold btn-px-5 btn-py-2 text-2 rounded-0">LEARN MORE</a>
+								<a  class="btn btn-dark font-weight-semibold btn-px-5 btn-py-2 text-2 rounded-0">LEARN MORE</a>
 							</div>
 							<div class="col-lg-7 mt-5 mt-lg-0">
 								<div class="row">
@@ -404,37 +398,37 @@
 						<div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
 							<div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 4, 'margin': 0, 'loop': false}">
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-35.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-36.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-37.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-38.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-36.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-37.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div>
-									<a href="portfolio-single.html">
+									<a >
 										<img src="/templates/vinass/img/projects/project-38.jpg" class="img-fluid" alt="">
 									</a>
 								</div>
@@ -461,9 +455,9 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
-											<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+											<a  class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
 									</div>
 								</article>
@@ -478,9 +472,9 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
-											<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+											<a  class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
 									</div>
 								</article>
@@ -495,9 +489,9 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
-											<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+											<a  class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
 									</div>
 								</article>
@@ -512,9 +506,9 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-dark">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="line-height-5 pr-3 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta.</p>
-											<a href="/" class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
+											<a  class="read-more text-color-dark font-weight-bold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
 									</div>
 								</article>
@@ -522,7 +516,7 @@
 						</div>
 						<div class="row mb-5">
 							<div class="col-lg-12 text-center">
-								<a href="#" class="btn btn-dark btn-px-5 btn-py-2 font-weight-bold text-color-light rounded-0 text-2">VIEW BLOG</a>
+								<a  class="btn btn-dark btn-px-5 btn-py-2 font-weight-bold text-color-light rounded-0 text-2">VIEW BLOG</a>
 							</div>
 						</div>
 					</div>
@@ -539,7 +533,7 @@
 							<h5 class="text-3 mb-3">ABOUT US</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna semper scelerisque.</p>
 							<p class="mb-0">Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis ptent taciti sociosqu ad litora...</p>
-							<p class="mb-0"><a href="#" class="btn-flat btn-xs text-color-light p-relative top-5"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 pl-2"></i></a></p>
+							<p class="mb-0"><a  class="btn-flat btn-xs text-color-light p-relative top-5"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 pl-2"></i></a></p>
 						</div>
 						<div class="col-md-5 col-lg-3 mb-5 mb-lg-0 pt-3">
 							<h5 class="text-3 mb-3 pb-1">CONTACT US</h5>
@@ -595,7 +589,7 @@
 						<div class="row py-4">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="/" class="logo pr-0 pr-lg-3">
-									<img alt="Vinasofts Website Template" src="/templates/vinass/img/logo-footer.png" class="opacity-5" height="33">
+									<img alt="Vinasofts Website Template" src="/templates/vinass/img/logo.png" class="opacity-5" height="33">
 								</a>
 							</div>
 							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
@@ -604,9 +598,9 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>

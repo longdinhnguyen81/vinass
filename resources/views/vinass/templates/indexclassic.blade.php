@@ -6,15 +6,27 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -62,14 +74,13 @@
 		<div class="body">
 <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
 				<div class="header-body">
-					@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="/templates/vinass/img/logo.png">
+											<img alt="Porto" width="150" height="50" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -79,10 +90,10 @@
 									<nav class="header-nav-top">
 										<ul class="nav nav-pills">
 											<li class="nav-item nav-item-anim-icon d-none d-md-block">
-												<a class="nav-link pl-0" href="about-us.html"><i class="fas fa-angle-right"></i> About Us</a>
+												<a class="nav-link pl-0" ><i class="fas fa-angle-right"></i> About Us</a>
 											</li>
 											<li class="nav-item nav-item-anim-icon d-none d-md-block">
-												<a class="nav-link" href="contact-us.html"><i class="fas fa-angle-right"></i> Contact Us</a>
+												<a class="nav-link" ><i class="fas fa-angle-right"></i> Contact Us</a>
 											</li>
 											<li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-md-show">
 												<span class="ws-nowrap"><i class="fas fa-phone"></i> (123) 456-789</span>
@@ -91,7 +102,7 @@
 									</nav>
 									<div class="header-nav-features">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
+											<a  class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
 											<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
 												<form role="search" action="page-search-results.html" method="get">
 													<div class="simple-search input-group">
@@ -106,7 +117,7 @@
 											</div>
 										</div>
 										<div class="header-nav-feature header-nav-features-cart d-inline-flex ml-2">
-											<a href="#" class="header-nav-features-toggle">
+											<a  class="header-nav-features-toggle">
 												<img src="/templates/vinass/img/icons/icon-cart.svg" width="14" alt="" class="header-nav-top-icon-img">
 												<span class="cart-info d-none">
 													<span class="cart-qty">1</span>
@@ -115,15 +126,15 @@
 											<div class="header-nav-features-dropdown" id="headerTopCartDropdown">
 												<ol class="mini-products-list">
 													<li class="item">
-														<a href="#" title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
+														<a  title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
 														<div class="product-details">
 															<p class="product-name">
-																<a href="#">Camera X1000 </a>
+																<a >Camera X1000 </a>
 															</p>
 															<p class="qty-price">
 																 1X <span class="price">$890</span>
 															</p>
-															<a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
+															<a  title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
 														</div>
 													</li>
 												</ol>
@@ -132,8 +143,8 @@
 													<span class="price-total"><span class="price">$890</span></span>
 												</div>
 												<div class="actions">
-													<a class="btn btn-dark" href="#">View Cart</a>
-													<a class="btn btn-primary" href="#">Checkout</a>
+													<a class="btn btn-dark" >View Cart</a>
+													<a class="btn btn-primary" >Checkout</a>
 												</div>
 											</div>
 										</div>
@@ -155,7 +166,7 @@
 																</a>
 															</li>
 															<li class="dropdown-submenu">
-																<a class="dropdown-item" href="#">Classic</a>
+																<a class="dropdown-item" >Classic</a>
 																<ul class="dropdown-menu">
 																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic.jpg">Classic - Original</a></li>
 																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-color.jpg">Classic - Color</a></li>
@@ -423,7 +434,7 @@
 							</div>
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
-									<a href="#" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a>
+									<a  class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a>
 									<div class="learn-more">or <a href="/">learn more.</a></div>
 								</div>
 							</div>
@@ -481,9 +492,9 @@
 									<div class="project-image">
 										<div id="fcSlideshow" class="fc-slideshow">
 											<ul class="fc-slides">
-												<li><a href="portfolio-single-wide-slider.html"><img class="img-responsive" src="/templates/vinass/img/projects/project-home-1.jpg" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img class="img-responsive" src="/templates/vinass/img/projects/project-home-2.jpg" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img class="img-responsive" src="/templates/vinass/img/projects/project-home-3.jpg" alt="" /></a></li>
+												<li><a ><img class="img-responsive" src="/templates/vinass/img/projects/project-home-1.jpg" alt="" /></a></li>
+												<li><a ><img class="img-responsive" src="/templates/vinass/img/projects/project-home-2.jpg" alt="" /></a></li>
+												<li><a ><img class="img-responsive" src="/templates/vinass/img/projects/project-home-3.jpg" alt="" /></a></li>
 											</ul>
 										</div>
 										<strong class="our-work">Our Work</strong>
@@ -601,7 +612,7 @@
 									<div id="collapseOne" class="collapse show">
 										<div class="card-body text-2">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blanorem ipsum dolor sit amet, consecte.</p>
-											<p class="mb-0">Adipiscing elit phasellus blanit ma... <a href="#" class="d-block text-color-dark font-weight-semibold pt-4">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a></p>
+											<p class="mb-0">Adipiscing elit phasellus blanit ma... <a  class="d-block text-color-dark font-weight-semibold pt-4">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a></p>
 										</div>
 									</div>
 								</div>
@@ -705,7 +716,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a class="d-block" >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -722,7 +733,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a class="d-block" >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -741,7 +752,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a class="d-block" >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -758,7 +769,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a class="d-block" >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -777,7 +788,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -794,7 +805,7 @@
 																</div>
 															</div>
 															<div class="col pl-1">
-																<h4 class="text-primary text-4"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<h4 class="text-primary text-4"><a >Lorem ipsum dolor sit amet, consectetur</a></h4>
 																<p class="pr-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
 															</div>
@@ -912,9 +923,9 @@
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a  class="ml-1 text-decoration-none"> Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>

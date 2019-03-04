@@ -5,15 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Porto - Bootstrap eCommerce Template</title>
+    <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Porto - Bootstrap eCommerce Template">
-    <meta name="author" content="SW-THEMES">
-        
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/templates/vinass/shop/images7/icons/favicon.ico">
-    
+        <meta property="og:type" content="Website" />
+        <meta property="og:locale" content="vi_VN" />
+        <meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+        <title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+        <meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+        <meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+        <meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+        <meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+        <meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+        <meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+        <meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+        <meta rel="canonical" href="https://www.vinasofts.vn" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">    
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="/templates/vinass/assets7/css/bootstrap.min.css">
 
@@ -27,27 +43,27 @@
                 <div class="container">
                     <div class="header-left header-dropdowns">
                         <div class="header-dropdown">
-                            <a href="#">USD</a>
+                            <a >USD</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="#">EUR</a></li>
-                                    <li><a href="#">USD</a></li>
+                                    <li><a >EUR</a></li>
+                                    <li><a >USD</a></li>
                                 </ul>
                             </div><!-- End .header-menu -->
                         </div><!-- End .header-dropown -->
 
                         <div class="header-dropdown">
-                            <a href="#"><img src="/templates/vinass/shop/images7/flags/en.png" alt="England flag">ENGLISH</a>
+                            <a ><img src="/templates/vinass/shop/images7/flags/en.png" alt="England flag">ENGLISH</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="#"><img src="/templates/vinass/shop/images7/flags/en.png" alt="England flag">ENGLISH</a></li>
-                                    <li><a href="#"><img src="/templates/vinass/shop/images7/flags/fr.png" alt="France flag">FRENCH</a></li>
+                                    <li><a ><img src="/templates/vinass/shop/images7/flags/en.png" alt="England flag">ENGLISH</a></li>
+                                    <li><a ><img src="/templates/vinass/shop/images7/flags/fr.png" alt="France flag">FRENCH</a></li>
                                 </ul>
                             </div><!-- End .header-menu -->
                         </div><!-- End .header-dropown -->
 
                         <div class="dropdown compare-dropdown">
-                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                            <a  class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="icon-retweet"></i> Compare (2)
                             </a>
 
@@ -55,18 +71,18 @@
                                 <div class="dropdownmenu-wrapper">
                                     <ul class="compare-products">
                                         <li class="product">
-                                            <a href="#" class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
-                                            <h4 class="product-title"><a href="product.html">Lady White Top</a></h4>
+                                            <a  class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
+                                            <h4 class="product-title"><a >Lady White Top</a></h4>
                                         </li>
                                         <li class="product">
-                                            <a href="#" class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
-                                            <h4 class="product-title"><a href="product.html">Blue Women Shirt</a></h4>
+                                            <a  class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
+                                            <h4 class="product-title"><a >Blue Women Shirt</a></h4>
                                         </li>
                                     </ul>
 
                                     <div class="compare-actions">
-                                        <a href="#" class="action-link">Clear All</a>
-                                        <a href="#" class="btn btn-primary">Compare</a>
+                                        <a  class="action-link">Clear All</a>
+                                        <a  class="btn btn-primary">Compare</a>
                                     </div>
                                 </div><!-- End .dropdownmenu-wrapper -->
                             </div><!-- End .dropdown-menu -->
@@ -77,15 +93,15 @@
                         <p class="welcome-msg">Default welcome msg! </p>
 
                         <div class="header-dropdown dropdown-expanded">
-                            <a href="#">Links</a>
+                            <a >Links</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="my-account.html">MY ACCOUNT </a></li>
-                                    <li><a href="#">DAILY DEAL</a></li>
-                                    <li><a href="#">MY WISHLIST </a></li>
-                                    <li><a href="blog.html">BLOG</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="#" class="login-link">LOG IN</a></li>
+                                    <li><a >MY ACCOUNT </a></li>
+                                    <li><a >DAILY DEAL</a></li>
+                                    <li><a >MY WISHLIST </a></li>
+                                    <li><a >BLOG</a></li>
+                                    <li><a >Contact</a></li>
+                                    <li><a  class="login-link">LOG IN</a></li>
                                 </ul>
                             </div><!-- End .header-menu -->
                         </div><!-- End .header-dropown -->
@@ -100,7 +116,7 @@
                             <i class="icon-menu"></i>
                         </button>
                         <div class="header-search">
-                            <a href="#" class="search-toggle" role="button"><i class="icon-magnifier"></i></a>
+                            <a  class="search-toggle" role="button"><i class="icon-magnifier"></i></a>
                             <form action="#" method="get">
                                 <div class="header-search-wrapper">
                                     <input type="search" class="form-control" name="q" id="q" placeholder="Search..." required>
@@ -132,8 +148,8 @@
                     </div><!-- End .header-left -->
 
                     <div class="header-center">
-                        <a href="index.html" class="logo">
-                            <img src="/templates/vinass/shop/images7/logo.png" alt="Porto Logo">
+                        <a href="/" class="logo">
+                            <img src="/templates/vinass/img/logo-red.png" height="50px" width="150px"alt="Vinasofts Logo">
                         </a>
                     </div><!-- End .headeer-center -->
 
@@ -144,7 +160,7 @@
                         </div><!-- End .header-contact -->
 
                         <div class="dropdown cart-dropdown">
-                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                            <a  class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <span class="cart-count">2</span>
                             </a>
 
@@ -153,13 +169,13 @@
                                     <div class="dropdown-cart-header">
                                         <span>2 Items</span>
 
-                                        <a href="cart.html">View Cart</a>
+                                        <a >View Cart</a>
                                     </div><!-- End .dropdown-cart-header -->
                                     <div class="dropdown-cart-products">
                                         <div class="product">
                                             <div class="product-details">
                                                 <h4 class="product-title">
-                                                    <a href="product.html">Woman Ring</a>
+                                                    <a >Woman Ring</a>
                                                 </h4>
 
                                                 <span class="cart-product-info">
@@ -169,17 +185,17 @@
                                             </div><!-- End .product-details -->
 
                                             <figure class="product-image-container">
-                                                <a href="product.html" class="product-image">
+                                                <a  class="product-image">
                                                     <img src="/templates/vinass/shop/images7/products/cart/product-1.jpg" alt="product">
                                                 </a>
-                                                <a href="#" class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
+                                                <a  class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
                                             </figure>
                                         </div><!-- End .product -->
 
                                         <div class="product">
                                             <div class="product-details">
                                                 <h4 class="product-title">
-                                                    <a href="product.html">Woman Necklace</a>
+                                                    <a >Woman Necklace</a>
                                                 </h4>
 
                                                 <span class="cart-product-info">
@@ -189,10 +205,10 @@
                                             </div><!-- End .product-details -->
 
                                             <figure class="product-image-container">
-                                                <a href="product.html" class="product-image">
+                                                <a  class="product-image">
                                                     <img src="/templates/vinass/shop/images7/products/cart/product-2.jpg" alt="product">
                                                 </a>
-                                                <a href="#" class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
+                                                <a  class="btn-remove" title="Remove Product"><i class="icon-cancel"></i></a>
                                             </figure>
                                         </div><!-- End .product -->
                                     </div><!-- End .cart-product -->
@@ -204,7 +220,7 @@
                                     </div><!-- End .dropdown-cart-total -->
 
                                     <div class="dropdown-cart-action">
-                                        <a href="checkout-shipping.html" class="btn btn-block">Checkout</a>
+                                        <a  class="btn btn-block">Checkout</a>
                                     </div><!-- End .dropdown-cart-total -->
                                 </div><!-- End .dropdownmenu-wrapper -->
                             </div><!-- End .dropdown-menu -->
@@ -217,48 +233,48 @@
                 <div class="container">
                     <nav class="main-nav">
                         <ul class="menu sf-arrows">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a >Home</a></li>
                             <li>
-                                <a href="category.html" class="sf-with-ul">Categories</a>
+                                <a  class="sf-with-ul">Categories</a>
                                 <div class="megamenu megamenu-fixed-width">
                                     <div class="row">
                                         <div class="col-lg-8">
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="menu-title">
-                                                        <a href="#">Variations 1<span class="tip tip-new">New!</span></a>
+                                                        <a >Variations 1<span class="tip tip-new">New!</span></a>
                                                     </div>
                                                     <ul>
-                                                        <li><a href="category-banner-full-width.html">Fullwidth Banner<span class="tip tip-hot">Hot!</span></a></li>
-                                                        <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
-                                                        <li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-                                                        <li><a href="category-sidebar-left.html">Left Sidebar</a></li>
-                                                        <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
-                                                        <li><a href="category-flex-grid.html">Product Flex Grid</a></li>
-                                                        <li><a href="category-horizontal-filter1.html">Horizontal Filter1</a></li>
-                                                        <li><a href="category-horizontal-filter2.html">Horizontal Filter2</a></li>
+                                                        <li><a >Fullwidth Banner<span class="tip tip-hot">Hot!</span></a></li>
+                                                        <li><a >Boxed Slider Banner</a></li>
+                                                        <li><a >Boxed Image Banner</a></li>
+                                                        <li><a >Left Sidebar</a></li>
+                                                        <li><a >Right Sidebar</a></li>
+                                                        <li><a >Product Flex Grid</a></li>
+                                                        <li><a >Horizontal Filter1</a></li>
+                                                        <li><a >Horizontal Filter2</a></li>
                                                     </ul>
                                                 </div><!-- End .col-lg-6 -->
                                                 <div class="col-lg-6">
                                                     <div class="menu-title">
-                                                        <a href="#">Variations 2</a>
+                                                        <a >Variations 2</a>
                                                     </div>
                                                     <ul>
-                                                        <li><a href="#">Product List Item Types</a></li>
-                                                        <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll</a></li>
-                                                        <li><a href="category-3col.html">3 Columns Products</a></li>
-                                                        <li><a href="category-4col.html">4 Columns Products <span class="tip tip-new">New</span></a></li>
-                                                        <li><a href="category-5col.html">5 Columns Products</a></li>
-                                                        <li><a href="category-6col.html">6 Columns Products</a></li>
-                                                        <li><a href="category-7col.html">7 Columns Products</a></li>
-                                                        <li><a href="category-8col.html">8 Columns Products</a></li>
+                                                        <li><a >Product List Item Types</a></li>
+                                                        <li><a >Ajax Infinite Scroll</a></li>
+                                                        <li><a >3 Columns Products</a></li>
+                                                        <li><a >4 Columns Products <span class="tip tip-new">New</span></a></li>
+                                                        <li><a >5 Columns Products</a></li>
+                                                        <li><a >6 Columns Products</a></li>
+                                                        <li><a >7 Columns Products</a></li>
+                                                        <li><a >8 Columns Products</a></li>
                                                     </ul>
                                                 </div><!-- End .col-lg-6 -->
                                             </div><!-- End .row -->
                                         </div><!-- End .col-lg-8 -->
                                         <div class="col-lg-4">
                                             <div class="banner">
-                                                <a href="#">
+                                                <a >
                                                     <img src="/templates/vinass/shop/images7/menu-banner-2.jpg" alt="Menu banner">
                                                 </a>
                                             </div><!-- End .banner -->
@@ -267,51 +283,51 @@
                                 </div><!-- End .megamenu -->
                             </li>
                             <li class="megamenu-container">
-                                <a href="product.html" class="sf-with-ul">Products</a>
+                                <a  class="sf-with-ul">Products</a>
                                 <div class="megamenu">
                                     <div class="row">
                                         <div class="col-lg-8">
                                             <div class="row">
                                                 <div class="col-lg-4">
                                                     <div class="menu-title">
-                                                        <a href="#">Variations</a>
+                                                        <a >Variations</a>
                                                     </div>
                                                     <ul>
-                                                        <li><a href="product.html">Horizontal Thumbnails</a></li>
-                                                        <li><a href="product-full-width.html">Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
-                                                        <li><a href="product.html">Inner Zoom</a></li>
-                                                        <li><a href="product-addcart-sticky.html">Addtocart Sticky</a></li>
-                                                        <li><a href="product-sidebar-left.html">Accordion Tabs</a></li>
+                                                        <li><a >Horizontal Thumbnails</a></li>
+                                                        <li><a >Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
+                                                        <li><a >Inner Zoom</a></li>
+                                                        <li><a >Addtocart Sticky</a></li>
+                                                        <li><a >Accordion Tabs</a></li>
                                                     </ul>
                                                 </div><!-- End .col-lg-4 -->
                                                 <div class="col-lg-4">
                                                     <div class="menu-title">
-                                                        <a href="#">Variations</a>
+                                                        <a >Variations</a>
                                                     </div>
                                                     <ul>
-                                                        <li><a href="product-sticky-tab.html">Sticky Tabs</a></li>
-                                                        <li><a href="product-simple.html">Simple Product</a></li>
-                                                        <li><a href="product-sidebar-left.html">With Left Sidebar</a></li>
+                                                        <li><a >Sticky Tabs</a></li>
+                                                        <li><a >Simple Product</a></li>
+                                                        <li><a >With Left Sidebar</a></li>
                                                     </ul>
                                                 </div><!-- End .col-lg-4 -->
                                                 <div class="col-lg-4">
                                                     <div class="menu-title">
-                                                        <a href="#">Product Layout Types</a>
+                                                        <a >Product Layout Types</a>
                                                     </div>
                                                     <ul>
-                                                        <li><a href="product.html">Default Layout</a></li>
-                                                        <li><a href="product-extended-layout.html">Extended Layout</a></li>
-                                                        <li><a href="product-full-width.html">Full Width Layout</a></li>
-                                                        <li><a href="product-grid-layout.html">Grid Images Layout</a></li>
-                                                        <li><a href="product-sticky-both.html">Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
-                                                        <li><a href="product-sticky-info.html">Sticky Right Side Info</a></li>
+                                                        <li><a >Default Layout</a></li>
+                                                        <li><a >Extended Layout</a></li>
+                                                        <li><a >Full Width Layout</a></li>
+                                                        <li><a >Grid Images Layout</a></li>
+                                                        <li><a >Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
+                                                        <li><a >Sticky Right Side Info</a></li>
                                                     </ul>
                                                 </div><!-- End .col-lg-4 -->
                                             </div><!-- End .row -->
                                         </div><!-- End .col-lg-8 -->
                                         <div class="col-lg-4">
                                             <div class="banner">
-                                                <a href="#">
+                                                <a >
                                                     <img src="/templates/vinass/shop/images7/menu-banner.jpg" alt="Menu banner" class="product-promo">
                                                 </a>
                                             </div><!-- End .banner -->
@@ -320,43 +336,43 @@
                                 </div><!-- End .megamenu -->
                             </li>
                             <li>
-                                <a href="#" class="sf-with-ul">Pages</a>
+                                <a  class="sf-with-ul">Pages</a>
 
                                 <ul>
-                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                    <li><a href="#">Checkout</a>
+                                    <li><a >Shopping Cart</a></li>
+                                    <li><a >Checkout</a>
                                         <ul>
-                                            <li><a href="checkout-shipping.html">Checkout Shipping</a></li>
-                                            <li><a href="checkout-shipping-2.html">Checkout Shipping 2</a></li>
-                                            <li><a href="checkout-review.html">Checkout Review</a></li>
+                                            <li><a >Checkout Shipping</a></li>
+                                            <li><a >Checkout Shipping 2</a></li>
+                                            <li><a >Checkout Review</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Dashboard</a>
+                                    <li><a >Dashboard</a>
                                         <ul>
-                                            <li><a href="dashboard.html">Dashboard</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a >Dashboard</a></li>
+                                            <li><a >My Account</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="#">Blog</a>
+                                    <li><a >About Us</a></li>
+                                    <li><a >Blog</a>
                                         <ul>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="single.html">Blog Post</a></li>
+                                            <li><a >Blog</a></li>
+                                            <li><a >Blog Post</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="#" class="login-link">Login</a></li>
-                                    <li><a href="forgot-password.html">Forgot Password</a></li>
+                                    <li><a >Contact Us</a></li>
+                                    <li><a  class="login-link">Login</a></li>
+                                    <li><a >Forgot Password</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="sf-with-ul">Features</a>
+                            <li><a  class="sf-with-ul">Features</a>
                                 <ul>
-                                    <li><a href="#">Header Types</a></li>
-                                    <li><a href="#">Footer Types</a></li>
+                                    <li><a >Header Types</a></li>
+                                    <li><a >Footer Types</a></li>
                                 </ul>
                             </li>
-                            <li class="float-right"><a href="#">Buy Porto!</a></li>
-                            <li class="float-right"><a href="#">Special Offer!</a></li>
+                            <li class="float-right"><a >Buy Vinass!</a></li>
+                            <li class="float-right"><a >Special Offer!</a></li>
                         </ul>
                     </nav>
                 </div><!-- End .header-bottom -->
@@ -376,7 +392,7 @@
                                 </div><!-- End .slide-title -->
 
                                 <div class="slide-price">40<span class="slide-price-desc"><strong>%</strong>OFF</span></div><!-- End .slide-price -->
-                                <a href="category.html" class="btn btn-dark">Shop Now</a>
+                                <a  class="btn btn-dark">Shop Now</a>
                             </div><!-- End .home-slide-content -->
                         </div><!-- End .home-slide -->
 
@@ -389,7 +405,7 @@
                                 </div><!-- End .slide-title -->
 
                                 <div class="slide-price">40<span class="slide-price-desc"><strong>%</strong>OFF</span></div><!-- End .slide-price -->
-                                <a href="category.html" class="btn btn-primary">Shop Now</a>
+                                <a  class="btn btn-primary">Shop Now</a>
                             </div><!-- End .home-slide-content -->
                         </div><!-- End .home-slide -->
                     </div><!-- End .home-slider -->
@@ -401,11 +417,11 @@
                     <div class="col-md-4">
                         <h3 class="subtitle">SHOP LIVING ROOM</h3>
                         <div class="banner banner-image">
-                            <a href="#">
+                            <a >
                                 <img src="/templates/vinass/shop/images7/banners/banner-living.jpg" alt="banner">
                             </a>
                             <div class="banner-meta">
-                                <a href="#">LIVING ROOM </a>
+                                <a >LIVING ROOM </a>
 
                                 <span class="banner-price">Starting at <span>$999</span></span>
                             </div><!-- End .banner-meta -->
@@ -415,11 +431,11 @@
                     <div class="col-md-4">
                         <h3 class="subtitle">SHOP DINING ROOM</h3>
                         <div class="banner banner-image">
-                            <a href="#">
+                            <a >
                                 <img src="/templates/vinass/shop/images7/banners/banner-dining.jpg" alt="banner">
                             </a>
                             <div class="banner-meta">
-                                <a href="#">DINING ROOM </a>
+                                <a >DINING ROOM </a>
 
                                 <span class="banner-price">Starting at <span>$859</span></span>
                             </div><!-- End .banner-meta -->
@@ -429,11 +445,11 @@
                     <div class="col-md-4">
                         <h3 class="subtitle">SHOP BEDROOM</h3>
                         <div class="banner banner-image">
-                            <a href="#">
+                            <a >
                                 <img src="/templates/vinass/shop/images7/banners/banner-bedroom.jpg" alt="banner">
                             </a>
                             <div class="banner-meta">
-                                <a href="#">BEDROOM</a>
+                                <a >BEDROOM</a>
 
                                 <span class="banner-price">Starting at <span>$888</span></span>
                             </div><!-- End .banner-meta -->
@@ -450,11 +466,11 @@
                 <div class="top-selling-products owl-carousel owl-theme">
                     <div class="product">
                         <figure class="product-image-container">
-                            <a href="product.html" class="product-image">
+                            <a  class="product-image">
                                 <img src="/templates/vinass/shop/images7/products/product-1.jpg" alt="product">
                             </a>
-                            <a href="ajax/product-quick-view.html" class="btn-quickview">Quick view</a>
-                            <a href="product.html" class="paction add-cart" title="Add to Cart">
+                            <a  class="btn-quickview">Quick view</a>
+                            <a  class="paction add-cart" title="Add to Cart">
                                 <span>Add to Cart</span>
                             </a>
                             <span class="product-label label-sale">-20%</span>
@@ -466,7 +482,7 @@
                                 </div><!-- End .product-ratings -->
                             </div><!-- End .product-container -->
                             <h2 class="product-title">
-                                <a href="product.html">White Chair</a>
+                                <a >White Chair</a>
                             </h2>
                             <div class="price-box">
                                 <span class="old-price">$129.00</span>
@@ -477,11 +493,11 @@
 
                     <div class="product">
                         <figure class="product-image-container">
-                            <a href="product.html" class="product-image">
+                            <a  class="product-image">
                                 <img src="/templates/vinass/shop/images7/products/product-2.jpg" alt="product">
                             </a>
-                            <a href="ajax/product-quick-view.html" class="btn-quickview">Quick view</a>
-                            <a href="product.html" class="paction add-cart" title="Add to Cart">
+                            <a  class="btn-quickview">Quick view</a>
+                            <a  class="paction add-cart" title="Add to Cart">
                                 <span>Add to Cart</span>
                             </a>
                         </figure>
@@ -492,7 +508,7 @@
                                 </div><!-- End .product-ratings -->
                             </div><!-- End .product-container -->
                             <h2 class="product-title">
-                                <a href="product.html">Gray armchair</a>
+                                <a >Gray armchair</a>
                             </h2>
                             <div class="price-box">
                                 <span class="product-price">$101.00</span>
@@ -502,11 +518,11 @@
 
                     <div class="product">
                         <figure class="product-image-container">
-                            <a href="product.html" class="product-image">
+                            <a  class="product-image">
                                 <img src="/templates/vinass/shop/images7/products/product-3.jpg" alt="product">
                             </a>
-                            <a href="ajax/product-quick-view.html" class="btn-quickview">Quick view</a>
-                            <a href="product.html" class="paction add-cart" title="Add to Cart">
+                            <a  class="btn-quickview">Quick view</a>
+                            <a  class="paction add-cart" title="Add to Cart">
                                 <span>Add to Cart</span>
                             </a>
                             <span class="product-label label-new">New</span>
@@ -518,7 +534,7 @@
                                 </div><!-- End .product-ratings -->
                             </div><!-- End .product-container -->
                             <h2 class="product-title">
-                                <a href="product.html">Beanbag</a>
+                                <a >Beanbag</a>
                             </h2>
                             <div class="price-box">
                                 <span class="product-price">$55.00</span>
@@ -528,11 +544,11 @@
 
                     <div class="product">
                         <figure class="product-image-container">
-                            <a href="product.html" class="product-image">
+                            <a  class="product-image">
                                 <img src="/templates/vinass/shop/images7/products/product-4.jpg" alt="product">
                             </a>
-                            <a href="ajax/product-quick-view.html" class="btn-quickview">Quick view</a>
-                            <a href="product.html" class="paction add-cart" title="Add to Cart">
+                            <a  class="btn-quickview">Quick view</a>
+                            <a  class="paction add-cart" title="Add to Cart">
                                 <span>Add to Cart</span>
                             </a>
                         </figure>
@@ -543,7 +559,7 @@
                                 </div><!-- End .product-ratings -->
                             </div><!-- End .product-container -->
                             <h2 class="product-title">
-                                <a href="product.html">Table Lamp</a>
+                                <a >Table Lamp</a>
                             </h2>
                             <div class="price-box">
                                 <span class="product-price">$39.00</span>
@@ -553,11 +569,11 @@
 
                     <div class="product">
                         <figure class="product-image-container">
-                            <a href="product.html" class="product-image">
+                            <a  class="product-image">
                                 <img src="/templates/vinass/shop/images7/products/product-5.jpg" alt="product">
                             </a>
-                            <a href="ajax/product-quick-view.html" class="btn-quickview">Quick view</a>
-                            <a href="product.html" class="paction add-cart" title="Add to Cart">
+                            <a  class="btn-quickview">Quick view</a>
+                            <a  class="paction add-cart" title="Add to Cart">
                                 <span>Add to Cart</span>
                             </a>
                         </figure>
@@ -568,7 +584,7 @@
                                 </div><!-- End .product-ratings -->
                             </div><!-- End .product-container -->
                             <h2 class="product-title">
-                                <a href="product.html">White chair</a>
+                                <a >White chair</a>
                             </h2>
                             <div class="price-box">
                                 <span class="product-price">$75.00</span>
@@ -583,25 +599,25 @@
             <div class="partners-container">
                 <div class="container">
                     <div class="partners-carousel owl-carousel owl-theme">
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/1.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/2.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/3.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/4.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/5.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/2.png" alt="logo">
                         </a>
-                        <a href="#" class="partner">
+                        <a  class="partner">
                             <img src="/templates/vinass/shop/images7/logos/1.png" alt="logo">
                         </a>
                     </div><!-- End .partners-carousel -->
@@ -612,16 +628,16 @@
                 <h3 class="subtitle text-center">Follow On Instagram</h3>
 
                 <div class="owl-carousel instagram-feed-carousel owl-lazy-container">
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/1.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/2.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/3.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/4.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/5.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/6.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/7.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/8.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/9.jpg" alt="Feed"></a>
-                    <a href="#"><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/10.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/1.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/2.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/3.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/4.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/5.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/6.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/7.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/8.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/9.jpg" alt="Feed"></a>
+                    <a ><img class="owl-lazy" src="/templates/vinass/shop/images7/lazy.png" data-src="/templates/vinass/shop/images7/instagram/10.jpg" alt="Feed"></a>
                 </div><!-- End .instagram-feed-carousel -->
             </div><!-- End .instagram-section -->
         </main><!-- End .main -->
@@ -637,12 +653,12 @@
                                         <h4 class="widget-title">My Account</h4>
 
                                         <ul class="links">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="#">Orders History</a></li>
-                                            <li><a href="#">Advanced Search</a></li>
-                                            <li><a href="#" class="login-link">Login</a></li>
+                                            <li><a >About Us</a></li>
+                                            <li><a >Contact Us</a></li>
+                                            <li><a >My Account</a></li>
+                                            <li><a >Orders History</a></li>
+                                            <li><a >Advanced Search</a></li>
+                                            <li><a  class="login-link">Login</a></li>
                                         </ul>
                                     </div><!-- End .widget -->
                                 </div><!-- End .col-md-3 -->
@@ -672,11 +688,11 @@
                                         <h4 class="widget-title">Main Features</h4>
                                         
                                         <ul class="links">
-                                            <li><a href="#">Super Fast Magento Theme</a></li>
-                                            <li><a href="#">1st Fully working Ajax Theme</a></li>
-                                            <li><a href="#">20 Unique Homepage Layouts</a></li>
-                                            <li><a href="#">Powerful Admin Panel</a></li>
-                                            <li><a href="#">Mobile & Retina Optimized</a></li>
+                                            <li><a >Super Fast Magento Theme</a></li>
+                                            <li><a >1st Fully working Ajax Theme</a></li>
+                                            <li><a >20 Unique Homepage Layouts</a></li>
+                                            <li><a >Powerful Admin Panel</a></li>
+                                            <li><a >Mobile & Retina Optimized</a></li>
                                         </ul>
                                     </div><!-- End .widget -->
                                 </div><!-- End .col-md-5 -->
@@ -700,13 +716,13 @@
 
             <div class="container">
                 <div class="footer-bottom">
-                    <p class="footer-copyright">Porto eCommerce. &copy;  2018.  All Rights Reserved</p>
+                    <p class="footer-copyright">Vinass eCommerce. &copy;  2018.  All Rights Reserved</p>
                     <img src="/templates/vinass/shop/images7/payments.png" alt="payment methods" class="footer-payments">
 
                     <div class="social-icons">
-                        <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
-                        <a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
-                        <a href="#" class="social-icon" target="_blank"><i class="icon-linkedin"></i></a>
+                        <a  class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                        <a  class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+                        <a  class="social-icon" target="_blank"><i class="icon-linkedin"></i></a>
                     </div><!-- End .social-icons -->
                 </div><!-- End .footer-bottom -->
             </div><!-- End .containr -->
@@ -720,119 +736,98 @@
             <span class="mobile-menu-close"><i class="icon-cancel"></i></span>
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a >Home</a></li>
                     <li>
-                        <a href="category.html">Categories</a>
+                        <a >Categories</a>
                         <ul>
-                            <li><a href="category-banner-full-width.html">Full Width Banner</a></li>
-                            <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
-                            <li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-                            <li><a href="category-sidebar-left.html">Left Sidebar</a></li>
-                            <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
-                            <li><a href="category-flex-grid.html">Product Flex Grid</a></li>
-                            <li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
-                            <li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
-                            <li><a href="#">Product List Item Types</a></li>
-                            <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
-                            <li><a href="category-3col.html">3 Columns Products</a></li>
-                            <li><a href="category-4col.html">4 Columns Products</a></li>
-                            <li><a href="category-5col.html">5 Columns Products</a></li>
-                            <li><a href="category-6col.html">6 Columns Products</a></li>
-                            <li><a href="category-7col.html">7 Columns Products</a></li>
-                            <li><a href="category-8col.html">8 Columns Products</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="product.html">Products</a>
-                        <ul>
-                            <li>
-                                <a href="#">Variations</a>
-                                <ul>
-                                    <li><a href="product.html">Horizontal Thumbnails</a></li>
-                                    <li><a href="product-full-width.html">Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
-                                    <li><a href="product.html">Inner Zoom</a></li>
-                                    <li><a href="product-addcart-sticky.html">Addtocart Sticky</a></li>
-                                    <li><a href="product-sidebar-left.html">Accordion Tabs</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Variations</a>
-                                <ul>
-                                    <li><a href="product-sticky-tab.html">Sticky Tabs</a></li>
-                                    <li><a href="product-simple.html">Simple Product</a></li>
-                                    <li><a href="product-sidebar-left.html">With Left Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Product Layout Types</a>
-                                <ul>
-                                    <li><a href="product.html">Default Layout</a></li>
-                                    <li><a href="product-extended-layout.html">Extended Layout</a></li>
-                                    <li><a href="product-full-width.html">Full Width Layout</a></li>
-                                    <li><a href="product-grid-layout.html">Grid Images Layout</a></li>
-                                    <li><a href="product-sticky-both.html">Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
-                                    <li><a href="product-sticky-info.html">Sticky Right Side Info</a></li>
-                                </ul>
-                            </li>
+                            <li><a >Full Width Banner</a></li>
+                            <li><a >Boxed Slider Banner</a></li>
+                            <li><a >Boxed Image Banner</a></li>
+                            <li><a >Left Sidebar</a></li>
+                            <li><a >Right Sidebar</a></li>
+                            <li><a >Product Flex Grid</a></li>
+                            <li><a >Horizontal Filter 1</a></li>
+                            <li><a >Horizontal Filter 2</a></li>
+                            <li><a >Product List Item Types</a></li>
+                            <li><a >Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
+                            <li><a >3 Columns Products</a></li>
+                            <li><a >4 Columns Products</a></li>
+                            <li><a >5 Columns Products</a></li>
+                            <li><a >6 Columns Products</a></li>
+                            <li><a >7 Columns Products</a></li>
+                            <li><a >8 Columns Products</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Pages<span class="tip tip-hot">Hot!</span></a>
+                        <a >Products</a>
                         <ul>
-                            <li><a href="cart.html">Shopping Cart</a></li>
                             <li>
-                                <a href="#">Checkout</a>
+                                <a >Variations</a>
                                 <ul>
-                                    <li><a href="checkout-shipping.html">Checkout Shipping</a></li>
-                                    <li><a href="checkout-shipping-2.html">Checkout Shipping 2</a></li>
-                                    <li><a href="checkout-review.html">Checkout Review</a></li>
+                                    <li><a >Horizontal Thumbnails</a></li>
+                                    <li><a >Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
+                                    <li><a >Inner Zoom</a></li>
+                                    <li><a >Addtocart Sticky</a></li>
+                                    <li><a >Accordion Tabs</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="#" class="login-link">Login</a></li>
-                            <li><a href="forgot-password.html">Forgot Password</a></li>
+                            <li>
+                                <a >Variations</a>
+                                <ul>
+                                    <li><a >Sticky Tabs</a></li>
+                                    <li><a >Simple Product</a></li>
+                                    <li><a >With Left Sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a >Product Layout Types</a>
+                                <ul>
+                                    <li><a >Default Layout</a></li>
+                                    <li><a >Extended Layout</a></li>
+                                    <li><a >Full Width Layout</a></li>
+                                    <li><a >Grid Images Layout</a></li>
+                                    <li><a >Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
+                                    <li><a >Sticky Right Side Info</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a>
+                    <li>
+                        <a >Pages<span class="tip tip-hot">Hot!</span></a>
                         <ul>
-                            <li><a href="single.html">Blog Post</a></li>
+                            <li><a >Shopping Cart</a></li>
+                            <li>
+                                <a >Checkout</a>
+                                <ul>
+                                    <li><a >Checkout Shipping</a></li>
+                                    <li><a >Checkout Shipping 2</a></li>
+                                    <li><a >Checkout Review</a></li>
+                                </ul>
+                            </li>
+                            <li><a >About</a></li>
+                            <li><a  class="login-link">Login</a></li>
+                            <li><a >Forgot Password</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="#">Special Offer!<span class="tip tip-hot">Hot!</span></a></li>
-                    <li><a href="#">Buy Porto!</a></li>
+                    <li><a >Blog</a>
+                        <ul>
+                            <li><a >Blog Post</a></li>
+                        </ul>
+                    </li>
+                    <li><a >Contact Us</a></li>
+                    <li><a >Special Offer!<span class="tip tip-hot">Hot!</span></a></li>
+                    <li><a >Buy Vinass!</a></li>
                 </ul>
             </nav><!-- End .mobile-nav -->
 
             <div class="social-icons">
-                <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
-                <a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
-                <a href="#" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+                <a  class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                <a  class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+                <a  class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
             </div><!-- End .social-icons -->
         </div><!-- End .mobile-menu-wrapper -->
     </div><!-- End .mobile-menu-container -->
 
-    <div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: url(/templates/vinass/shop/images7/newsletter_popup_bg.jpg)">
-        <div class="newsletter-popup-content">
-            <img src="/templates/vinass/shop/images7/logo-black.png" alt="Logo" class="logo-newsletter">
-            <h2>BE THE FIRST TO KNOW</h2>
-            <p>Subscribe to the Porto eCommerce newsletter to receive timely updates from your favorite products.</p>
-            <form action="#">
-                <div class="input-group">
-                    <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required>
-                    <input type="submit" class="btn" value="Go!">
-                </div><!-- End .from-group -->
-            </form>
-            <div class="newsletter-subscribe">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="1">
-                        Don't show this popup again
-                    </label>
-                </div>
-            </div>
-        </div><!-- End .newsletter-popup-content -->
-    </div><!-- End .newsletter-popup -->
 
     <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 

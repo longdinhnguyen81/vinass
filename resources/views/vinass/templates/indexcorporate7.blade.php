@@ -2,19 +2,31 @@
 <html>
 	<head>
 
-		<!-- Basic -->
+				<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -62,14 +74,13 @@
 		<div class="body">
 			<header id="header" class="header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body border-top-0 bg-dark box-shadow-none">
-					@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Porto" width="82" height="40" src="/templates/vinass/img/logo.png">
+											<img alt="Porto" width="120" height="40" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -81,26 +92,9 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
 													<li class="dropdown ml-0">
-														<a class="dropdown-item dropdown-toggle active" href="/">
+														<a class="dropdown-item active">
 															Home
 														</a>
-														<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item" href="/">
-																	Landing Page
-																</a>
-															</li>
-															<li class="dropdown-submenu">
-																<a class="dropdown-item" href="#">Classic</a>
-																<ul class="dropdown-menu">
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic.jpg">Classic - Original</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-color.jpg">Classic - Color</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-light.jpg">Classic - Light</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-video.jpg">Classic - Video</a></li>
-																	<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-video-light.jpg">Classic - Video - Light</a></li>
-																</ul>
-															</li>
-														</ul>
 													</li>
 													<li class="dropdown">
 														<a class="dropdown-item">
@@ -131,7 +125,7 @@
 									</div>
 									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
+											<a  class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
 											<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
 												<form role="search" action="page-search-results.html" method="get">
 													<div class="simple-search input-group">
@@ -146,7 +140,7 @@
 											</div>
 										</div>
 										<div class="header-nav-feature header-nav-features-cart d-inline-flex ml-2">
-											<a href="#" class="header-nav-features-toggle">
+											<a  class="header-nav-features-toggle">
 												<img src="/templates/vinass/img/icons/icon-cart-light.svg" width="14" alt="" class="header-nav-top-icon-img">
 												<span class="cart-info">
 													<span class="cart-qty">1</span>
@@ -155,15 +149,15 @@
 											<div class="header-nav-features-dropdown" id="headerTopCartDropdown">
 												<ol class="mini-products-list">
 													<li class="item">
-														<a href="#" title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
+														<a  title="Camera X1000" class="product-image"><img src="/templates/vinass/img/products/product-1.jpg" alt="Camera X1000"></a>
 														<div class="product-details">
 															<p class="product-name">
-																<a href="#">Camera X1000 </a>
+																<a >Camera X1000 </a>
 															</p>
 															<p class="qty-price">
 																 1X <span class="price">$890</span>
 															</p>
-															<a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
+															<a  title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
 														</div>
 													</li>
 												</ol>
@@ -172,8 +166,8 @@
 													<span class="price-total"><span class="price">$890</span></span>
 												</div>
 												<div class="actions">
-													<a class="btn btn-dark" href="#">View Cart</a>
-													<a class="btn btn-primary" href="#">Checkout</a>
+													<a class="btn btn-dark" >View Cart</a>
+													<a class="btn btn-primary" >Checkout</a>
 												</div>
 											</div>
 										</div>
@@ -235,7 +229,7 @@
 									style="color: #b5b5b5;">VINASOFT is a huge success in the of one of the world’s largest MarketPlace.</div>
 
 								<a class="tp-caption btn btn-light font-weight-bold text-color-primary"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['-120','-120','-120','-195']"
 									data-y="center" data-voffset="['65','65','65','210']"
@@ -247,7 +241,7 @@
 									data-lineheight="['20','20','20','25']">LEARN MORE</a>
 
 								<a class="tp-caption btn btn-primary font-weight-bold"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['90','90','90','165']"
 									data-y="center" data-voffset="['65','65','65','210']"
@@ -305,7 +299,7 @@
 									style="color: #b5b5b5;">Trusted by over <strong>30,000</strong> satisfied users.</div>
 
 								<a class="tp-caption btn btn-primary font-weight-bold"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center" data-voffset="['65','65','65','210']"
@@ -400,7 +394,7 @@
 					</div>
 					<div class="row pb-5 mb-5 mt-3">
 						<div class="col text-center">
-							<a href="#" class="btn btn-primary btn-px-5 py-3 font-weight-semibold text-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">LEARN MORE</a>
+							<a  class="btn btn-primary btn-px-5 py-3 font-weight-semibold text-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
@@ -412,7 +406,7 @@
 								<h2 class="font-weight-bold text-color-light text-7 mb-2">Who We Are</h2>
 								<p class="lead font-weight-light text-color-light text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
 								<p class="font-weight-light text-color-light text-2 mb-4 opacity-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendun magna ex, et faucibus lacus venenatis eget</p>
-								<a href="#" class="btn btn-dark-scale-2 btn-px-5 btn-py-2 text-2">LEARN MORE</a>
+								<a  class="btn btn-dark-scale-2 btn-px-5 btn-py-2 text-2">LEARN MORE</a>
 							</div>
 							<div class="col-9 offset-lg-1 col-lg-5 order-1 order-lg-2 scale-2">
 								<img class="img-fluid box-shadow-3 my-2 border-radius" src="/templates/vinass/img/gallery/gallery-1.jpg" alt="">
@@ -529,18 +523,18 @@
 							<h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Pages</h5>
 							<div class="row">
 								<div class="col-6">
-									<p class="mb-1"><a href="elements-call-to-action.html" class="text-4 link-hover-style-1">Call to Action</a></p>
-									<p class="mb-1"><a href="elements-pricing-tables.html" class="text-4 link-hover-style-1">Pricing Tables</a></p>
-									<p class="mb-1"><a href="elements-word-rotator.html" class="text-4 link-hover-style-1">Word Rotator</a></p>
-									<p class="mb-1"><a href="elements-tooltips-popovers.html" class="text-4 link-hover-style-1">Tooltips & Popovers</a></p>
-									<p class="mb-1"><a href="elements-sticky-elements.html" class="text-4 link-hover-style-1">Sticky Elements</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Call to Action</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Pricing Tables</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Word Rotator</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Tooltips & Popovers</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Sticky Elements</a></p>
 								</div>
 								<div class="col-6">
-									<p class="mb-1"><a href="elements-progressbars.html" class="text-4 link-hover-style-1">Progress Bars</a></p>
-									<p class="mb-1"><a href="elements-sections-parallax.html" class="text-4 link-hover-style-1">Sections & Parallax</a></p>
-									<p class="mb-1"><a href="elements-lists.html" class="text-4 link-hover-style-1">Lists</a></p>
-									<p class="mb-1"><a href="elements-image-frames.html" class="text-4 link-hover-style-1">Image Frames</a></p>
-									<p class="mb-1"><a href="elements-testimonials.html" class="text-4 link-hover-style-1">Testimonials</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Progress Bars</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Sections & Parallax</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Lists</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Image Frames</a></p>
+									<p class="mb-1"><a  class="text-4 link-hover-style-1">Testimonials</a></p>
 								</div>
 							</div>
 						</div>

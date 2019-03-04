@@ -3,18 +3,27 @@
 	<head>
 
 		<!-- Basic -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-
-		<title>VINASOFT - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="VINASOFT - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -63,14 +72,13 @@
 
 			<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body border-top-0 bg-dark box-shadow-none">
-					@include('templates.vinass.superheader')
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">
-											<img alt="Porto" width="82" height="40" src="/templates/vinass/img/logo.png">
+											<img alt="Porto" width="150" height="50" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -86,8 +94,8 @@
 															Home
 														</a>
 														<ul class="dropdown-menu">
-															<li><a class="dropdown-item" href="#">Default Home</a></li>
-															<li><a class="dropdown-item" href="#">One Page Website</a></li>
+															<li><a class="dropdown-item" >Default Home</a></li>
+															<li><a class="dropdown-item" >One Page Website</a></li>
 														</ul>
 													</li>
 													<li>
@@ -510,7 +518,7 @@
 				
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal>
+										<a  >
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project.jpg" class="img-fluid border-radius-0" alt="">
@@ -527,7 +535,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-1.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<span class="owl-carousel owl-theme dots-inside m-0" data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}"><span><img src="/templates/vinass/img/projects/project-1.jpg" class="img-fluid border-radius-0" alt=""></span><span><img src="/templates/vinass/img/projects/project-1-2.jpg" class="img-fluid border-radius-0" alt=""></span></span>
@@ -544,7 +552,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-2.html" data-ajax-on-modal>
+										<a  >
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-2.jpg" class="img-fluid border-radius-0" alt="">
@@ -561,7 +569,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-3.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-27.jpg" class="img-fluid border-radius-0" alt="">
@@ -578,7 +586,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-4.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-4.jpg" class="img-fluid border-radius-0" alt="">
@@ -595,7 +603,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-5.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-5.jpg" class="img-fluid border-radius-0" alt="">
@@ -612,7 +620,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-6.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-6.jpg" class="img-fluid border-radius-0" alt="">
@@ -629,7 +637,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="ajax/portfolio-ajax-project-7.html" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-7.jpg" class="img-fluid border-radius-0" alt="">
@@ -646,7 +654,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-23.jpg" class="img-fluid border-radius-0" alt="">
@@ -663,7 +671,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-24.jpg" class="img-fluid border-radius-0" alt="">
@@ -680,7 +688,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-25.jpg" class="img-fluid border-radius-0" alt="">
@@ -697,7 +705,7 @@
 									</div>
 
 									<div class="portfolio-item">
-										<a href="" data-ajax-on-modal>
+										<a>
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="/templates/vinass/img/projects/project-26.jpg" class="img-fluid border-radius-0" alt="">
@@ -798,7 +806,7 @@
 						<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
 							<span class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom">
 								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
+									<a >
 										<img src="/templates/vinass/img/team/team-1.jpg" class="img-fluid" alt="">
 									</a>
 								</span>
@@ -817,7 +825,7 @@
 						<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
 							<span class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom">
 								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
+									<a >
 										<img src="/templates/vinass/img/team/team-2.jpg" class="img-fluid" alt="">
 									</a>
 								</span>
@@ -836,7 +844,7 @@
 						<div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
 							<span class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom">
 								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
+									<a >
 										<img src="/templates/vinass/img/team/team-3.jpg" class="img-fluid" alt="">
 									</a>
 								</span>
@@ -855,7 +863,7 @@
 						<div class="col-sm-6 col-lg-3">
 							<span class="thumb-info thumb-info-hide-wrapper-bg thumb-info-no-zoom">
 								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
+									<a >
 										<img src="/templates/vinass/img/team/team-4.jpg" class="img-fluid" alt="">
 									</a>
 								</span>

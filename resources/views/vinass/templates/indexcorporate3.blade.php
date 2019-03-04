@@ -3,19 +3,31 @@
 <html>
 	<head>
 
-		<!-- Basic -->
+				<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Vinasofts - Responsive HTML5 Template 7.2.0</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Vinasofts - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+		<title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+		<meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+		<meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+		<meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+		<meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+		<meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+		<meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+		<meta rel="canonical" href="https://www.vinasofts.vn" />
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/templates/vinass/img/logo.png" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/templates/vinass/img/logo.png">
+		<link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -63,8 +75,6 @@
 		<div class="body">
 			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 148, 'stickySetTop': '-148px', 'stickyChangeLogo': true}">
 				<div class="header-body border-color-primary border-top-0 box-shadow-none">
-					@include('templates.vinass.superheader')
-
 					<div class="header-top header-top-default border-bottom-0 border-top-0">
 						<div class="container">
 							<div class="header-row py-2">
@@ -73,10 +83,10 @@
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills text-uppercase text-2">
 												<li class="nav-item nav-item-anim-icon">
-													<a class="nav-link pl-0" href="about-us.html"><i class="fas fa-angle-right"></i> About Us</a>
+													<a class="nav-link pl-0" ><i class="fas fa-angle-right"></i> About Us</a>
 												</li>
 												<li class="nav-item nav-item-anim-icon">
-													<a class="nav-link" href="contact-us.html"><i class="fas fa-angle-right"></i> Contact Us</a>
+													<a class="nav-link" ><i class="fas fa-angle-right"></i> Contact Us</a>
 												</li>
 											</ul>
 										</nav>
@@ -100,8 +110,8 @@
 								<div class="header-row">
 									<div class="header-logo header-logo-sticky-change">
 										<a href="/">
-											<img class="header-logo-sticky opacity-0" alt="Vinasofts" width="100" height="48" data-sticky-width="89" data-sticky-height="43" data-sticky-top="88" src="/templates/vinass/img/logo.png">
-											<img class="header-logo-non-sticky opacity-0" alt="Vinasofts" width="100" height="48" src="/templates/vinass/img/logo.png">
+											<img class="header-logo-sticky opacity-0" alt="Vinasofts" width="150" height="48" data-sticky-width="120" data-sticky-height="43" data-sticky-top="88" src="/templates/vinass/img/logo-white.png">
+											<img class="header-logo-non-sticky opacity-0" alt="Vinasofts" width="150" height="48" src="/templates/vinass/img/logo.png">
 										</a>
 									</div>
 								</div>
@@ -146,7 +156,7 @@
 																	</a>
 																</li>
 																<li class="dropdown-submenu">
-																	<a class="dropdown-item" href="#">Classic</a>
+																	<a class="dropdown-item" >Classic</a>
 																	<ul class="dropdown-menu">
 																		<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic.jpg">Classic - Original</a></li>
 																		<li><a class="dropdown-item" data-thumb-preview="/templates/vinass/img/previews/preview-classic-color.jpg">Classic - Color</a></li>
@@ -283,7 +293,7 @@
 									style="color: #b5b5b5;">Vinasofts is a Huge success in the of one of the world's largest MarketPlace.</div>
 				
 								<a class="tp-caption btn btn-primary font-weight-bold"
-									href="#"
+									
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="0"
 									data-y="center" data-voffset="70"
@@ -345,7 +355,7 @@
 								<h2 class="text-color-dark font-weight-normal text-6 mb-2">Who <strong class="font-weight-extra-bold">We Are</strong></h2>
 								<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc. </p>
 								<p class="pr-5 mr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum magna ex, et faucibus lacus venenatis eget</p>
-								<a href="#" class="btn btn-dark font-weight-semibold btn-px-4 btn-py-2 text-2">LEARN MORE</a>
+								<a  class="btn btn-dark font-weight-semibold btn-px-4 btn-py-2 text-2">LEARN MORE</a>
 							</div>
 							<div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 mt-sm-5" style="top: 1.7rem;">
 								<img src="/templates/vinass/img/generic/generic-corporate-3-1.jpg" class="img-fluid position-absolute d-none d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -50%;" alt="" />
@@ -391,7 +401,7 @@
 							<h2 class="text-color-dark font-weight-normal text-6 mb-2">Meet <strong class="font-weight-extra-bold">Our Team</strong></h2>
 							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
 							<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum magna ex, et faucibus lacus venenatis eget.</p>
-							<a href="page-team.html" class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LEARN MORE</a>
+							<a  class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
@@ -408,7 +418,7 @@
 								<article>
 									<div class="row">
 										<div class="col">
-											<a href="blog-post.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<img src="/templates/vinass/img/blog/blog-corporate-3-1.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
 											</a>
 										</div>
@@ -421,7 +431,7 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 											<a href="/" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
@@ -432,7 +442,7 @@
 								<article>
 									<div class="row">
 										<div class="col">
-											<a href="blog-post.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<img src="/templates/vinass/img/blog/blog-corporate-3-2.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
 											</a>
 										</div>
@@ -445,7 +455,7 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 											<a href="/" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
@@ -456,7 +466,7 @@
 								<article>
 									<div class="row">
 										<div class="col">
-											<a href="blog-post.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<img src="/templates/vinass/img/blog/blog-corporate-3-3.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
 											</a>
 										</div>
@@ -469,7 +479,7 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 											<a href="/" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
@@ -480,7 +490,7 @@
 								<article>
 									<div class="row">
 										<div class="col">
-											<a href="blog-post.html" class="text-decoration-none">
+											<a  class="text-decoration-none">
 												<img src="/templates/vinass/img/blog/blog-corporate-3-4.jpg" class="img-fluid hover-effect-2 mb-3" alt="" />
 											</a>
 										</div>
@@ -493,7 +503,7 @@
 											</div>
 										</div>
 										<div class="col pl-1">
-											<h4 class="line-height-3 text-4"><a href="blog-post.html" class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
+											<h4 class="line-height-3 text-4"><a  class="text-light">Lorem ipsum dolor sit amet, consectetur</a></h4>
 											<p class="text-color-light line-height-5 opacity-6 pr-4 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 											<a href="/" class="read-more text-color-light font-weight-semibold text-2">read more <i class="fas fa-chevron-right text-1 ml-1"></i></a>
 										</div>
@@ -521,7 +531,7 @@
 										<img src="/templates/vinass/img/logos/logo-3.png" class="img-fluid hover-effect-3" alt="" />
 									</div>
 								</div>
-								<a href="#" class="btn btn-dark font-weight-semibold btn-px-4 btn-py-2 text-2">LEARN MORE</a>
+								<a  class="btn btn-dark font-weight-semibold btn-px-4 btn-py-2 text-2">LEARN MORE</a>
 							</div>
 							<div class="col-lg-6">
 								<div class="owl-carousel owl-theme nav-style-1 stage-margin" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 1}, '1200': {'items': 1}}, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40}">

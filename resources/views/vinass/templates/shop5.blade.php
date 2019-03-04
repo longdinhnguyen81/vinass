@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Porto - Bootstrap eCommerce Template</title>
+    <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Porto - Bootstrap eCommerce Template">
-    <meta name="author" content="SW-THEMES">
-        
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/templates/vinass/shop/images5/icons/favicon.ico">
+        <meta property="og:type" content="Website" />
+        <meta property="og:locale" content="vi_VN" />
+        <meta name="geo.placename" content="121 Cù Chính Lan, Thanh Khê Đông, Thanh Khê, Đà Nẵng, Việt Nam" />
+        <meta name="geo.region" content="VN-DN" />
+        <meta name="geo.position" content="16.0650635;108.185337" />
+        <meta name="ICBM" content="16.0650635;108.185337" />
+        <meta http-equiv="content-language" content="vi" />
+        <link rel="alternate" href="https://vinasofts.vn" hreflang="vi-vn" />
+        <title>VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp</title>
+        <meta name="keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+        <meta name="news_keywords" content="thiet ke web da nang, thiết kế web đà nẵng, seo top google, thiết kế web đẹp, thiết kế web bán hàng">
+        <meta name="description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dụng, web thương mại điện tử chuyên nghiệp">
+        <meta property="og:title" itemprop="name" content="VinaSofts | Thiết kế web tại Đà Nẵng, làm Web đẹp, chuẩn SEO">    
+        <meta property="og:url" itemprop="url" content="https://www.vinasofts.vn">
+        <meta property="og:description" content="Vinasofts thiết kế web đẹp, chất lượng độc đáo tại đà nẵng. Thiết kế ứng dung, web thương mại điện tử chuyên nghiệp">
+        <meta content="https://vinasofts.vn/templates/vinass/img/bg-1.jpg" property="og:image" itemprop="thumbnailUrl" />
+        <meta rel="canonical" href="https://www.vinasofts.vn" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/templates/vinass/img/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/templates/vinass/img/apple-touch-icon.png">
     
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="/templates/vinass/assets5/css/bootstrap.min.css">
@@ -80,11 +97,11 @@
                             <a href="#">Links</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="my-account.html">MY ACCOUNT </a></li>
+                                    <li><a >MY ACCOUNT </a></li>
                                     <li><a href="#">DAILY DEAL</a></li>
                                     <li><a href="#">MY WISHLIST </a></li>
-                                    <li><a href="blog.html">BLOG</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a >BLOG</a></li>
+                                    <li><a >Contact</a></li>
                                     <li><a href="#" class="login-link">LOG IN</a></li>
                                 </ul>
                             </div><!-- End .header-menu -->
@@ -132,8 +149,8 @@
                     </div><!-- End .header-left -->
 
                     <div class="header-center">
-                        <a href="index.html" class="logo">
-                            <img src="/templates/vinass/img/logo-green.png" width="150px" height="50px" alt="Porto Logo">
+                        <a  href="/" class="logo">
+                            <img src="/templates/vinass/img/logo-green.png" width="150px" height="50px" alt="Vinass Logo">
                         </a>
                     </div><!-- End .headeer-center -->
 
@@ -153,7 +170,7 @@
                                     <div class="dropdown-cart-header">
                                         <span>2 Items</span>
 
-                                        <a href="cart.html">View Cart</a>
+                                        <a >View Cart</a>
                                     </div><!-- End .dropdown-cart-header -->
                                     <div class="dropdown-cart-products">
                                         <div class="product">
@@ -204,7 +221,7 @@
                                     </div><!-- End .dropdown-cart-total -->
 
                                     <div class="dropdown-cart-action">
-                                        <a href="checkout-shipping.html" class="btn btn-block">Checkout</a>
+                                        <a  class="btn btn-block">Checkout</a>
                                     </div><!-- End .dropdown-cart-total -->
                                 </div><!-- End .dropdownmenu-wrapper -->
                             </div><!-- End .dropdown-menu -->
@@ -217,7 +234,7 @@
                 <div class="container">
                     <nav class="main-nav">
                         <ul class="menu sf-arrows">
-                            <li class="active"><a href="/">Home</a></li>
+                            <li class="active"><a >Home</a></li>
                             <li>
                                 <a href="#" class="sf-with-ul">Categories</a>
                                 <div class="megamenu megamenu-fixed-width">
@@ -296,7 +313,7 @@
                                     <h4>Premium</h4>
                                     <h1>Headphones</h1>
                                     <h3>Only <strong>199 USD</strong></h3>
-                                    <a href="category.html" class="btn btn-primary">Shop Now</a>
+                                    <a  class="btn btn-primary">Shop Now</a>
                                 </div><!-- End .col-lg-5 -->
                             </div><!-- End .row -->
                         </div><!-- End .home-slide-content -->
@@ -308,7 +325,7 @@
                             <h4>Amazing</h4>
                             <h1>Micro Drones</h1>
                             <h3>Only <strong>399 USD</strong></h3>
-                            <a href="category.html" class="btn btn-primary">Shop Now</a>
+                            <a  class="btn btn-primary">Shop Now</a>
                         </div><!-- End .home-slide-content -->
                     </div><!-- End .home-slide -->
                 </div><!-- End .home-slider -->
@@ -365,7 +382,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-10.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -401,7 +418,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-8.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                         <span class="product-label label-sale">-20%</span>
                                         <span class="product-label label-hot">New</span>
                                     </figure>
@@ -440,7 +457,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-5.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -476,7 +493,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-4.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -512,7 +529,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-3.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -548,7 +565,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-14.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -589,7 +606,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-5.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -625,7 +642,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-4.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -661,7 +678,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-11.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -697,7 +714,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-10.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                     </figure>
                                     <div class="product-details">
                                         <div class="ratings-container">
@@ -733,7 +750,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-9.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                         <span class="product-label label-sale">-20%</span>
                                         <span class="product-label label-hot">New</span>
                                     </figure>
@@ -772,7 +789,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-7.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                         <span class="product-label label-sale">-20%</span>
                                         <span class="product-label label-hot">New</span>
                                     </figure>
@@ -811,7 +828,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-13.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                         <span class="product-label label-sale">-20%</span>
                                         <span class="product-label label-hot">New</span>
                                     </figure>
@@ -850,7 +867,7 @@
                                         <a href="#" class="product-image">
                                             <img src="/templates/vinass/shop/images5/products/product-14.jpg" alt="product">
                                         </a>
-                                        <a href="/templates/vinass/assets5/ajax/product-quick-view.html" class="btn-quickview">Quick View</a>
+                                        <a  class="btn-quickview">Quick View</a>
                                         <span class="product-label label-sale">-20%</span>
                                         <span class="product-label label-hot">New</span>
                                     </figure>
@@ -1287,9 +1304,9 @@
                                         <h4 class="widget-title">My Account</h4>
 
                                         <ul class="links">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a >About Us</a></li>
+                                            <li><a >Contact Us</a></li>
+                                            <li><a >My Account</a></li>
                                             <li><a href="#">Orders History</a></li>
                                             <li><a href="#">Advanced Search</a></li>
                                             <li><a href="#" class="login-link">Login</a></li>
@@ -1330,7 +1347,7 @@
 
             <div class="container">
                 <div class="footer-bottom">
-                    <p class="footer-copyright">Porto eCommerce. &copy;  2018.  All Rights Reserved</p>
+                    <p class="footer-copyright">Vinass eCommerce. &copy;  2018.  All Rights Reserved</p>
                     <img src="/templates/vinass/shop/images5/payments.png" alt="payment methods" class="footer-payments">
 
                     <div class="social-icons">
@@ -1350,26 +1367,26 @@
             <span class="mobile-menu-close"><i class="icon-cancel"></i></span>
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a >Home</a></li>
                     <li>
-                        <a href="category.html">Categories</a>
+                        <a >Categories</a>
                         <ul>
-                            <li><a href="category-banner-full-width.html">Full Width Banner</a></li>
-                            <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
-                            <li><a href="category.html">Boxed Image Banner</a></li>
-                            <li><a href="category.html">Left Sidebar</a></li>
-                            <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
-                            <li><a href="category-flex-grid.html">Product Flex Grid</a></li>
-                            <li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
-                            <li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
+                            <li><a >Full Width Banner</a></li>
+                            <li><a >Boxed Slider Banner</a></li>
+                            <li><a >Boxed Image Banner</a></li>
+                            <li><a >Left Sidebar</a></li>
+                            <li><a >Right Sidebar</a></li>
+                            <li><a >Product Flex Grid</a></li>
+                            <li><a >Horizontal Filter 1</a></li>
+                            <li><a >Horizontal Filter 2</a></li>
                             <li><a href="#">Product List Item Types</a></li>
-                            <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
-                            <li><a href="category-3col.html">3 Columns Products</a></li>
-                            <li><a href="category.html">4 Columns Products</a></li>
-                            <li><a href="category-5col.html">5 Columns Products</a></li>
-                            <li><a href="category-6col.html">6 Columns Products</a></li>
-                            <li><a href="category-7col.html">7 Columns Products</a></li>
-                            <li><a href="category-8col.html">8 Columns Products</a></li>
+                            <li><a >Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
+                            <li><a >3 Columns Products</a></li>
+                            <li><a >4 Columns Products</a></li>
+                            <li><a >5 Columns Products</a></li>
+                            <li><a >6 Columns Products</a></li>
+                            <li><a >7 Columns Products</a></li>
+                            <li><a >8 Columns Products</a></li>
                         </ul>
                     </li>
                     <li>
@@ -1379,29 +1396,29 @@
                                 <a href="#">Variations</a>
                                 <ul>
                                     <li><a href="#">Horizontal Thumbnails</a></li>
-                                    <li><a href="product-full-width.html">Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
+                                    <li><a >Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
                                     <li><a href="#">Inner Zoom</a></li>
-                                    <li><a href="product-addcart-sticky.html">Addtocart Sticky</a></li>
-                                    <li><a href="product-sidebar-left.html">Accordion Tabs</a></li>
+                                    <li><a >Addtocart Sticky</a></li>
+                                    <li><a >Accordion Tabs</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Variations</a>
                                 <ul>
-                                    <li><a href="product-sticky-tab.html">Sticky Tabs</a></li>
-                                    <li><a href="product-simple.html">Simple Product</a></li>
-                                    <li><a href="product-sidebar-left.html">With Left Sidebar</a></li>
+                                    <li><a >Sticky Tabs</a></li>
+                                    <li><a >Simple Product</a></li>
+                                    <li><a >With Left Sidebar</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Product Layout Types</a>
                                 <ul>
                                     <li><a href="#">Default Layout</a></li>
-                                    <li><a href="product-extended-layout.html">Extended Layout</a></li>
-                                    <li><a href="product-full-width.html">Full Width Layout</a></li>
-                                    <li><a href="product-grid-layout.html">Grid Images Layout</a></li>
-                                    <li><a href="product-sticky-both.html">Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
-                                    <li><a href="product-sticky-info.html">Sticky Right Side Info</a></li>
+                                    <li><a >Extended Layout</a></li>
+                                    <li><a >Full Width Layout</a></li>
+                                    <li><a >Grid Images Layout</a></li>
+                                    <li><a >Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
+                                    <li><a >Sticky Right Side Info</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -1409,13 +1426,13 @@
                     <li>
                         <a href="#">Pages<span class="tip tip-hot">Hot!</span></a>
                         <ul>
-                            <li><a href="cart.html">Shopping Cart</a></li>
+                            <li><a >Shopping Cart</a></li>
                             <li>
                                 <a href="#">Checkout</a>
                                 <ul>
-                                    <li><a href="checkout-shipping.html">Checkout Shipping</a></li>
-                                    <li><a href="checkout-shipping-2.html">Checkout Shipping 2</a></li>
-                                    <li><a href="checkout-review.html">Checkout Review</a></li>
+                                    <li><a >Checkout Shipping</a></li>
+                                    <li><a >Checkout Shipping 2</a></li>
+                                    <li><a >Checkout Review</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">About</a></li>
@@ -1423,14 +1440,14 @@
                             <li><a href="#">Forgot Password</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a>
+                    <li><a >Blog</a>
                         <ul>
-                            <li><a href="single.html">Blog Post</a></li>
+                            <li><a >Blog Post</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Special Offer!<span class="tip tip-hot">Hot!</span></a></li>
-                    <li><a href="#">Buy Porto!</a></li>
+                    <li><a href="#">Buy Vinass!</a></li>
                 </ul>
             </nav><!-- End .mobile-nav -->
 
@@ -1442,27 +1459,7 @@
         </div><!-- End .mobile-menu-wrapper -->
     </div><!-- End .mobile-menu-container -->
 
-    <div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: url(/templates/vinass/shop/images5/newsletter_popup_bg.jpg)">
-        <div class="newsletter-popup-content">
-            <img src="/templates/vinass/img/logo-black.png" alt="Logo" class="logo-newsletter">
-            <h2>BE THE FIRST TO KNOW</h2>
-            <p>Subscribe to the Porto eCommerce newsletter to receive timely updates from your favorite products.</p>
-            <form action="#">
-                <div class="input-group">
-                    <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required>
-                    <input type="submit" class="btn" value="Go!">
-                </div><!-- End .from-group -->
-            </form>
-            <div class="newsletter-subscribe">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="1">
-                        Don't show this popup again
-                    </label>
-                </div>
-            </div>
-        </div><!-- End .newsletter-popup-content -->
-    </div><!-- End .newsletter-popup -->
+    
 
     <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
