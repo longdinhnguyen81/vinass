@@ -32,12 +32,10 @@
 <script>
      CKEDITOR.replace( 'editor1',
 {
-    filebrowserBrowseUrl : '/templates/admin/ckfinder/ckfinder.html',
-    filebrowserImageBrowseUrl : '/templates/admin/ckfinder/ckfinder.html?type=Images',
-    filebrowserFlashBrowseUrl : '/templates/admin/ckfinder/ckfinder.html?type=Flash',
-    filebrowserUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
-    filebrowserImageUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
-    filebrowserFlashUploadUrl : '/templates/admin/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+    filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+    filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+    filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+    filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
 });
 
 </script>

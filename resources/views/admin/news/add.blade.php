@@ -42,10 +42,7 @@
 	                  <textarea name="detail" id="editor1" rows="3"></textarea>
 	                </div>
 	              </div>
-	              <script>
-	                  var editor = CKEDITOR.replace( 'editor1' );
-                        CKFinder.setupCKEditor( editor, '/templates/admin/js/ckfinder/' );
-	              </script>
+
 	              <div class="control-group">
 		              <label class="control-label">Danh mục</label>
 		              <div class="controls">
